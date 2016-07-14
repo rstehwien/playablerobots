@@ -8,14 +8,14 @@ pop_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		#is_ai = no
 		#planet = {
 		#	any_pop = {
-		#		AND = { 
+		#		AND = {
 					has_trait = trait_android
-					NOT = {is_same_species = owner}
+					is_same_species = owner
 					AND = {
 						NOT = {has_trait = trait_pc_desert_preference}
 						NOT = {has_trait = trait_pc_tropical_preference}
@@ -37,12 +37,12 @@ pop_event = {
 		#	}
 		#}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 	}
-	
+
 	option = {
 		name = OK
 		planet = {
@@ -68,7 +68,7 @@ pop_event = {
 				species = this
 				add_trait = trait_agrarian
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -82,7 +82,7 @@ pop_event = {
 				species = this
 				add_trait = trait_thrifty
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -96,7 +96,7 @@ pop_event = {
 				species = this
 				add_trait = trait_industrious
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -110,7 +110,7 @@ pop_event = {
 				species = this
 				add_trait = trait_intelligent
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -124,7 +124,7 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_engineers
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -138,7 +138,7 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_physicists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -152,7 +152,7 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_sociologists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -166,7 +166,7 @@ pop_event = {
 				species = this
 				add_trait = trait_extremely_adaptive
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -180,7 +180,7 @@ pop_event = {
 				species = this
 				add_trait = trait_adaptive
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -194,7 +194,7 @@ pop_event = {
 				species = this
 				add_trait = trait_nonadaptive
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -208,7 +208,7 @@ pop_event = {
 				species = this
 				add_trait = trait_rapid_breeders
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -222,7 +222,7 @@ pop_event = {
 				species = this
 				add_trait = trait_slow_breeders
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -236,7 +236,7 @@ pop_event = {
 				species = this
 				add_trait = trait_talented
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -250,7 +250,7 @@ pop_event = {
 				species = this
 				add_trait = trait_quick_learners
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -264,7 +264,7 @@ pop_event = {
 				species = this
 				add_trait = trait_slow_learners
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -278,7 +278,7 @@ pop_event = {
 				species = this
 				add_trait = trait_very_strong
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -292,7 +292,7 @@ pop_event = {
 				species = this
 				add_trait = trait_strong
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -306,7 +306,7 @@ pop_event = {
 				species = this
 				add_trait = trait_weak
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -320,7 +320,7 @@ pop_event = {
 				species = this
 				add_trait = trait_nomadic
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -334,7 +334,7 @@ pop_event = {
 				species = this
 				add_trait = trait_sedentary
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -348,7 +348,7 @@ pop_event = {
 				species = this
 				add_trait = trait_communal
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -362,7 +362,7 @@ pop_event = {
 				species = this
 				add_trait = trait_solitary
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -376,7 +376,7 @@ pop_event = {
 				species = this
 				add_trait = trait_charismatic
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -390,7 +390,7 @@ pop_event = {
 				species = this
 				add_trait = trait_repugnant
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -404,7 +404,7 @@ pop_event = {
 				species = this
 				add_trait = trait_uplifted
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -418,7 +418,7 @@ pop_event = {
 				species = this
 				add_trait = trait_conformists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -432,7 +432,7 @@ pop_event = {
 				species = this
 				add_trait = trait_venerable
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -446,7 +446,7 @@ pop_event = {
 				species = this
 				add_trait = trait_enduring
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -460,7 +460,7 @@ pop_event = {
 				species = this
 				add_trait = trait_decadent
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -474,7 +474,7 @@ pop_event = {
 				species = this
 				add_trait = trait_resilient
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -488,7 +488,7 @@ pop_event = {
 				species = this
 				add_trait = trait_presentient_starborn
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -502,7 +502,7 @@ pop_event = {
 				species = this
 				add_trait = trait_presentient_earthbound
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -516,7 +516,7 @@ pop_event = {
 				species = this
 				add_trait = trait_presentient_natural_intellectuals
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -530,7 +530,7 @@ pop_event = {
 				species = this
 				add_trait = trait_presentient_proles
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -544,7 +544,7 @@ pop_event = {
 				species = this
 				add_trait = trait_presentient_conservative
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -558,7 +558,7 @@ pop_event = {
 				species = this
 				add_trait = trait_presentient_irradiated
 			}
-			
+
 		}
 		#####Extended Traits Begins
 		if = {
@@ -573,7 +573,7 @@ pop_event = {
 				species = this
 				add_trait = trait_incompetent_architects
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -587,7 +587,7 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_architects
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -601,7 +601,7 @@ pop_event = {
 				species = this
 				add_trait = trait_politically_adept
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -615,7 +615,7 @@ pop_event = {
 				species = this
 				add_trait = trait_virtualists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -629,7 +629,7 @@ pop_event = {
 				species = this
 				add_trait = trait_deliberators
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -643,7 +643,7 @@ pop_event = {
 				species = this
 				add_trait = trait_conservationists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -657,7 +657,7 @@ pop_event = {
 				species = this
 				add_trait = trait_urban
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -671,7 +671,7 @@ pop_event = {
 				species = this
 				add_trait = trait_indulgent
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -685,7 +685,7 @@ pop_event = {
 				species = this
 				add_trait = trait_content
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -699,7 +699,7 @@ pop_event = {
 				species = this
 				add_trait = trait_dim
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -713,7 +713,7 @@ pop_event = {
 				species = this
 				add_trait = trait_inept
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -727,7 +727,7 @@ pop_event = {
 				species = this
 				add_trait = trait_incompetent_engineers
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -741,7 +741,7 @@ pop_event = {
 				species = this
 				add_trait = trait_incompetent_physicists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -755,7 +755,7 @@ pop_event = {
 				species = this
 				add_trait = trait_incompetent_sociologists
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -769,7 +769,7 @@ pop_event = {
 				species = this
 				add_trait = trait_very_weak
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -783,7 +783,7 @@ pop_event = {
 				species = this
 				add_trait = trait_valiant
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -797,7 +797,7 @@ pop_event = {
 				species = this
 				add_trait = trait_craven
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -811,7 +811,7 @@ pop_event = {
 				species = this
 				add_trait = trait_individualistic
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -825,7 +825,7 @@ pop_event = {
 				species = this
 				add_trait = trait_transient
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -839,7 +839,7 @@ pop_event = {
 				species = this
 				add_trait = trait_resourceful
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -853,7 +853,7 @@ pop_event = {
 				species = this
 				add_trait = trait_delicate
 			}
-			
+
 		}
 		#####Extended Traits Ends
 		if = {
@@ -868,7 +868,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_desert_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -882,7 +882,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_tropical_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -896,7 +896,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_continental_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -910,7 +910,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_ocean_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -924,7 +924,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_arctic_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -938,7 +938,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_tundra_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -952,7 +952,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_arid_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -966,7 +966,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_ai_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -980,7 +980,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_nuked_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -994,7 +994,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_gaia_preference
 			}
-			
+
 		}
 		if = {
 			limit = {
@@ -1008,7 +1008,7 @@ pop_event = {
 				species = this
 				add_trait = trait_pc_ring_preference
 			}
-			
+
 		}
 	}
 }
@@ -1020,12 +1020,12 @@ pop_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		#is_ai = no
 		#planet = {
 		#	any_pop = {
-		#		AND = { 
+		#		AND = {
 					has_trait = trait_android
 					is_same_species = owner
 					AND = {
@@ -1048,12 +1048,12 @@ pop_event = {
 		#	}
 		#}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 	}
-	
+
 	option = {
 		name = OK
 		modify_species = {
@@ -1070,12 +1070,12 @@ pop_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		#is_ai = no
 		#planet = {
 		#	any_pop = {
-		#		AND = { 
+		#		AND = {
 					has_trait = trait_android
 					#is_same_species = owner
 					AND = {
@@ -1097,12 +1097,12 @@ pop_event = {
 		#	}
 		#}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 	}
-	
+
 	option = {
 		name = OK
 		modify_species = {
@@ -1120,12 +1120,12 @@ pop_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		#is_ai = no
 		#planet = {
 		#	any_pop = {
-		#		AND = { 
+		#		AND = {
 					has_trait = trait_android
 					#is_same_species = owner
 					AND = {
@@ -1144,12 +1144,12 @@ pop_event = {
 		#	}
 		#}
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 	}
-	
+
 	option = {
 		name = OK
 		modify_species = {
@@ -1168,7 +1168,7 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		any_owned_pop = {
 					has_trait = trait_android
@@ -1177,12 +1177,12 @@ country_event = {
 		}
 		is_ai = no
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 	}
-	
+
 	option = {
 		name = OK
 		every_owned_planet = {
@@ -1205,7 +1205,7 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		sectors > 0
 		has_country_edict  = playablerobots_sector
@@ -1231,12 +1231,12 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = { days = 350 }
-	
+
 	#immediate = {
 	#}
-	
+
 	option = {
 		name = OK
 		random_owned_planet = {
@@ -1290,7 +1290,7 @@ country_event = {
 				}
 			}
 			best_tile_for_pop = {
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 					ethos = owner
 				}
@@ -1306,19 +1306,19 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		has_trait = trait_android
 		has_country_edict  = playablerobots_immortal
 		is_ai = no
 		NOT = { has_modifier = playablerobots_immortal_modifier }
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	#immediate = {
 	#}
-	
+
 	option = {
 		name = OK
 		add_modifier = {
@@ -1335,19 +1335,19 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		has_trait = trait_android
 		NOT = { has_country_edict  = playablerobots_immortal }
 		is_ai = no
 		has_modifier = playablerobots_immortal_modifier
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	#immediate = {
 	#}
-	
+
 	option = {
 		name = OK
 		remove_modifier = playablerobots_immortal_modifier
@@ -1361,7 +1361,7 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			has_government = technocratic_confederacy
@@ -1369,49 +1369,49 @@ country_event = {
 		}
 		is_ai = yes
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	#immediate = {
 	#}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = military_republic
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = theocratic_republic
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = direct_democracy
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = moral_democracy
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = indirect_democracy
 	}
 }
@@ -1423,7 +1423,7 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			has_government = neural_cooperative
@@ -1431,49 +1431,49 @@ country_event = {
 		}
 		is_ai = yes
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	#immediate = {
 	#}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = military_junta
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = theocratic_oligarchy
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = science_directorate
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = peaceful_bureaucracy
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = plutocratic_oligarchy
 	}
 }
@@ -1485,7 +1485,7 @@ country_event = {
 	picture = GFX_evt_playablerobots
 	hide_window = yes
 	#is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			has_government = collective_consciousness
@@ -1493,49 +1493,49 @@ country_event = {
 		}
 		is_ai = yes
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	#immediate = {
 	#}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = military_dictatorship
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = divine_mandate
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = despotic_hegemony
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = enlightened_monarchy
 	}
-	
+
 	option = {
 		name = OK
 		ai_chance = {
 			factor = 33
-		}	
+		}
 		change_government = despotic_empire
 	}
 }
