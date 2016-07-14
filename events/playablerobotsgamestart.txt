@@ -9,7 +9,7 @@ country_event = {
 	show_sound = event_default
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		#is_multiplayer = no
 		is_ai = no
@@ -17,19 +17,13 @@ country_event = {
 		#					owner = { has_trait = trait_agrarian }
 		#				}
 	}
-	
+
 	# "ruler X elected, check sitch log"
 
 	option = {
 		name = "I Wish For My Species To Be Synthetic"
 		custom_tooltip = playablerobots.2.tooltip
 		hidden_effect = {
-			capital_scope = {
-				modify_species = {
-					species = FROM
-					add_trait = trait_android
-				}
-			}
 			capital_scope = {
 				every_tile  = {
 					limit = {
@@ -103,153 +97,153 @@ country_event = {
 				NOT = { species_portrait = "avi4" }
 				NOT = { species_portrait = "avi5" }
 				NOT = { species_portrait = "avi6" }
-				NOT = { species_portrait = "avi7" }	
-			NOT = { species_portrait = "avi8" }	
-			NOT = { species_portrait = "avi9" }	
-			NOT = { species_portrait = "avi10" }	
-			NOT = { species_portrait = "avi11" }	
-			NOT = { species_portrait = "avi12" }	
-			NOT = { species_portrait = "avi13" }	
-			NOT = { species_portrait = "avi14" }	
-			NOT = { species_portrait = "avi15" }	
-			NOT = { species_portrait = "avi16" }	
-			NOT = { species_portrait = "avi17" }	
-			NOT = { species_portrait = "avi18" }	
-			NOT = { species_portrait = "avi19" }	
-			NOT = { species_portrait = "avi20" }	
-			NOT = { species_portrait = "mam1" }	
-			NOT = { species_portrait = "mam2" }	
-			NOT = { species_portrait = "mam3" }	
-			NOT = { species_portrait = "mam4" }	
-			NOT = { species_portrait = "mam5" }	
-			NOT = { species_portrait = "mam6" }	
-			NOT = { species_portrait = "mam7" }	
-			NOT = { species_portrait = "mam8" }	
-			NOT = { species_portrait = "mam9" }	
-			NOT = { species_portrait = "mam10" }	
-			NOT = { species_portrait = "mam11" }	
-			NOT = { species_portrait = "mam12" }	
-			NOT = { species_portrait = "mam13" }	
-			NOT = { species_portrait = "mam14" }	
-			NOT = { species_portrait = "mam15" }	
-			NOT = { species_portrait = "mam16" }	
-			NOT = { species_portrait = "mam17" }	
-			NOT = { species_portrait = "mam18" }	
-			NOT = { species_portrait = "mam19" }	
-			NOT = { species_portrait = "mam20" }	
-			NOT = { species_portrait = "rep1" }	
-			NOT = { species_portrait = "rep2" }	
-			NOT = { species_portrait = "rep3" }	
-			NOT = { species_portrait = "rep4" }	
-			NOT = { species_portrait = "rep5" }	
-			NOT = { species_portrait = "rep6" }	
-			NOT = { species_portrait = "rep7" }	
-			NOT = { species_portrait = "rep8" }	
-			NOT = { species_portrait = "rep9" }	
-			NOT = { species_portrait = "rep10" }	
-			NOT = { species_portrait = "rep11" }	
-			NOT = { species_portrait = "rep12" }	
-			NOT = { species_portrait = "rep13" }	
-			NOT = { species_portrait = "rep14" }	
-			NOT = { species_portrait = "rep15" }	
-			NOT = { species_portrait = "rep16" }	
-			NOT = { species_portrait = "rep17" }	
-			NOT = { species_portrait = "rep18" }	
-			NOT = { species_portrait = "rep19" }	
-			NOT = { species_portrait = "rep20" }	
-			NOT = { species_portrait = "mol1" }	
-			NOT = { species_portrait = "mol2" }	
-			NOT = { species_portrait = "mol3" }	
-			NOT = { species_portrait = "mol4" }	
-			NOT = { species_portrait = "mol5" }	
-			NOT = { species_portrait = "mol6" }	
-			NOT = { species_portrait = "mol7" }	
-			NOT = { species_portrait = "mol8" }	
-			NOT = { species_portrait = "mol9" }	
-			NOT = { species_portrait = "mol10" }	
-			NOT = { species_portrait = "mol11" }	
-			NOT = { species_portrait = "mol12" }	
-			NOT = { species_portrait = "mol13" }	
-			NOT = { species_portrait = "mol14" }	
-			NOT = { species_portrait = "mol15" }	
-			NOT = { species_portrait = "mol16" }	
-			NOT = { species_portrait = "mol17" }	
-			NOT = { species_portrait = "mol18" }	
-			NOT = { species_portrait = "mol19" }	
-			NOT = { species_portrait = "mol20" }	
-			NOT = { species_portrait = "fun1" }	
-			NOT = { species_portrait = "fun2" }	
-			NOT = { species_portrait = "fun3" }	
-			NOT = { species_portrait = "fun4" }	
-			NOT = { species_portrait = "fun5" }	
-			NOT = { species_portrait = "fun6" }	
-			NOT = { species_portrait = "fun7" }	
-			NOT = { species_portrait = "fun8" }	
-			NOT = { species_portrait = "fun9" }	
-			NOT = { species_portrait = "fun10" }	
-			NOT = { species_portrait = "fun11" }	
-			NOT = { species_portrait = "fun12" }	
-			NOT = { species_portrait = "fun13" }	
-			NOT = { species_portrait = "fun14" }	
-			NOT = { species_portrait = "fun15" }	
-			NOT = { species_portrait = "fun16" }	
-			NOT = { species_portrait = "fun17" }	
-			NOT = { species_portrait = "fun18" }	
-			NOT = { species_portrait = "fun19" }	
-			NOT = { species_portrait = "fun20" }	
-			NOT = { species_portrait = "art1" }	
-			NOT = { species_portrait = "art2" }	
-			NOT = { species_portrait = "art3" }	
-			NOT = { species_portrait = "art4" }	
-			NOT = { species_portrait = "art5" }	
-			NOT = { species_portrait = "art6" }	
-			NOT = { species_portrait = "art7" }	
-			NOT = { species_portrait = "art8" }	
-			NOT = { species_portrait = "art9" }	
-			NOT = { species_portrait = "art10" }	
-			NOT = { species_portrait = "art11" }	
-			NOT = { species_portrait = "art12" }	
-			NOT = { species_portrait = "art13" }	
-			NOT = { species_portrait = "art14" }	
-			NOT = { species_portrait = "art15" }	
-			NOT = { species_portrait = "art16" }	
-			NOT = { species_portrait = "art17" }	
-			NOT = { species_portrait = "art18" }	
-			NOT = { species_portrait = "art19" }	
-			NOT = { species_portrait = "art20" }	
-			NOT = { species_portrait = "exd1" }	
-			NOT = { species_portrait = "exd2" }	
-			NOT = { species_portrait = "exd3" }	
-			NOT = { species_portrait = "exd4" }	
-			NOT = { species_portrait = "exd5" }	
-			NOT = { species_portrait = "exd6" }	
-			NOT = { species_portrait = "exd7" }	
-			NOT = { species_portrait = "exd8" }	
-			NOT = { species_portrait = "exd9" }	
-			NOT = { species_portrait = "exd10" }	
-			NOT = { species_portrait = "exd11" }	
-			NOT = { species_portrait = "exd12" }	
-			NOT = { species_portrait = "exd13" }	
-			NOT = { species_portrait = "exd14" }	
-			NOT = { species_portrait = "exd15" }	
-			NOT = { species_portrait = "exd16" }	
-			NOT = { species_portrait = "exd17" }	
-			NOT = { species_portrait = "exd18" }	
-			NOT = { species_portrait = "exd19" }	
-			NOT = { species_portrait = "exd20" }	
-			NOT = { species_portrait = "exd16" }	
-			NOT = { species_portrait = "exd17" }	
-			NOT = { species_portrait = "exd18" }	
-			NOT = { species_portrait = "exd19" }	
-			NOT = { species_portrait = "exd20" }	
-			NOT = { species_portrait = "swarm10group" }	
-			NOT = { species_portrait = "swarm9group" }	
-			NOT = { species_portrait = "swarm8group" }	
-			NOT = { species_portrait = "swarm7group" }	
-			NOT = { species_portrait = "swarm6group" }	
-			NOT = { species_portrait = "swarm5group" }	
-			NOT = { species_portrait = "swarm4group" }	
-			NOT = { species_portrait = "swarm3group" }	
+				NOT = { species_portrait = "avi7" }
+			NOT = { species_portrait = "avi8" }
+			NOT = { species_portrait = "avi9" }
+			NOT = { species_portrait = "avi10" }
+			NOT = { species_portrait = "avi11" }
+			NOT = { species_portrait = "avi12" }
+			NOT = { species_portrait = "avi13" }
+			NOT = { species_portrait = "avi14" }
+			NOT = { species_portrait = "avi15" }
+			NOT = { species_portrait = "avi16" }
+			NOT = { species_portrait = "avi17" }
+			NOT = { species_portrait = "avi18" }
+			NOT = { species_portrait = "avi19" }
+			NOT = { species_portrait = "avi20" }
+			NOT = { species_portrait = "mam1" }
+			NOT = { species_portrait = "mam2" }
+			NOT = { species_portrait = "mam3" }
+			NOT = { species_portrait = "mam4" }
+			NOT = { species_portrait = "mam5" }
+			NOT = { species_portrait = "mam6" }
+			NOT = { species_portrait = "mam7" }
+			NOT = { species_portrait = "mam8" }
+			NOT = { species_portrait = "mam9" }
+			NOT = { species_portrait = "mam10" }
+			NOT = { species_portrait = "mam11" }
+			NOT = { species_portrait = "mam12" }
+			NOT = { species_portrait = "mam13" }
+			NOT = { species_portrait = "mam14" }
+			NOT = { species_portrait = "mam15" }
+			NOT = { species_portrait = "mam16" }
+			NOT = { species_portrait = "mam17" }
+			NOT = { species_portrait = "mam18" }
+			NOT = { species_portrait = "mam19" }
+			NOT = { species_portrait = "mam20" }
+			NOT = { species_portrait = "rep1" }
+			NOT = { species_portrait = "rep2" }
+			NOT = { species_portrait = "rep3" }
+			NOT = { species_portrait = "rep4" }
+			NOT = { species_portrait = "rep5" }
+			NOT = { species_portrait = "rep6" }
+			NOT = { species_portrait = "rep7" }
+			NOT = { species_portrait = "rep8" }
+			NOT = { species_portrait = "rep9" }
+			NOT = { species_portrait = "rep10" }
+			NOT = { species_portrait = "rep11" }
+			NOT = { species_portrait = "rep12" }
+			NOT = { species_portrait = "rep13" }
+			NOT = { species_portrait = "rep14" }
+			NOT = { species_portrait = "rep15" }
+			NOT = { species_portrait = "rep16" }
+			NOT = { species_portrait = "rep17" }
+			NOT = { species_portrait = "rep18" }
+			NOT = { species_portrait = "rep19" }
+			NOT = { species_portrait = "rep20" }
+			NOT = { species_portrait = "mol1" }
+			NOT = { species_portrait = "mol2" }
+			NOT = { species_portrait = "mol3" }
+			NOT = { species_portrait = "mol4" }
+			NOT = { species_portrait = "mol5" }
+			NOT = { species_portrait = "mol6" }
+			NOT = { species_portrait = "mol7" }
+			NOT = { species_portrait = "mol8" }
+			NOT = { species_portrait = "mol9" }
+			NOT = { species_portrait = "mol10" }
+			NOT = { species_portrait = "mol11" }
+			NOT = { species_portrait = "mol12" }
+			NOT = { species_portrait = "mol13" }
+			NOT = { species_portrait = "mol14" }
+			NOT = { species_portrait = "mol15" }
+			NOT = { species_portrait = "mol16" }
+			NOT = { species_portrait = "mol17" }
+			NOT = { species_portrait = "mol18" }
+			NOT = { species_portrait = "mol19" }
+			NOT = { species_portrait = "mol20" }
+			NOT = { species_portrait = "fun1" }
+			NOT = { species_portrait = "fun2" }
+			NOT = { species_portrait = "fun3" }
+			NOT = { species_portrait = "fun4" }
+			NOT = { species_portrait = "fun5" }
+			NOT = { species_portrait = "fun6" }
+			NOT = { species_portrait = "fun7" }
+			NOT = { species_portrait = "fun8" }
+			NOT = { species_portrait = "fun9" }
+			NOT = { species_portrait = "fun10" }
+			NOT = { species_portrait = "fun11" }
+			NOT = { species_portrait = "fun12" }
+			NOT = { species_portrait = "fun13" }
+			NOT = { species_portrait = "fun14" }
+			NOT = { species_portrait = "fun15" }
+			NOT = { species_portrait = "fun16" }
+			NOT = { species_portrait = "fun17" }
+			NOT = { species_portrait = "fun18" }
+			NOT = { species_portrait = "fun19" }
+			NOT = { species_portrait = "fun20" }
+			NOT = { species_portrait = "art1" }
+			NOT = { species_portrait = "art2" }
+			NOT = { species_portrait = "art3" }
+			NOT = { species_portrait = "art4" }
+			NOT = { species_portrait = "art5" }
+			NOT = { species_portrait = "art6" }
+			NOT = { species_portrait = "art7" }
+			NOT = { species_portrait = "art8" }
+			NOT = { species_portrait = "art9" }
+			NOT = { species_portrait = "art10" }
+			NOT = { species_portrait = "art11" }
+			NOT = { species_portrait = "art12" }
+			NOT = { species_portrait = "art13" }
+			NOT = { species_portrait = "art14" }
+			NOT = { species_portrait = "art15" }
+			NOT = { species_portrait = "art16" }
+			NOT = { species_portrait = "art17" }
+			NOT = { species_portrait = "art18" }
+			NOT = { species_portrait = "art19" }
+			NOT = { species_portrait = "art20" }
+			NOT = { species_portrait = "exd1" }
+			NOT = { species_portrait = "exd2" }
+			NOT = { species_portrait = "exd3" }
+			NOT = { species_portrait = "exd4" }
+			NOT = { species_portrait = "exd5" }
+			NOT = { species_portrait = "exd6" }
+			NOT = { species_portrait = "exd7" }
+			NOT = { species_portrait = "exd8" }
+			NOT = { species_portrait = "exd9" }
+			NOT = { species_portrait = "exd10" }
+			NOT = { species_portrait = "exd11" }
+			NOT = { species_portrait = "exd12" }
+			NOT = { species_portrait = "exd13" }
+			NOT = { species_portrait = "exd14" }
+			NOT = { species_portrait = "exd15" }
+			NOT = { species_portrait = "exd16" }
+			NOT = { species_portrait = "exd17" }
+			NOT = { species_portrait = "exd18" }
+			NOT = { species_portrait = "exd19" }
+			NOT = { species_portrait = "exd20" }
+			NOT = { species_portrait = "exd16" }
+			NOT = { species_portrait = "exd17" }
+			NOT = { species_portrait = "exd18" }
+			NOT = { species_portrait = "exd19" }
+			NOT = { species_portrait = "exd20" }
+			NOT = { species_portrait = "swarm10group" }
+			NOT = { species_portrait = "swarm9group" }
+			NOT = { species_portrait = "swarm8group" }
+			NOT = { species_portrait = "swarm7group" }
+			NOT = { species_portrait = "swarm6group" }
+			NOT = { species_portrait = "swarm5group" }
+			NOT = { species_portrait = "swarm4group" }
+			NOT = { species_portrait = "swarm3group" }
 			NOT = { species_portrait = "swarm2group" }
 				}
 				create_species = {
@@ -265,7 +259,7 @@ country_event = {
 					}
 					pops_auto_growth = 1.0
 					pops_auto_upgrade_to = buildable_robot_pop_generic_1
-					
+
 					pops_can_be_colonizers = yes
 					pops_can_migrate = yes
 					pops_can_reproduce = no
@@ -289,14 +283,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -320,14 +314,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -351,14 +345,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -382,14 +376,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -413,14 +407,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -444,14 +438,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -475,14 +469,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -506,14 +500,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -537,14 +531,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -568,14 +562,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -599,14 +593,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -630,14 +624,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -661,14 +655,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -692,14 +686,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -723,14 +717,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -754,14 +748,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -785,14 +779,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -816,14 +810,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -847,14 +841,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -878,14 +872,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -909,14 +903,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_avi_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -940,14 +934,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -971,14 +965,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1002,14 +996,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1033,14 +1027,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1064,14 +1058,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1095,14 +1089,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1126,14 +1120,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1157,14 +1151,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1188,14 +1182,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1219,14 +1213,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1250,14 +1244,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1281,14 +1275,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1312,14 +1306,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1343,14 +1337,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1374,14 +1368,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1405,14 +1399,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1436,14 +1430,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1467,14 +1461,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1498,14 +1492,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1529,14 +1523,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_rep_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1560,14 +1554,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1591,14 +1585,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1622,14 +1616,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1653,14 +1647,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1684,14 +1678,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1715,14 +1709,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1746,14 +1740,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1777,14 +1771,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1808,14 +1802,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1839,14 +1833,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1870,14 +1864,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1901,14 +1895,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1932,14 +1926,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1963,14 +1957,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -1994,14 +1988,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2025,14 +2019,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2056,14 +2050,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2087,14 +2081,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2118,14 +2112,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2149,14 +2143,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mam_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2180,14 +2174,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2211,14 +2205,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2242,14 +2236,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2273,14 +2267,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2304,14 +2298,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2335,14 +2329,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2366,14 +2360,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2397,14 +2391,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2428,14 +2422,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2459,14 +2453,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2490,14 +2484,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2521,14 +2515,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2552,14 +2546,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2583,14 +2577,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2614,14 +2608,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2645,14 +2639,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2676,14 +2670,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2707,14 +2701,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2738,14 +2732,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2769,14 +2763,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_mol_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2800,14 +2794,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2831,14 +2825,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2862,14 +2856,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2893,14 +2887,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2924,14 +2918,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2955,14 +2949,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -2986,14 +2980,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3017,14 +3011,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3048,14 +3042,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3079,14 +3073,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3110,14 +3104,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3141,14 +3135,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3172,14 +3166,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3203,14 +3197,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3234,14 +3228,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3265,14 +3259,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3296,14 +3290,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3327,14 +3321,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3358,14 +3352,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3389,14 +3383,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_fun_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3420,14 +3414,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3451,14 +3445,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3482,14 +3476,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3513,14 +3507,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3544,14 +3538,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3575,14 +3569,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3606,14 +3600,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3637,14 +3631,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3668,14 +3662,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3699,14 +3693,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3730,14 +3724,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3761,14 +3755,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3792,14 +3786,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3823,14 +3817,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3854,14 +3848,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3885,14 +3879,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3916,14 +3910,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3947,14 +3941,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -3978,14 +3972,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4009,14 +4003,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_art_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4040,14 +4034,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4071,14 +4065,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4102,14 +4096,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4133,14 +4127,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4164,14 +4158,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4195,14 +4189,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4226,14 +4220,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4257,14 +4251,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4288,14 +4282,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4319,14 +4313,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4350,14 +4344,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4381,14 +4375,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4412,14 +4406,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4443,14 +4437,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4474,14 +4468,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4505,14 +4499,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4536,14 +4530,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4567,14 +4561,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4598,14 +4592,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4629,14 +4623,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_exd_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4660,14 +4654,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4691,14 +4685,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4722,14 +4716,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4753,14 +4747,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4784,14 +4778,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4815,14 +4809,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4846,14 +4840,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4877,14 +4871,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4908,14 +4902,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4939,14 +4933,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -4970,14 +4964,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5001,14 +4995,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5032,14 +5026,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5063,14 +5057,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5094,14 +5088,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5125,14 +5119,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5156,14 +5150,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5187,14 +5181,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5218,14 +5212,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5249,14 +5243,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_robot_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5280,14 +5274,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5311,14 +5305,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_2
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5342,14 +5336,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_3
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5373,14 +5367,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_4
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5404,14 +5398,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_5
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5435,14 +5429,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_6
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5466,14 +5460,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_7
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5497,14 +5491,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_8
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5528,14 +5522,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_9
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5559,14 +5553,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_10
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5590,14 +5584,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_11
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5621,14 +5615,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_12
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5652,14 +5646,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_13
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5683,14 +5677,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_14
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5714,14 +5708,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_15
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5745,14 +5739,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_16
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5776,14 +5770,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_17
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5807,14 +5801,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_18
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5838,14 +5832,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_19
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5869,14 +5863,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_ai_20
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5900,14 +5894,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_voi2_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5931,14 +5925,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_voi2_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5962,14 +5956,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_voi2_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -5993,14 +5987,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_voi2_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -6024,14 +6018,14 @@ country_event = {
 		traits = {
 			trait = "trait_android"
 		}
-		
+
 		new_pop_resource_requirement = {
 			type = robot_food
 			value = 30.0
 		}
 		pops_auto_growth = 1.0
 		pops_auto_upgrade_to = buildable_robot_pop_voi2_1
-		
+
 		pops_can_be_colonizers = yes
 		pops_can_migrate = yes
 		pops_can_reproduce = no
@@ -6049,7 +6043,6 @@ country_event = {
 ####################################################################################################################
 ####################################################################################################################
 ####################################################################################################################
-				change_dominant_species = last_created_species
 				if = {
 					limit = {
 						capital_scope = {
@@ -6061,7 +6054,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_agrarian
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6074,7 +6067,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_thrifty
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6087,7 +6080,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_industrious
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6100,7 +6093,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_intelligent
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6113,7 +6106,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_engineers
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6126,7 +6119,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_physicists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6139,7 +6132,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_sociologists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6152,7 +6145,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_extremely_adaptive
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6165,7 +6158,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_adaptive
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6178,7 +6171,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_nonadaptive
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6191,7 +6184,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_rapid_breeders
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6204,7 +6197,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_slow_breeders
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6217,7 +6210,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_talented
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6230,7 +6223,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_quick_learners
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6243,7 +6236,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_slow_learners
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6256,7 +6249,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_very_strong
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6269,7 +6262,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_strong
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6282,7 +6275,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_weak
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6295,7 +6288,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_nomadic
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6308,7 +6301,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_sedentary
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6321,7 +6314,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_communal
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6334,7 +6327,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_solitary
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6347,7 +6340,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_charismatic
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6360,7 +6353,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_repugnant
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6373,7 +6366,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_uplifted
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6386,7 +6379,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_conformists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6399,7 +6392,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_venerable
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6412,7 +6405,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_enduring
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6425,7 +6418,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_decadent
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6438,7 +6431,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_resilient
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6451,7 +6444,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_presentient_starborn
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6464,7 +6457,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_presentient_earthbound
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6477,7 +6470,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_presentient_natural_intellectuals
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6490,7 +6483,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_presentient_proles
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6503,7 +6496,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_presentient_conservative
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6516,7 +6509,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_presentient_irradiated
 					}
-					
+
 				}
 				#####Extended Traits Begins
 				if = {
@@ -6530,7 +6523,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_incompetent_architects
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6543,7 +6536,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_architects
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6556,7 +6549,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_politically_adept
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6569,7 +6562,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_virtualists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6582,7 +6575,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_deliberators
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6595,7 +6588,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_conservationists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6608,7 +6601,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_urban
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6621,7 +6614,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_indulgent
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6634,7 +6627,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_content
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6647,7 +6640,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_dim
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6660,7 +6653,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_inept
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6673,7 +6666,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_incompetent_engineers
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6686,7 +6679,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_incompetent_physicists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6699,7 +6692,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_incompetent_sociologists
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6712,7 +6705,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_very_weak
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6725,7 +6718,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_valiant
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6738,7 +6731,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_craven
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6751,7 +6744,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_individualistic
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6764,7 +6757,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_transient
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6777,7 +6770,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_resourceful
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6790,7 +6783,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_delicate
 					}
-					
+
 				}
 				#####Extended Traits Ends
 				if = {
@@ -6804,7 +6797,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_desert_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6817,7 +6810,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_tropical_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6830,7 +6823,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_continental_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6843,7 +6836,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_ocean_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6856,7 +6849,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_arctic_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6869,7 +6862,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_tundra_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6882,7 +6875,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_arid_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6895,7 +6888,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_ai_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6908,7 +6901,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_nuked_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6921,7 +6914,7 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_gaia_preference
 					}
-					
+
 				}
 				if = {
 					limit = {
@@ -6934,20 +6927,21 @@ country_event = {
 						species = ROOT
 						add_trait = trait_pc_ring_preference
 					}
-					
+
 				}
 ##########################################################################################################
+			change_dominant_species = ROOT
 			capital_scope = {
 				every_owned_pop = {
 					limit = {
-						NOT = { is_same_species = ROOT }
+						NOT = { is_exact_same_species = ROOT }
 					}
 					change_pop_species = ROOT
 				}
 			}
 		}
 	}
-	
+
 	option = {
 		name = "I Wish For My Species To Be Organic"
 		custom_tooltip = playablerobots.2.tooltip2
