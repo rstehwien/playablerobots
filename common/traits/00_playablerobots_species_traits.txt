@@ -6,7 +6,7 @@ trait_android = {
 	cost = 0
 	modification = no
 	initial = no
-	
+
 	modifier = {
 		pop_food_req_mult = -1.0
 		tile_resource_food_mult = -0.5
@@ -18,14 +18,14 @@ trait_android_level1 = {
 	cost = 0
 	modification = no
 	initial = no
-	
+
 	modifier = {
 		tile_resource_energy_mult = 0.025
 		tile_resource_minerals_mult = 0.025
 		tile_resource_engineering_research_mult = 0.025
 		tile_resource_physics_research_mult = 0.025
 		tile_resource_society_research_mult = 0.025
-		pop_environment_tolerance = 0.05
+		pop_environment_tolerance = 0.5
 	}
 }
 
@@ -33,14 +33,14 @@ trait_android_level2 = {
 	cost = 0
 	modification = no
 	initial = no
-	
+
 	modifier = {
 		tile_resource_energy_mult = 0.05
 		tile_resource_minerals_mult = 0.05
 		tile_resource_engineering_research_mult = 0.05
 		tile_resource_physics_research_mult = 0.05
 		tile_resource_society_research_mult = 0.05
-		pop_environment_tolerance = 0.075
+		pop_environment_tolerance = 0.75
 	}
 }
 
@@ -48,13 +48,13 @@ trait_android_level3 = {
 	cost = 0
 	modification = no
 	initial = no
-	
+
 	modifier = {
 		tile_resource_energy_mult = 0.1
 		tile_resource_minerals_mult = 0.1
 		tile_resource_engineering_research_mult = 0.1
 		tile_resource_physics_research_mult = 0.1
 		tile_resource_society_research_mult = 0.1
-		pop_environment_tolerance = 0.1
+		pop_environment_tolerance = 1.0
 	}
 }
