@@ -1173,7 +1173,7 @@ country_event = {
 		any_owned_pop = {
 					has_trait = trait_android
 					NOT = {is_growing = yes}
-					NOT = {is_same_species = owner}
+					NOT = {is_exact_same_species = owner}
 		}
 		is_ai = no
 	}
@@ -1190,7 +1190,7 @@ country_event = {
 			limit = {
 					has_trait = trait_android
 					NOT = {is_growing = yes}
-					NOT = {is_same_species = owner}
+					NOT = {is_exact_same_species = owner}
 			}
 				change_pop_species = ROOT
 			}
