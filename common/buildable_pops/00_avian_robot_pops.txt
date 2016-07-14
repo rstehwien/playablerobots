@@ -1,0 +1,3800 @@
+buildable_robot_pop_avi2 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi2"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi2
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi2_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi2_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi2"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi2"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi2_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi2_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi2"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi2"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi2_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi2_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi2"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi2"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi3 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi3"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi3
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi3_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi3_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi3"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi3"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi3_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi3_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi3"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi3"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi3_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi3_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi3"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi3"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi4 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi4
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi4_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi4_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi4_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi4_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi4_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi4_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi4"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi5 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi5"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi5
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi5_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi5_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi5"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi5"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi5_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi5_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi5"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi5"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi5_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi5_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi5"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi5"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi6 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi6"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi6
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi6_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi6_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi6"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi6"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi6_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi6_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi6"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi6"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi6_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi6_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi6"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi6"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi7 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi7"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi7
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi7_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi7_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi7"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi7"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi7_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi7_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi7"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi7"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi7_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi7_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi7"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi7"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi8 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi8"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi8
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi8_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi8_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi8"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi8"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi8_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi8_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi8"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi8"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi8_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi8_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi8"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi8"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi9 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi9"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi9
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi9_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi9_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi9"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi9"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi9_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi9_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi9"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi9"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi9_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi9_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi9"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi9"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi10 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi10"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi10
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi10_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi10_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi10"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi10"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi10_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi10_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi10"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi10"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi10_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi10_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi10"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi10"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi11 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi11"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi11
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi11_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi11_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi11"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi11"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi11_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi11_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi11"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi11"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi11_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi11_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi11"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi11"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi12 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi12"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi12
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi12_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi12_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi12"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi12"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi12_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi12_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi12"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi12"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi12_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi12_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi12"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi12"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi13 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi13"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi13
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi13_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi13_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi13"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi13"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi13_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi13_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi13"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi13"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi13_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi13_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi13"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi13"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi14 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi14"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi14
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi14_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi14_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi14"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi14"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi14_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi14_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi14"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi14"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi14_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi14_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi14"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi14"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi15 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi15"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi15
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi15_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi15_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi15"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi15"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi15_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi15_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi15"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi15"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi15_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi15_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi15"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi15"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi16 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi16"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi16
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi16_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi16_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi16"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi16"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi16_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi16_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi16"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi16"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi16_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi16_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi16"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi16"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi17 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi17"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi17
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi17_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi17_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi17"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi17"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi17_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi17_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi17"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi17"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi17_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi17_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi17"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi17"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi18 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi18"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi18
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi18_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi18_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi18"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi18"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi18_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi18_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi18"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi18"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi18_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi18_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi18"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi18"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi19 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi19"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi19
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi19_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi19_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi19"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi19"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi19_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi19_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi19"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi19"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi19_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi19_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi19"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi19"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi20 = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi20"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = avi20
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi20_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi20_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi20"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi20"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi20_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi20_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi20"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi20"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi20_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi20_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "avi20"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi20"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+

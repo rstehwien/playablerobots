@@ -1,0 +1,378 @@
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "collective_consciousness"
+				has_government = "collective_intelligence"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_mat> of [This.Capital.System.GetName]"
+	noun = "[This.Capital.System.GetName]"
+	prefix_format = "[This.Capital.System.GetName] <autocracy_mat>"
+	# Empire of Sol
+}
+
+# Autocracy Materialist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "collective_consciousness"
+				has_government = "collective_intelligence"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <autocracy_mat>"
+	# Human Empire
+}
+
+# Autocracy Materialist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "collective_consciousness"
+				has_government = "collective_intelligence"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<autocracy_mat_desc> [This.GetSpeciesName] <autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <autocracy_mat>"
+	# Great Human Empire
+}
+
+# Autocracy Materialist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "collective_consciousness"
+				has_government = "collective_intelligence"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <autocracy_mat_mid_desc> <autocracy_mat>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <autocracy_mat>"
+	# Human Star Empire
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "collective_consciousness"
+				has_government = "collective_intelligence"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<generic_aut_desc> [This.GetSpeciesName] <generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <generic_states>"
+	# United Human Colonies
+}
+
+# Generic Autocracy 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "collective_consciousness"
+				has_government = "collective_intelligence"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <generic_aut_desc> <generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <generic_states>"
+	# Human Federated Colonies
+}
+
+
+
+
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "technocratic_hegemony"
+				has_government = "technocratic_confederacy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_gen> of [This.Capital.System.GetName]"
+	noun = "[This.Capital.System.GetName]"
+	prefix_format = "[This.Capital.System.GetName] <democracy_gen>"
+	# Empire of Sol
+}
+
+# Democracy Generic 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "technocratic_hegemony"
+				has_government = "technocratic_confederacy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <democracy_gen>"
+	# Human Empire
+}
+
+# Democracy Generic 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "technocratic_hegemony"
+				has_government = "technocratic_confederacy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<democracy_gen_desc> [This.GetSpeciesName] <democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <democracy_gen>"
+	# Great Human Empire
+}
+
+# Democracy Generic 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "technocratic_hegemony"
+				has_government = "technocratic_confederacy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <democracy_gen_mid_desc> <democracy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <democracy_gen>"
+	# Human Star Empire
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "technocratic_hegemony"
+				has_government = "technocratic_confederacy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<generic_dem_desc> [This.GetSpeciesName] <generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <generic_states>"
+	# United Human Colonies
+}
+
+# Generic Democracy 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "technocratic_hegemony"
+				has_government = "technocratic_confederacy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <generic_dem_desc> <generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <generic_states>"
+	# Human Federated Colonies
+}
+
+
+
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "neural_cooperative"
+				has_government = "neural_collective"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<generic_oli_desc> [This.GetSpeciesName] <generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <generic_states>"
+	# United Human Colonies
+}
+
+# Generic Oligarchy 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "neural_cooperative"
+				has_government = "neural_collective"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <generic_oli_desc> <generic_states>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <generic_states>"
+	# Human Federated Colonies
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "neural_cooperative"
+				has_government = "neural_collective"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_gen> of [This.Capital.System.GetName]"
+	noun = "[This.Capital.System.GetName]"
+	prefix_format = "[This.Capital.System.GetName] <oligarchy_gen>"
+	# Empire of Sol
+}
+
+# Oligarchy Generic 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 4
+			OR = {
+				has_government = "neural_cooperative"
+				has_government = "neural_collective"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <oligarchy_gen>"
+	# Human Empire
+}
+
+# Oligarchy Generic 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "neural_cooperative"
+				has_government = "neural_collective"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "<oligarchy_gen_desc> [This.GetSpeciesName] <oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <oligarchy_gen>"
+	# Great Human Empire
+}
+
+# Oligarchy Generic 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "neural_cooperative"
+				has_government = "neural_collective"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+		}
+	}
+	format = "[This.GetSpeciesName] <oligarchy_gen_mid_desc> <oligarchy_gen>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <oligarchy_gen>"
+	# Human Star Empire
+}

@@ -1,0 +1,32 @@
+# Number of entries controlls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
+# graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
+# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file. 
+# can specify playable=no to disable people from picking specified class.
+# can specify randomized=no to filter specified class from randomization.
+
+ROB = {
+	robotic = yes
+	randomized = no
+	
+	portraits = {
+		"robot4"
+		"robot5"
+		"robot6"
+		"robot7"
+		"robot8"
+		"robot9"
+		"robot10"
+		"robot11"
+		"robot12"
+		"ai2"
+		"ai3"
+		"ai4"
+		"ai5"
+		"ai6"
+		"ai7"
+		"ai8"
+	}
+	
+	graphical_culture = ai_01
+	move_pop_sound_effect = "robot_pops_move"
+}

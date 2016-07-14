@@ -1,0 +1,109 @@
+# Generated species derive their names from here
+
+### AI
+
+ROB = {
+	theai = {
+		name = AI
+		plural = AI
+		home_planet = "Grid x0y0z0"
+		home_system = "UGrid x0y0z0"
+		name_list = "ROB1"
+	}
+	
+	androids = {
+		name = Android
+		plural = Androids
+		home_planet = "Planet 00"
+		home_system = "System 00"
+		name_list = "ROB1"
+	}
+	
+	droids = {
+		name = Droid
+		plural = Droids
+		home_planet = "Alpha Planet"
+		home_system = "Alpha System"
+		name_list = "ROB1"
+	}
+	
+	robots = {
+		name = Robot
+		plural = Robots
+		home_planet = "World 0"
+		home_system = "System 0"
+		name_list = "ROB1"
+	}
+	
+	automaton = {
+		name = Automaton
+		plural = Automatons
+		home_planet = "00001"
+		home_system = "00002"
+		name_list = "ROB1"
+	}
+	
+	drone = {
+		name = Drone
+		plural = Drones
+		home_planet = "Primary World"
+		home_system = "Primary System"
+		name_list = "ROB1"
+	}
+	
+	collective = {
+		name = Collective
+		plural = Collectives
+		home_planet = "The Collective"
+		home_system = "The Great Collective"
+		name_list = "ROB1"
+	}
+	
+	synthetics = {
+		name = Synthetic
+		plural = Synthetics
+		home_planet = "Homeworld Prime"
+		home_system = "System Prime"
+		name_list = "ROB1"
+	}
+	
+	assemblers = {
+		name = Assembler
+		plural = Assemblers
+		home_planet = "The Core"
+		home_system = "Core Space"
+		name_list = "ROB1"
+	}
+	
+	machines = {
+		name = Machine
+		plural = Machines
+		home_planet = "Synthios"
+		home_system = "Collectiva"
+		name_list = "ROB1"
+	}
+	
+	mechatrons = {
+		name = Mechatron
+		plural = Mechatrons
+		home_planet = "Ferron"
+		home_system = "Dyson"
+		name_list = "ROB1"
+	}
+	
+	gadgetons = {
+		name = Gadgeton
+		plural = Gadgetons
+		home_planet = "Gadgetta"
+		home_system = "Gadgetta Prime"
+		name_list = "ROB1"
+	}
+	
+	mechs = {
+		name = Mech
+		plural = Mechs
+		home_planet = "Planet 24J"
+		home_system = "System 78T"
+		name_list = "ROB1"
+	}
+}

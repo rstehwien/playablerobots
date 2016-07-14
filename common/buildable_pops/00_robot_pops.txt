@@ -1,0 +1,2931 @@
+buildable_robot_pop_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {
+		NOT = {
+			has_trait = trait_android
+			has_technology = "tech_droid_workers"
+			has_technology = "tech_synthetic_workers"
+		}
+	}
+	
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+	
+	species = {
+		name = "ROBOT_POP_SPECIES_1"
+		class = "ROBOT"
+		portrait = "robot1"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_robotic_1"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food 
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_2
+		
+		pops_can_be_colonizers = no
+		pops_can_migrate = no
+		pops_can_reproduce = no
+		pops_can_join_factions = no
+		pop_maintenance = 1
+		pops_can_be_slaves = no
+		can_generate_leaders = no
+		can_be_modified = no
+		pops_have_happiness = no
+		pop_ethics = no
+	}
+}
+
+buildable_robot_pop_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {
+		NOT = {
+			has_trait = trait_android
+			has_technology = "tech_synthetic_workers"
+		}
+	}
+	
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+	
+	species = {
+		name = "ROBOT_POP_SPECIES_2"
+		class = "ROBOT"
+		portrait = "robot2"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_robotic_2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food 
+			value = 30.0			
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = no
+		pops_can_reproduce = no
+		pops_can_join_factions = no
+		pop_maintenance = 1
+		can_generate_leaders = no
+		pops_can_be_slaves = no
+		can_be_modified = no
+		pops_have_happiness = no
+		pop_ethics = no
+	}
+}
+
+buildable_robot_pop_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {
+		NOT = { has_trait = trait_android }
+	}
+	
+	species = {
+		name = "ROBOT_POP_SPECIES_3"
+		class = "ROBOT"
+		portrait = "robot3"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_robotic_3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = no
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_android = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "robot4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_ANDROID"
+		class = "ROB"
+		portrait = robot4
+		traits = {
+			trait = "trait_android"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_android_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_android_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "robot4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_ANDROID"
+		class = "ROB"
+		portrait = "robot4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_android_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_android_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "robot4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_ANDROID"
+		class = "ROB"
+		portrait = "robot4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_android_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_android_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ROB"
+		species_portrait = "robot4"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_ANDROID"
+		class = "ROB"
+		portrait = "robot4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mam = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MAM"
+		species_portrait = "human"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_MAM"
+		class = "ROB"
+		portrait = "human"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_mam_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mam_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MAM"
+		species_portrait = "human"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_MAM"
+		class = "ROB"
+		portrait = "human"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_mam_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mam_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MAM"
+		species_portrait = "human"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_MAM"
+		class = "ROB"
+		portrait = "human"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_mam_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mam_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MAM"
+		species_portrait = "human"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_MAM"
+		class = "ROB"
+		portrait = "human"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "AVI"
+		species_portrait = "avi1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi1"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_avi_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "AVI"
+		species_portrait = "avi1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_avi_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "AVI"
+		species_portrait = "avi1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_avi_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_avi_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "AVI"
+		species_portrait = "avi1"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_AVI"
+		class = "ROB"
+		portrait = "avi1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+buildable_robot_pop_rep = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "REP"
+		species_portrait = "rep1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_REP"
+		class = "ROB"
+		portrait = "rep1"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_rep_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_rep_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "REP"
+		species_portrait = "rep1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_REP"
+		class = "ROB"
+		portrait = "rep1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_rep_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_rep_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "REP"
+		species_portrait = "rep1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_REP"
+		class = "ROB"
+		portrait = "rep1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_rep_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_rep_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "REP"
+		species_portrait = "rep1"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_REP"
+		class = "ROB"
+		portrait = "rep1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_art = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ART"
+		species_portrait = "art1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_ART"
+		class = "ROB"
+		portrait = "art1"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_art_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_art_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ART"
+		species_portrait = "art1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_ART"
+		class = "ROB"
+		portrait = "art1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_art_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_art_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ART"
+		species_portrait = "art1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_ART"
+		class = "ROB"
+		portrait = "art1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_art_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_art_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "ART"
+		species_portrait = "art1"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_ART"
+		class = "ROB"
+		portrait = "art1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mol = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MOL"
+		species_portrait = "mol1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_MOL"
+		class = "ROB"
+		portrait = "mol1"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_mol_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mol_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MOL"
+		species_portrait = "mol1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_MOL"
+		class = "ROB"
+		portrait = "mol1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_mol_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mol_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MOL"
+		species_portrait = "mol1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_MOL"
+		class = "ROB"
+		portrait = "mol1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_mol_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_mol_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "MOL"
+		species_portrait = "mol1"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_MOL"
+		class = "ROB"
+		portrait = "mol1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_fun = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "FUN"
+		species_portrait = "fun1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_FUN"
+		class = "ROB"
+		portrait = "fun1"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_fun_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_fun_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "FUN"
+		species_portrait = "fun1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_FUN"
+		class = "ROB"
+		portrait = "fun1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_fun_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_fun_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "FUN"
+		species_portrait = "fun1"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_FUN"
+		class = "ROB"
+		portrait = "fun1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_fun_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_fun_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "FUN"
+		species_portrait = "fun1"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_FUN"
+		class = "ROB"
+		portrait = "fun1"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_voi = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "VOI"
+		species_portrait = "swarm2group"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_VOI"
+		class = "ROB"
+		portrait = "swarm2group"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_voi_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_voi_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "VOI"
+		species_portrait = "swarm2group"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_VOI"
+		class = "ROB"
+		portrait = "swarm2group"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_voi_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_voi_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "VOI"
+		species_portrait = "swarm2group"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_VOI"
+		class = "ROB"
+		portrait = "swarm2group"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_voi_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_voi_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "VOI"
+		species_portrait = "swarm2group"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_VOI"
+		class = "ROB"
+		portrait = "swarm2group"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_ext = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "EXT"
+		species_portrait = "exd4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_EXT"
+		class = "ROB"
+		portrait = "exd4"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_ext_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_ext_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "EXT"
+		species_portrait = "exd4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_EXT"
+		class = "ROB"
+		portrait = "exd4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_ext_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_ext_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "EXT"
+		species_portrait = "exd4"
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_EXT"
+		class = "ROB"
+		portrait = "exd4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		pops_auto_upgrade_to = buildable_robot_pop_ext_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_ext_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		#is_species_class = "EXT"
+		species_portrait = "exd4"
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_EXT"
+		class = "ROB"
+		portrait = "exd4"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_generic = {
+		
+	prerequisites = {
+		##"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 30
+		energy = 100
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		NOT = { species_portrait = "human" }
+		NOT = { species_portrait = "robot1" }
+		NOT = { species_portrait = "robot2" }
+		NOT = { species_portrait = "robot3" }
+		NOT = { species_portrait = "robot4" }
+		NOT = { species_portrait = "robot5" }
+		NOT = { species_portrait = "robot6" }
+		NOT = { species_portrait = "robot7" }
+		NOT = { species_portrait = "robot8" }
+		NOT = { species_portrait = "robot9" }
+		NOT = { species_portrait = "robot10" }
+		NOT = { species_portrait = "robot11" }
+		NOT = { species_portrait = "robot12" }
+		NOT = { species_portrait = "robot13" }
+		NOT = { species_portrait = "robot14" }
+		NOT = { species_portrait = "robot15" }
+		NOT = { species_portrait = "robot16" }
+		NOT = { species_portrait = "robot17" }
+		NOT = { species_portrait = "robot18" }
+		NOT = { species_portrait = "robot19" }
+		NOT = { species_portrait = "robot20" }
+		NOT = { species_portrait = "ai1" }
+		NOT = { species_portrait = "ai2" }
+		NOT = { species_portrait = "ai3" }
+		NOT = { species_portrait = "ai4" }
+		NOT = { species_portrait = "ai5" }
+		NOT = { species_portrait = "ai6" }
+		NOT = { species_portrait = "ai7" }
+		NOT = { species_portrait = "ai8" }
+		NOT = { species_portrait = "ai9" }
+		NOT = { species_portrait = "ai10" }
+		NOT = { species_portrait = "ai11" }
+		NOT = { species_portrait = "ai12" }
+		NOT = { species_portrait = "ai13" }
+		NOT = { species_portrait = "ai14" }
+		NOT = { species_portrait = "ai15" }
+		NOT = { species_portrait = "ai16" }
+		NOT = { species_portrait = "ai17" }
+		NOT = { species_portrait = "ai18" }
+		NOT = { species_portrait = "ai19" }
+		NOT = { species_portrait = "ai20" }
+		NOT = { species_portrait = "avi1" }
+		NOT = { species_portrait = "avi2" }
+		NOT = { species_portrait = "avi3" }
+		NOT = { species_portrait = "avi4" }
+		NOT = { species_portrait = "avi5" }
+		NOT = { species_portrait = "avi6" }
+		NOT = { species_portrait = "avi7" }
+		NOT = { species_portrait = "avi8" }
+		NOT = { species_portrait = "avi9" }
+		NOT = { species_portrait = "avi10" }
+		NOT = { species_portrait = "avi11" }
+		NOT = { species_portrait = "avi12" }
+		NOT = { species_portrait = "avi13" }
+		NOT = { species_portrait = "avi14" }
+		NOT = { species_portrait = "avi15" }
+		NOT = { species_portrait = "avi16" }
+		NOT = { species_portrait = "avi17" }
+		NOT = { species_portrait = "avi18" }
+		NOT = { species_portrait = "avi19" }
+		NOT = { species_portrait = "avi20" }
+		NOT = { species_portrait = "mam1" }
+		NOT = { species_portrait = "mam2" }
+		NOT = { species_portrait = "mam3" }
+		NOT = { species_portrait = "mam4" }
+		NOT = { species_portrait = "mam5" }
+		NOT = { species_portrait = "mam6" }
+		NOT = { species_portrait = "mam7" }
+		NOT = { species_portrait = "mam8" }
+		NOT = { species_portrait = "mam9" }
+		NOT = { species_portrait = "mam10" }
+		NOT = { species_portrait = "mam11" }
+		NOT = { species_portrait = "mam12" }
+		NOT = { species_portrait = "mam13" }
+		NOT = { species_portrait = "mam14" }
+		NOT = { species_portrait = "mam15" }
+		NOT = { species_portrait = "mam16" }
+		NOT = { species_portrait = "mam17" }
+		NOT = { species_portrait = "mam18" }
+		NOT = { species_portrait = "mam19" }
+		NOT = { species_portrait = "mam20" }
+		NOT = { species_portrait = "rep1" }
+		NOT = { species_portrait = "rep2" }
+		NOT = { species_portrait = "rep3" }
+		NOT = { species_portrait = "rep4" }
+		NOT = { species_portrait = "rep5" }
+		NOT = { species_portrait = "rep6" }
+		NOT = { species_portrait = "rep7" }
+		NOT = { species_portrait = "rep8" }
+		NOT = { species_portrait = "rep9" }
+		NOT = { species_portrait = "rep10" }
+		NOT = { species_portrait = "rep11" }
+		NOT = { species_portrait = "rep12" }
+		NOT = { species_portrait = "rep13" }
+		NOT = { species_portrait = "rep14" }
+		NOT = { species_portrait = "rep15" }
+		NOT = { species_portrait = "rep16" }
+		NOT = { species_portrait = "rep17" }
+		NOT = { species_portrait = "rep18" }
+		NOT = { species_portrait = "rep19" }
+		NOT = { species_portrait = "rep20" }
+		NOT = { species_portrait = "mol1" }
+		NOT = { species_portrait = "mol2" }
+		NOT = { species_portrait = "mol3" }
+		NOT = { species_portrait = "mol4" }
+		NOT = { species_portrait = "mol5" }
+		NOT = { species_portrait = "mol6" }
+		NOT = { species_portrait = "mol7" }
+		NOT = { species_portrait = "mol8" }
+		NOT = { species_portrait = "mol9" }
+		NOT = { species_portrait = "mol10" }
+		NOT = { species_portrait = "mol11" }
+		NOT = { species_portrait = "mol12" }
+		NOT = { species_portrait = "mol13" }
+		NOT = { species_portrait = "mol14" }
+		NOT = { species_portrait = "mol15" }
+		NOT = { species_portrait = "mol16" }
+		NOT = { species_portrait = "mol17" }
+		NOT = { species_portrait = "mol18" }
+		NOT = { species_portrait = "mol19" }
+		NOT = { species_portrait = "mol20" }
+		NOT = { species_portrait = "fun1" }
+		NOT = { species_portrait = "fun2" }
+		NOT = { species_portrait = "fun3" }
+		NOT = { species_portrait = "fun4" }
+		NOT = { species_portrait = "fun5" }
+		NOT = { species_portrait = "fun6" }
+		NOT = { species_portrait = "fun7" }
+		NOT = { species_portrait = "fun8" }
+		NOT = { species_portrait = "fun9" }
+		NOT = { species_portrait = "fun10" }
+		NOT = { species_portrait = "fun11" }
+		NOT = { species_portrait = "fun12" }
+		NOT = { species_portrait = "fun13" }
+		NOT = { species_portrait = "fun14" }
+		NOT = { species_portrait = "fun15" }
+		NOT = { species_portrait = "fun16" }
+		NOT = { species_portrait = "fun17" }
+		NOT = { species_portrait = "fun18" }
+		NOT = { species_portrait = "fun19" }
+		NOT = { species_portrait = "fun20" }
+		NOT = { species_portrait = "art1" }
+		NOT = { species_portrait = "art2" }
+		NOT = { species_portrait = "art3" }
+		NOT = { species_portrait = "art4" }
+		NOT = { species_portrait = "art5" }
+		NOT = { species_portrait = "art6" }
+		NOT = { species_portrait = "art7" }
+		NOT = { species_portrait = "art8" }
+		NOT = { species_portrait = "art9" }
+		NOT = { species_portrait = "art10" }
+		NOT = { species_portrait = "art11" }
+		NOT = { species_portrait = "art12" }
+		NOT = { species_portrait = "art13" }
+		NOT = { species_portrait = "art14" }
+		NOT = { species_portrait = "art15" }
+		NOT = { species_portrait = "art16" }
+		NOT = { species_portrait = "art17" }
+		NOT = { species_portrait = "art18" }
+		NOT = { species_portrait = "art19" }
+		NOT = { species_portrait = "art20" }
+		NOT = { species_portrait = "exd1" }
+		NOT = { species_portrait = "exd2" }
+		NOT = { species_portrait = "exd3" }
+		NOT = { species_portrait = "exd4" }
+		NOT = { species_portrait = "exd5" }
+		NOT = { species_portrait = "exd6" }
+		NOT = { species_portrait = "exd7" }
+		NOT = { species_portrait = "exd8" }
+		NOT = { species_portrait = "exd9" }
+		NOT = { species_portrait = "exd10" }
+		NOT = { species_portrait = "exd11" }
+		NOT = { species_portrait = "exd12" }
+		NOT = { species_portrait = "exd13" }
+		NOT = { species_portrait = "exd14" }
+		NOT = { species_portrait = "exd15" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "swarm5group" }
+		NOT = { species_portrait = "swarm4group" }
+		NOT = { species_portrait = "swarm3group" }
+		NOT = { species_portrait = "swarm2group" }
+		has_trait = trait_android
+		NOT = { has_technology = tech_robotic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_GENERIC"
+		class = "ROB"
+		portrait = "robot_buildable"
+		traits = {
+			trait = "trait_android"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		pops_auto_upgrade_to = buildable_robot_pop_generic_1
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_generic_1 = {
+		
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+	cost = {
+		minerals = 40
+		energy = 125
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		NOT = { species_portrait = "human" }
+		NOT = { species_portrait = "robot1" }
+		NOT = { species_portrait = "robot2" }
+		NOT = { species_portrait = "robot3" }
+		NOT = { species_portrait = "robot4" }
+		NOT = { species_portrait = "robot5" }
+		NOT = { species_portrait = "robot6" }
+		NOT = { species_portrait = "robot7" }
+		NOT = { species_portrait = "robot8" }
+		NOT = { species_portrait = "robot9" }
+		NOT = { species_portrait = "robot10" }
+		NOT = { species_portrait = "robot11" }
+		NOT = { species_portrait = "robot12" }
+		NOT = { species_portrait = "robot13" }
+		NOT = { species_portrait = "robot14" }
+		NOT = { species_portrait = "robot15" }
+		NOT = { species_portrait = "robot16" }
+		NOT = { species_portrait = "robot17" }
+		NOT = { species_portrait = "robot18" }
+		NOT = { species_portrait = "robot19" }
+		NOT = { species_portrait = "robot20" }
+		NOT = { species_portrait = "ai1" }
+		NOT = { species_portrait = "ai2" }
+		NOT = { species_portrait = "ai3" }
+		NOT = { species_portrait = "ai4" }
+		NOT = { species_portrait = "ai5" }
+		NOT = { species_portrait = "ai6" }
+		NOT = { species_portrait = "ai7" }
+		NOT = { species_portrait = "ai8" }
+		NOT = { species_portrait = "ai9" }
+		NOT = { species_portrait = "ai10" }
+		NOT = { species_portrait = "ai11" }
+		NOT = { species_portrait = "ai12" }
+		NOT = { species_portrait = "ai13" }
+		NOT = { species_portrait = "ai14" }
+		NOT = { species_portrait = "ai15" }
+		NOT = { species_portrait = "ai16" }
+		NOT = { species_portrait = "ai17" }
+		NOT = { species_portrait = "ai18" }
+		NOT = { species_portrait = "ai19" }
+		NOT = { species_portrait = "ai20" }
+		NOT = { species_portrait = "avi1" }
+		NOT = { species_portrait = "avi2" }
+		NOT = { species_portrait = "avi3" }
+		NOT = { species_portrait = "avi4" }
+		NOT = { species_portrait = "avi5" }
+		NOT = { species_portrait = "avi6" }
+		NOT = { species_portrait = "avi7" }
+		NOT = { species_portrait = "avi8" }
+		NOT = { species_portrait = "avi9" }
+		NOT = { species_portrait = "avi10" }
+		NOT = { species_portrait = "avi11" }
+		NOT = { species_portrait = "avi12" }
+		NOT = { species_portrait = "avi13" }
+		NOT = { species_portrait = "avi14" }
+		NOT = { species_portrait = "avi15" }
+		NOT = { species_portrait = "avi16" }
+		NOT = { species_portrait = "avi17" }
+		NOT = { species_portrait = "avi18" }
+		NOT = { species_portrait = "avi19" }
+		NOT = { species_portrait = "avi20" }
+		NOT = { species_portrait = "mam1" }
+		NOT = { species_portrait = "mam2" }
+		NOT = { species_portrait = "mam3" }
+		NOT = { species_portrait = "mam4" }
+		NOT = { species_portrait = "mam5" }
+		NOT = { species_portrait = "mam6" }
+		NOT = { species_portrait = "mam7" }
+		NOT = { species_portrait = "mam8" }
+		NOT = { species_portrait = "mam9" }
+		NOT = { species_portrait = "mam10" }
+		NOT = { species_portrait = "mam11" }
+		NOT = { species_portrait = "mam12" }
+		NOT = { species_portrait = "mam13" }
+		NOT = { species_portrait = "mam14" }
+		NOT = { species_portrait = "mam15" }
+		NOT = { species_portrait = "mam16" }
+		NOT = { species_portrait = "mam17" }
+		NOT = { species_portrait = "mam18" }
+		NOT = { species_portrait = "mam19" }
+		NOT = { species_portrait = "mam20" }
+		NOT = { species_portrait = "rep1" }
+		NOT = { species_portrait = "rep2" }
+		NOT = { species_portrait = "rep3" }
+		NOT = { species_portrait = "rep4" }
+		NOT = { species_portrait = "rep5" }
+		NOT = { species_portrait = "rep6" }
+		NOT = { species_portrait = "rep7" }
+		NOT = { species_portrait = "rep8" }
+		NOT = { species_portrait = "rep9" }
+		NOT = { species_portrait = "rep10" }
+		NOT = { species_portrait = "rep11" }
+		NOT = { species_portrait = "rep12" }
+		NOT = { species_portrait = "rep13" }
+		NOT = { species_portrait = "rep14" }
+		NOT = { species_portrait = "rep15" }
+		NOT = { species_portrait = "rep16" }
+		NOT = { species_portrait = "rep17" }
+		NOT = { species_portrait = "rep18" }
+		NOT = { species_portrait = "rep19" }
+		NOT = { species_portrait = "rep20" }
+		NOT = { species_portrait = "mol1" }
+		NOT = { species_portrait = "mol2" }
+		NOT = { species_portrait = "mol3" }
+		NOT = { species_portrait = "mol4" }
+		NOT = { species_portrait = "mol5" }
+		NOT = { species_portrait = "mol6" }
+		NOT = { species_portrait = "mol7" }
+		NOT = { species_portrait = "mol8" }
+		NOT = { species_portrait = "mol9" }
+		NOT = { species_portrait = "mol10" }
+		NOT = { species_portrait = "mol11" }
+		NOT = { species_portrait = "mol12" }
+		NOT = { species_portrait = "mol13" }
+		NOT = { species_portrait = "mol14" }
+		NOT = { species_portrait = "mol15" }
+		NOT = { species_portrait = "mol16" }
+		NOT = { species_portrait = "mol17" }
+		NOT = { species_portrait = "mol18" }
+		NOT = { species_portrait = "mol19" }
+		NOT = { species_portrait = "mol20" }
+		NOT = { species_portrait = "fun1" }
+		NOT = { species_portrait = "fun2" }
+		NOT = { species_portrait = "fun3" }
+		NOT = { species_portrait = "fun4" }
+		NOT = { species_portrait = "fun5" }
+		NOT = { species_portrait = "fun6" }
+		NOT = { species_portrait = "fun7" }
+		NOT = { species_portrait = "fun8" }
+		NOT = { species_portrait = "fun9" }
+		NOT = { species_portrait = "fun10" }
+		NOT = { species_portrait = "fun11" }
+		NOT = { species_portrait = "fun12" }
+		NOT = { species_portrait = "fun13" }
+		NOT = { species_portrait = "fun14" }
+		NOT = { species_portrait = "fun15" }
+		NOT = { species_portrait = "fun16" }
+		NOT = { species_portrait = "fun17" }
+		NOT = { species_portrait = "fun18" }
+		NOT = { species_portrait = "fun19" }
+		NOT = { species_portrait = "fun20" }
+		NOT = { species_portrait = "art1" }
+		NOT = { species_portrait = "art2" }
+		NOT = { species_portrait = "art3" }
+		NOT = { species_portrait = "art4" }
+		NOT = { species_portrait = "art5" }
+		NOT = { species_portrait = "art6" }
+		NOT = { species_portrait = "art7" }
+		NOT = { species_portrait = "art8" }
+		NOT = { species_portrait = "art9" }
+		NOT = { species_portrait = "art10" }
+		NOT = { species_portrait = "art11" }
+		NOT = { species_portrait = "art12" }
+		NOT = { species_portrait = "art13" }
+		NOT = { species_portrait = "art14" }
+		NOT = { species_portrait = "art15" }
+		NOT = { species_portrait = "art16" }
+		NOT = { species_portrait = "art17" }
+		NOT = { species_portrait = "art18" }
+		NOT = { species_portrait = "art19" }
+		NOT = { species_portrait = "art20" }
+		NOT = { species_portrait = "exd1" }
+		NOT = { species_portrait = "exd2" }
+		NOT = { species_portrait = "exd3" }
+		NOT = { species_portrait = "exd4" }
+		NOT = { species_portrait = "exd5" }
+		NOT = { species_portrait = "exd6" }
+		NOT = { species_portrait = "exd7" }
+		NOT = { species_portrait = "exd8" }
+		NOT = { species_portrait = "exd9" }
+		NOT = { species_portrait = "exd10" }
+		NOT = { species_portrait = "exd11" }
+		NOT = { species_portrait = "exd12" }
+		NOT = { species_portrait = "exd13" }
+		NOT = { species_portrait = "exd14" }
+		NOT = { species_portrait = "exd15" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "swarm5group" }
+		NOT = { species_portrait = "swarm4group" }
+		NOT = { species_portrait = "swarm3group" }
+		NOT = { species_portrait = "swarm2group" }
+		has_trait = trait_android
+		NOT = { has_technology = tech_droid_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_GENERIC"
+		class = "ROB"
+		portrait = "robot_buildable"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level1"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.2
+		pops_auto_upgrade_to = buildable_robot_pop_generic_2
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.9
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_generic_2 = {
+		
+	prerequisites = {
+		"tech_droid_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		NOT = { species_portrait = "human" }
+		NOT = { species_portrait = "robot1" }
+		NOT = { species_portrait = "robot2" }
+		NOT = { species_portrait = "robot3" }
+		NOT = { species_portrait = "robot4" }
+		NOT = { species_portrait = "robot5" }
+		NOT = { species_portrait = "robot6" }
+		NOT = { species_portrait = "robot7" }
+		NOT = { species_portrait = "robot8" }
+		NOT = { species_portrait = "robot9" }
+		NOT = { species_portrait = "robot10" }
+		NOT = { species_portrait = "robot11" }
+		NOT = { species_portrait = "robot12" }
+		NOT = { species_portrait = "robot13" }
+		NOT = { species_portrait = "robot14" }
+		NOT = { species_portrait = "robot15" }
+		NOT = { species_portrait = "robot16" }
+		NOT = { species_portrait = "robot17" }
+		NOT = { species_portrait = "robot18" }
+		NOT = { species_portrait = "robot19" }
+		NOT = { species_portrait = "robot20" }
+		NOT = { species_portrait = "ai1" }
+		NOT = { species_portrait = "ai2" }
+		NOT = { species_portrait = "ai3" }
+		NOT = { species_portrait = "ai4" }
+		NOT = { species_portrait = "ai5" }
+		NOT = { species_portrait = "ai6" }
+		NOT = { species_portrait = "ai7" }
+		NOT = { species_portrait = "ai8" }
+		NOT = { species_portrait = "ai9" }
+		NOT = { species_portrait = "ai10" }
+		NOT = { species_portrait = "ai11" }
+		NOT = { species_portrait = "ai12" }
+		NOT = { species_portrait = "ai13" }
+		NOT = { species_portrait = "ai14" }
+		NOT = { species_portrait = "ai15" }
+		NOT = { species_portrait = "ai16" }
+		NOT = { species_portrait = "ai17" }
+		NOT = { species_portrait = "ai18" }
+		NOT = { species_portrait = "ai19" }
+		NOT = { species_portrait = "ai20" }
+		NOT = { species_portrait = "avi1" }
+		NOT = { species_portrait = "avi2" }
+		NOT = { species_portrait = "avi3" }
+		NOT = { species_portrait = "avi4" }
+		NOT = { species_portrait = "avi5" }
+		NOT = { species_portrait = "avi6" }
+		NOT = { species_portrait = "avi7" }
+		NOT = { species_portrait = "avi8" }
+		NOT = { species_portrait = "avi9" }
+		NOT = { species_portrait = "avi10" }
+		NOT = { species_portrait = "avi11" }
+		NOT = { species_portrait = "avi12" }
+		NOT = { species_portrait = "avi13" }
+		NOT = { species_portrait = "avi14" }
+		NOT = { species_portrait = "avi15" }
+		NOT = { species_portrait = "avi16" }
+		NOT = { species_portrait = "avi17" }
+		NOT = { species_portrait = "avi18" }
+		NOT = { species_portrait = "avi19" }
+		NOT = { species_portrait = "avi20" }
+		NOT = { species_portrait = "mam1" }
+		NOT = { species_portrait = "mam2" }
+		NOT = { species_portrait = "mam3" }
+		NOT = { species_portrait = "mam4" }
+		NOT = { species_portrait = "mam5" }
+		NOT = { species_portrait = "mam6" }
+		NOT = { species_portrait = "mam7" }
+		NOT = { species_portrait = "mam8" }
+		NOT = { species_portrait = "mam9" }
+		NOT = { species_portrait = "mam10" }
+		NOT = { species_portrait = "mam11" }
+		NOT = { species_portrait = "mam12" }
+		NOT = { species_portrait = "mam13" }
+		NOT = { species_portrait = "mam14" }
+		NOT = { species_portrait = "mam15" }
+		NOT = { species_portrait = "mam16" }
+		NOT = { species_portrait = "mam17" }
+		NOT = { species_portrait = "mam18" }
+		NOT = { species_portrait = "mam19" }
+		NOT = { species_portrait = "mam20" }
+		NOT = { species_portrait = "rep1" }
+		NOT = { species_portrait = "rep2" }
+		NOT = { species_portrait = "rep3" }
+		NOT = { species_portrait = "rep4" }
+		NOT = { species_portrait = "rep5" }
+		NOT = { species_portrait = "rep6" }
+		NOT = { species_portrait = "rep7" }
+		NOT = { species_portrait = "rep8" }
+		NOT = { species_portrait = "rep9" }
+		NOT = { species_portrait = "rep10" }
+		NOT = { species_portrait = "rep11" }
+		NOT = { species_portrait = "rep12" }
+		NOT = { species_portrait = "rep13" }
+		NOT = { species_portrait = "rep14" }
+		NOT = { species_portrait = "rep15" }
+		NOT = { species_portrait = "rep16" }
+		NOT = { species_portrait = "rep17" }
+		NOT = { species_portrait = "rep18" }
+		NOT = { species_portrait = "rep19" }
+		NOT = { species_portrait = "rep20" }
+		NOT = { species_portrait = "mol1" }
+		NOT = { species_portrait = "mol2" }
+		NOT = { species_portrait = "mol3" }
+		NOT = { species_portrait = "mol4" }
+		NOT = { species_portrait = "mol5" }
+		NOT = { species_portrait = "mol6" }
+		NOT = { species_portrait = "mol7" }
+		NOT = { species_portrait = "mol8" }
+		NOT = { species_portrait = "mol9" }
+		NOT = { species_portrait = "mol10" }
+		NOT = { species_portrait = "mol11" }
+		NOT = { species_portrait = "mol12" }
+		NOT = { species_portrait = "mol13" }
+		NOT = { species_portrait = "mol14" }
+		NOT = { species_portrait = "mol15" }
+		NOT = { species_portrait = "mol16" }
+		NOT = { species_portrait = "mol17" }
+		NOT = { species_portrait = "mol18" }
+		NOT = { species_portrait = "mol19" }
+		NOT = { species_portrait = "mol20" }
+		NOT = { species_portrait = "fun1" }
+		NOT = { species_portrait = "fun2" }
+		NOT = { species_portrait = "fun3" }
+		NOT = { species_portrait = "fun4" }
+		NOT = { species_portrait = "fun5" }
+		NOT = { species_portrait = "fun6" }
+		NOT = { species_portrait = "fun7" }
+		NOT = { species_portrait = "fun8" }
+		NOT = { species_portrait = "fun9" }
+		NOT = { species_portrait = "fun10" }
+		NOT = { species_portrait = "fun11" }
+		NOT = { species_portrait = "fun12" }
+		NOT = { species_portrait = "fun13" }
+		NOT = { species_portrait = "fun14" }
+		NOT = { species_portrait = "fun15" }
+		NOT = { species_portrait = "fun16" }
+		NOT = { species_portrait = "fun17" }
+		NOT = { species_portrait = "fun18" }
+		NOT = { species_portrait = "fun19" }
+		NOT = { species_portrait = "fun20" }
+		NOT = { species_portrait = "art1" }
+		NOT = { species_portrait = "art2" }
+		NOT = { species_portrait = "art3" }
+		NOT = { species_portrait = "art4" }
+		NOT = { species_portrait = "art5" }
+		NOT = { species_portrait = "art6" }
+		NOT = { species_portrait = "art7" }
+		NOT = { species_portrait = "art8" }
+		NOT = { species_portrait = "art9" }
+		NOT = { species_portrait = "art10" }
+		NOT = { species_portrait = "art11" }
+		NOT = { species_portrait = "art12" }
+		NOT = { species_portrait = "art13" }
+		NOT = { species_portrait = "art14" }
+		NOT = { species_portrait = "art15" }
+		NOT = { species_portrait = "art16" }
+		NOT = { species_portrait = "art17" }
+		NOT = { species_portrait = "art18" }
+		NOT = { species_portrait = "art19" }
+		NOT = { species_portrait = "art20" }
+		NOT = { species_portrait = "exd1" }
+		NOT = { species_portrait = "exd2" }
+		NOT = { species_portrait = "exd3" }
+		NOT = { species_portrait = "exd4" }
+		NOT = { species_portrait = "exd5" }
+		NOT = { species_portrait = "exd6" }
+		NOT = { species_portrait = "exd7" }
+		NOT = { species_portrait = "exd8" }
+		NOT = { species_portrait = "exd9" }
+		NOT = { species_portrait = "exd10" }
+		NOT = { species_portrait = "exd11" }
+		NOT = { species_portrait = "exd12" }
+		NOT = { species_portrait = "exd13" }
+		NOT = { species_portrait = "exd14" }
+		NOT = { species_portrait = "exd15" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "swarm5group" }
+		NOT = { species_portrait = "swarm4group" }
+		NOT = { species_portrait = "swarm3group" }
+		NOT = { species_portrait = "swarm2group" }
+		has_trait = trait_android
+		NOT = { has_technology = tech_synthetic_workers }
+	}
+	
+	species = {
+		name = "ROBOT_POP_GENERIC"
+		class = "ROB"
+		portrait = "robot_buildable"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level2"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.4
+		
+		pops_auto_upgrade_to = buildable_robot_pop_generic_3
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.8
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}
+
+buildable_robot_pop_generic_3 = {
+		
+	prerequisites = {
+		"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 60
+		energy = 175
+	}
+	
+	allow = {
+		##is_species_class = "ROB"
+	}
+	
+	potential = {
+		#always = yes
+		NOT = { species_portrait = "human" }
+		NOT = { species_portrait = "robot1" }
+		NOT = { species_portrait = "robot2" }
+		NOT = { species_portrait = "robot3" }
+		NOT = { species_portrait = "robot4" }
+		NOT = { species_portrait = "robot5" }
+		NOT = { species_portrait = "robot6" }
+		NOT = { species_portrait = "robot7" }
+		NOT = { species_portrait = "robot8" }
+		NOT = { species_portrait = "robot9" }
+		NOT = { species_portrait = "robot10" }
+		NOT = { species_portrait = "robot11" }
+		NOT = { species_portrait = "robot12" }
+		NOT = { species_portrait = "robot13" }
+		NOT = { species_portrait = "robot14" }
+		NOT = { species_portrait = "robot15" }
+		NOT = { species_portrait = "robot16" }
+		NOT = { species_portrait = "robot17" }
+		NOT = { species_portrait = "robot18" }
+		NOT = { species_portrait = "robot19" }
+		NOT = { species_portrait = "robot20" }
+		NOT = { species_portrait = "ai1" }
+		NOT = { species_portrait = "ai2" }
+		NOT = { species_portrait = "ai3" }
+		NOT = { species_portrait = "ai4" }
+		NOT = { species_portrait = "ai5" }
+		NOT = { species_portrait = "ai6" }
+		NOT = { species_portrait = "ai7" }
+		NOT = { species_portrait = "ai8" }
+		NOT = { species_portrait = "ai9" }
+		NOT = { species_portrait = "ai10" }
+		NOT = { species_portrait = "ai11" }
+		NOT = { species_portrait = "ai12" }
+		NOT = { species_portrait = "ai13" }
+		NOT = { species_portrait = "ai14" }
+		NOT = { species_portrait = "ai15" }
+		NOT = { species_portrait = "ai16" }
+		NOT = { species_portrait = "ai17" }
+		NOT = { species_portrait = "ai18" }
+		NOT = { species_portrait = "ai19" }
+		NOT = { species_portrait = "ai20" }
+		NOT = { species_portrait = "avi1" }
+		NOT = { species_portrait = "avi2" }
+		NOT = { species_portrait = "avi3" }
+		NOT = { species_portrait = "avi4" }
+		NOT = { species_portrait = "avi5" }
+		NOT = { species_portrait = "avi6" }
+		NOT = { species_portrait = "avi7" }
+		NOT = { species_portrait = "avi8" }
+		NOT = { species_portrait = "avi9" }
+		NOT = { species_portrait = "avi10" }
+		NOT = { species_portrait = "avi11" }
+		NOT = { species_portrait = "avi12" }
+		NOT = { species_portrait = "avi13" }
+		NOT = { species_portrait = "avi14" }
+		NOT = { species_portrait = "avi15" }
+		NOT = { species_portrait = "avi16" }
+		NOT = { species_portrait = "avi17" }
+		NOT = { species_portrait = "avi18" }
+		NOT = { species_portrait = "avi19" }
+		NOT = { species_portrait = "avi20" }
+		NOT = { species_portrait = "mam1" }
+		NOT = { species_portrait = "mam2" }
+		NOT = { species_portrait = "mam3" }
+		NOT = { species_portrait = "mam4" }
+		NOT = { species_portrait = "mam5" }
+		NOT = { species_portrait = "mam6" }
+		NOT = { species_portrait = "mam7" }
+		NOT = { species_portrait = "mam8" }
+		NOT = { species_portrait = "mam9" }
+		NOT = { species_portrait = "mam10" }
+		NOT = { species_portrait = "mam11" }
+		NOT = { species_portrait = "mam12" }
+		NOT = { species_portrait = "mam13" }
+		NOT = { species_portrait = "mam14" }
+		NOT = { species_portrait = "mam15" }
+		NOT = { species_portrait = "mam16" }
+		NOT = { species_portrait = "mam17" }
+		NOT = { species_portrait = "mam18" }
+		NOT = { species_portrait = "mam19" }
+		NOT = { species_portrait = "mam20" }
+		NOT = { species_portrait = "rep1" }
+		NOT = { species_portrait = "rep2" }
+		NOT = { species_portrait = "rep3" }
+		NOT = { species_portrait = "rep4" }
+		NOT = { species_portrait = "rep5" }
+		NOT = { species_portrait = "rep6" }
+		NOT = { species_portrait = "rep7" }
+		NOT = { species_portrait = "rep8" }
+		NOT = { species_portrait = "rep9" }
+		NOT = { species_portrait = "rep10" }
+		NOT = { species_portrait = "rep11" }
+		NOT = { species_portrait = "rep12" }
+		NOT = { species_portrait = "rep13" }
+		NOT = { species_portrait = "rep14" }
+		NOT = { species_portrait = "rep15" }
+		NOT = { species_portrait = "rep16" }
+		NOT = { species_portrait = "rep17" }
+		NOT = { species_portrait = "rep18" }
+		NOT = { species_portrait = "rep19" }
+		NOT = { species_portrait = "rep20" }
+		NOT = { species_portrait = "mol1" }
+		NOT = { species_portrait = "mol2" }
+		NOT = { species_portrait = "mol3" }
+		NOT = { species_portrait = "mol4" }
+		NOT = { species_portrait = "mol5" }
+		NOT = { species_portrait = "mol6" }
+		NOT = { species_portrait = "mol7" }
+		NOT = { species_portrait = "mol8" }
+		NOT = { species_portrait = "mol9" }
+		NOT = { species_portrait = "mol10" }
+		NOT = { species_portrait = "mol11" }
+		NOT = { species_portrait = "mol12" }
+		NOT = { species_portrait = "mol13" }
+		NOT = { species_portrait = "mol14" }
+		NOT = { species_portrait = "mol15" }
+		NOT = { species_portrait = "mol16" }
+		NOT = { species_portrait = "mol17" }
+		NOT = { species_portrait = "mol18" }
+		NOT = { species_portrait = "mol19" }
+		NOT = { species_portrait = "mol20" }
+		NOT = { species_portrait = "fun1" }
+		NOT = { species_portrait = "fun2" }
+		NOT = { species_portrait = "fun3" }
+		NOT = { species_portrait = "fun4" }
+		NOT = { species_portrait = "fun5" }
+		NOT = { species_portrait = "fun6" }
+		NOT = { species_portrait = "fun7" }
+		NOT = { species_portrait = "fun8" }
+		NOT = { species_portrait = "fun9" }
+		NOT = { species_portrait = "fun10" }
+		NOT = { species_portrait = "fun11" }
+		NOT = { species_portrait = "fun12" }
+		NOT = { species_portrait = "fun13" }
+		NOT = { species_portrait = "fun14" }
+		NOT = { species_portrait = "fun15" }
+		NOT = { species_portrait = "fun16" }
+		NOT = { species_portrait = "fun17" }
+		NOT = { species_portrait = "fun18" }
+		NOT = { species_portrait = "fun19" }
+		NOT = { species_portrait = "fun20" }
+		NOT = { species_portrait = "art1" }
+		NOT = { species_portrait = "art2" }
+		NOT = { species_portrait = "art3" }
+		NOT = { species_portrait = "art4" }
+		NOT = { species_portrait = "art5" }
+		NOT = { species_portrait = "art6" }
+		NOT = { species_portrait = "art7" }
+		NOT = { species_portrait = "art8" }
+		NOT = { species_portrait = "art9" }
+		NOT = { species_portrait = "art10" }
+		NOT = { species_portrait = "art11" }
+		NOT = { species_portrait = "art12" }
+		NOT = { species_portrait = "art13" }
+		NOT = { species_portrait = "art14" }
+		NOT = { species_portrait = "art15" }
+		NOT = { species_portrait = "art16" }
+		NOT = { species_portrait = "art17" }
+		NOT = { species_portrait = "art18" }
+		NOT = { species_portrait = "art19" }
+		NOT = { species_portrait = "art20" }
+		NOT = { species_portrait = "exd1" }
+		NOT = { species_portrait = "exd2" }
+		NOT = { species_portrait = "exd3" }
+		NOT = { species_portrait = "exd4" }
+		NOT = { species_portrait = "exd5" }
+		NOT = { species_portrait = "exd6" }
+		NOT = { species_portrait = "exd7" }
+		NOT = { species_portrait = "exd8" }
+		NOT = { species_portrait = "exd9" }
+		NOT = { species_portrait = "exd10" }
+		NOT = { species_portrait = "exd11" }
+		NOT = { species_portrait = "exd12" }
+		NOT = { species_portrait = "exd13" }
+		NOT = { species_portrait = "exd14" }
+		NOT = { species_portrait = "exd15" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "exd16" }
+		NOT = { species_portrait = "exd17" }
+		NOT = { species_portrait = "exd18" }
+		NOT = { species_portrait = "exd19" }
+		NOT = { species_portrait = "exd20" }
+		NOT = { species_portrait = "swarm5group" }
+		NOT = { species_portrait = "swarm4group" }
+		NOT = { species_portrait = "swarm3group" }
+		NOT = { species_portrait = "swarm2group" }
+		has_trait = trait_android
+	}
+	
+	species = {
+		name = "ROBOT_POP_GENERIC"
+		class = "ROB"
+		portrait = "robot_buildable"
+		traits = {
+			trait = "trait_android"
+			trait = "trait_android_level3"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.6
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 0.7
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}

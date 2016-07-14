@@ -1,0 +1,8 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_playablerobots"
+		texturefile = "gfx/event_pictures/playablerobots.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes	
+	}
+}

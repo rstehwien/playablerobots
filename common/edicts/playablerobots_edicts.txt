@@ -1,0 +1,35 @@
+########################
+
+country_edict = {
+	name = "playablerobots_sector"
+	modifier = {
+	}
+	
+	influence_cost = 0
+	
+	potential = {
+		has_trait = trait_android
+		is_ai = no
+	}
+	
+	ai_weight = {
+		weight = -1
+	}
+}
+
+country_edict = {
+	name = "playablerobots_immortal"
+	modifier = {
+	}
+	
+	influence_cost = 0
+	
+	potential = {
+		has_trait = trait_android
+		is_ai = no
+	}
+	
+	ai_weight = {
+		weight = -1
+	}
+}

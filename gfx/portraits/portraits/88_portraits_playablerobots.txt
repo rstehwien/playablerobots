@@ -1,0 +1,251 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+##############################################################
+### Portraits
+###
+### Ex:
+### mam1 = {
+###		spriteType = "GFX_portrait_mam1"
+###		#OR
+###		texturefile = "gfx/interface/portraits/mammalien_massive_01.dds"
+###		#OR
+###		entity = "portrait_mammalian_06_entity"
+###	}
+
+portraits = {
+	#Modz
+	
+	robot4 	= {	entity = "portrait_robot_04_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI.dds"
+						"gfx/models/portraits/AI/Alien_AI2.dds"
+						"gfx/models/portraits/AI/Alien_AI3.dds"
+						"gfx/models/portraits/AI/Alien_AI4.dds"
+						"gfx/models/portraits/AI/Alien_AI5.dds"
+						"gfx/models/portraits/AI/Alien_AI6.dds"
+						"gfx/models/portraits/AI/Alien_AI7.dds"
+						"gfx/models/portraits/AI/Alien_AI8.dds"						
+					}
+	}
+	robot5	= {	entity = "portrait_robot_05_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/robot_blue.dds"
+						"gfx/models/portraits/AI/robot_blue2.dds"
+						"gfx/models/portraits/AI/robot_blue3.dds"
+						"gfx/models/portraits/AI/robot_blue4.dds"
+						"gfx/models/portraits/AI/robot_blue5.dds"
+						"gfx/models/portraits/AI/robot_blue6.dds"
+						"gfx/models/portraits/AI/robot_blue7.dds"					
+					}	
+	}
+	robot6 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/robot_green.dds"
+						"gfx/models/portraits/AI/robot_green2.dds"
+						"gfx/models/portraits/AI/robot_green3.dds"
+						"gfx/models/portraits/AI/robot_green4.dds"
+						"gfx/models/portraits/AI/robot_green5.dds"
+						"gfx/models/portraits/AI/robot_green6.dds"
+						"gfx/models/portraits/AI/robot_green7.dds"					
+					}		
+	}
+	robot7 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/robot_orange.dds"
+						"gfx/models/portraits/AI/robot_orange2.dds"
+						"gfx/models/portraits/AI/robot_orange3.dds"
+						"gfx/models/portraits/AI/robot_orange4.dds"
+						"gfx/models/portraits/AI/robot_orange5.dds"
+						"gfx/models/portraits/AI/robot_orange6.dds"
+						"gfx/models/portraits/AI/robot_orange7.dds"					
+					}	
+	}
+	
+	robot8 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/robot_red.dds"
+						"gfx/models/portraits/AI/robot_red2.dds"
+						"gfx/models/portraits/AI/robot_red3.dds"
+						"gfx/models/portraits/AI/robot_red4.dds"
+						"gfx/models/portraits/AI/robot_red5.dds"
+						"gfx/models/portraits/AI/robot_red6.dds"
+						"gfx/models/portraits/AI/robot_red7.dds"					
+					}	
+	}
+	
+	robot9 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/robot_purple.dds"
+						"gfx/models/portraits/AI/robot_purple2.dds"
+						"gfx/models/portraits/AI/robot_purple3.dds"
+						"gfx/models/portraits/AI/robot_purple4.dds"
+						"gfx/models/portraits/AI/robot_purple5.dds"
+						"gfx/models/portraits/AI/robot_purple6.dds"
+						"gfx/models/portraits/AI/robot_purple7.dds"					
+					}	
+	}
+	
+	robot10 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_BlackBlue.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackGreen.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackOrange.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackPurple.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackRed.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackYellow.dds"				
+					}	
+	}
+	
+	robot11 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_GreyBlue.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyGreen.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyOrange.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyPurple.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyRed.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyYellow.dds"				
+					}
+	}
+	
+	robot12 			= {	entity = "portrait_robot_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_WhiteBlue.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteGreen.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteOrange.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhitePurple.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteRed.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteYellow.dds"				
+					}
+	}
+	
+	ai2 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red.dds"
+						"gfx/models/portraits/AI/Alien_AI_red1.dds"
+						"gfx/models/portraits/AI/Alien_AI_red12.dds"						
+					}
+	}
+	ai3 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red2.dds"
+						"gfx/models/portraits/AI/Alien_AI_red21.dds"
+						"gfx/models/portraits/AI/Alien_AI_red22.dds"					
+					}
+	}
+	ai4 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red3.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red31.dds"
+						"gfx/models/portraits/AI/Alien_AI_red32.dds"				
+					}
+	}
+	ai5 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red4.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red41.dds"
+						"gfx/models/portraits/AI/Alien_AI_red42.dds"				
+					}
+	}
+	ai6 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red5.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red51.dds"
+						"gfx/models/portraits/AI/Alien_AI_red52.dds"				
+					}
+	}
+	ai7 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red6.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red61.dds"
+						"gfx/models/portraits/AI/Alien_AI_red62.dds"				
+					}
+	}
+	ai8 	= {	entity = "portrait_ai_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI_red7.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red71.dds"
+						"gfx/models/portraits/AI/Alien_AI_red72.dds"				
+					}
+	}
+	robot_buildable 	= {	entity = "portrait_robot_04_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/Alien_AI.dds"
+						"gfx/models/portraits/AI/Alien_AI2.dds"
+						"gfx/models/portraits/AI/Alien_AI3.dds"
+						"gfx/models/portraits/AI/Alien_AI4.dds"
+						"gfx/models/portraits/AI/Alien_AI5.dds"
+						"gfx/models/portraits/AI/Alien_AI6.dds"
+						"gfx/models/portraits/AI/Alien_AI7.dds"
+						"gfx/models/portraits/AI/Alien_AI8.dds"
+						"gfx/models/portraits/AI/robot_blue.dds"
+						"gfx/models/portraits/AI/robot_blue2.dds"
+						"gfx/models/portraits/AI/robot_blue3.dds"
+						"gfx/models/portraits/AI/robot_blue4.dds"
+						"gfx/models/portraits/AI/robot_blue5.dds"
+						"gfx/models/portraits/AI/robot_blue6.dds"
+						"gfx/models/portraits/AI/robot_blue7.dds"	
+						"gfx/models/portraits/AI/robot_green.dds"
+						"gfx/models/portraits/AI/robot_green2.dds"
+						"gfx/models/portraits/AI/robot_green3.dds"
+						"gfx/models/portraits/AI/robot_green4.dds"
+						"gfx/models/portraits/AI/robot_green5.dds"
+						"gfx/models/portraits/AI/robot_green6.dds"
+						"gfx/models/portraits/AI/robot_green7.dds"
+						"gfx/models/portraits/AI/robot_orange.dds"
+						"gfx/models/portraits/AI/robot_orange2.dds"
+						"gfx/models/portraits/AI/robot_orange3.dds"
+						"gfx/models/portraits/AI/robot_orange4.dds"
+						"gfx/models/portraits/AI/robot_orange5.dds"
+						"gfx/models/portraits/AI/robot_orange6.dds"
+						"gfx/models/portraits/AI/robot_orange7.dds"		
+						"gfx/models/portraits/AI/robot_red.dds"
+						"gfx/models/portraits/AI/robot_red2.dds"
+						"gfx/models/portraits/AI/robot_red3.dds"
+						"gfx/models/portraits/AI/robot_red4.dds"
+						"gfx/models/portraits/AI/robot_red5.dds"
+						"gfx/models/portraits/AI/robot_red6.dds"
+						"gfx/models/portraits/AI/robot_red7.dds"	
+						"gfx/models/portraits/AI/robot_purple.dds"
+						"gfx/models/portraits/AI/robot_purple2.dds"
+						"gfx/models/portraits/AI/robot_purple3.dds"
+						"gfx/models/portraits/AI/robot_purple4.dds"
+						"gfx/models/portraits/AI/robot_purple5.dds"
+						"gfx/models/portraits/AI/robot_purple6.dds"
+						"gfx/models/portraits/AI/robot_purple7.dds"		
+						"gfx/models/portraits/AI/Alien_AI_BlackBlue.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackGreen.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackOrange.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackPurple.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackRed.dds"
+						"gfx/models/portraits/AI/Alien_AI_BlackYellow.dds"	
+						"gfx/models/portraits/AI/Alien_AI_GreyBlue.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyGreen.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyOrange.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyPurple.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyRed.dds"
+						"gfx/models/portraits/AI/Alien_AI_GreyYellow.dds"	
+						"gfx/models/portraits/AI/Alien_AI_WhiteBlue.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteGreen.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteOrange.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhitePurple.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteRed.dds"
+						"gfx/models/portraits/AI/Alien_AI_WhiteYellow.dds"
+						"gfx/models/portraits/AI/Alien_AI_red.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red7.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red2.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red3.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red4.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red5.dds"	
+						"gfx/models/portraits/AI/Alien_AI_red6.dds"	
+					}
+	}
+}

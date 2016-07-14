@@ -1,0 +1,3 @@
+playablerobots_immortal_modifier = {
+	leader_age = 10000
+}
