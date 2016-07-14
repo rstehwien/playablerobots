@@ -24,6 +24,12 @@ country_event = {
 		name = "I Wish For My Species To Be Synthetic"
 		custom_tooltip = playablerobots.2.tooltip
 		hidden_effect = {
+ 			capital_scope = {
+				modify_species = {
+					species = FROM
+					add_trait = trait_android
+				}
+			}
 			capital_scope = {
 				every_tile  = {
 					limit = {
