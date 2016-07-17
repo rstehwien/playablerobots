@@ -52,12 +52,6 @@ pop_event = {
 		}
 		if = {
 			limit = {
-				#solar_system = {
-				#	space_owner = {
-				#		is_ai = no
-				#		has_trait = trait_agrarian
-				#	}
-				#}
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
@@ -68,21 +62,110 @@ pop_event = {
 				species = this
 				add_trait = trait_agrarian
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_thrifty }
+					owner = { has_trait = trait_wealthy }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_thrifty
+				add_trait = trait_wealthy
 			}
-
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_wealthy }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_wealthy
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_wealthy }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_wealthy
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_money_masters }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_money_masters
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_poor }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_poor
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_poor }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_poor
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_poor }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_poor
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_debtors }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_debtors
+			}
 		}
 		if = {
 			limit = {
@@ -96,7 +179,97 @@ pop_event = {
 				species = this
 				add_trait = trait_industrious
 			}
-
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_industrious }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_industrious
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_industrious }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_industrious
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_gods_of_the_machine }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_gods_of_the_machine
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_inefficient_industrialists }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_inefficient_industrialists
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_inefficient_industrialists }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_inefficient_industrialists
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_inefficient_industrialists }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_inefficient_industrialists
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_incompetent_industrialists }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_incompetent_industrialists
+			}
 		}
 		if = {
 			limit = {
@@ -110,7 +283,97 @@ pop_event = {
 				species = this
 				add_trait = trait_intelligent
 			}
-
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_intelligent }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_intelligent
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_intelligent }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_intelligent
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_geniuses }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_geniuses
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_unintelligent }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_unintelligent
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_unintelligent }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_unintelligent
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_unintelligent }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_unintelligent
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_stupid }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_stupid
+			}
 		}
 		if = {
 			limit = {
@@ -124,7 +387,6 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_engineers
 			}
-
 		}
 		if = {
 			limit = {
@@ -138,7 +400,6 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_physicists
 			}
-
 		}
 		if = {
 			limit = {
@@ -152,21 +413,6 @@ pop_event = {
 				species = this
 				add_trait = trait_natural_sociologists
 			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_extremely_adaptive }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_extremely_adaptive
-			}
-
 		}
 		if = {
 			limit = {
@@ -180,7 +426,45 @@ pop_event = {
 				species = this
 				add_trait = trait_adaptive
 			}
-
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_adaptive }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_adaptive
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_adaptive }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_adaptive
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_environmental_tailors }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_environmental_tailors
+			}
 		}
 		if = {
 			limit = {
@@ -194,7 +478,292 @@ pop_event = {
 				species = this
 				add_trait = trait_nonadaptive
 			}
-
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_nonadaptive }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_nonadaptive
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_nonadaptive }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_nonadaptive
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_homeworld_bound }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_homeworld_bound
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_crazed_brilliance }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_crazed_brilliance
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_cruel }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_cruel
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_fast_metabolisms }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_fast_metabolisms
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_spartan_attitudes }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_spartan_attitudes
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_unemotional }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_unemotional
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_lazy }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_lazy
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_emotionally_unstable }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_emotionally_unstable
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_loyal }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_loyal
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_shamelessly_lustful }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_shamelessly_lustful
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_impressionable_fools }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_impressionable_fools
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_economic_experts }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_economic_experts
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_mining_experts }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_mining_experts
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_prolific_speakers }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_prolific_speakers
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_natural_diplomats }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_natural_diplomats
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_logistics_experts }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_logistics_experts
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_warrior_culture }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_warrior_culture
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_green_thumbs }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_green_thumbs
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_brown_thumbs }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_brown_thumbs
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_cyborgs }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_cyborgs
+			}
 		}
 		if = {
 			limit = {
@@ -208,7 +777,6 @@ pop_event = {
 				species = this
 				add_trait = trait_rapid_breeders
 			}
-
 		}
 		if = {
 			limit = {
@@ -222,7 +790,6 @@ pop_event = {
 				species = this
 				add_trait = trait_slow_breeders
 			}
-
 		}
 		if = {
 			limit = {
@@ -236,7 +803,6 @@ pop_event = {
 				species = this
 				add_trait = trait_talented
 			}
-
 		}
 		if = {
 			limit = {
@@ -250,7 +816,6 @@ pop_event = {
 				species = this
 				add_trait = trait_quick_learners
 			}
-
 		}
 		if = {
 			limit = {
@@ -264,21 +829,6 @@ pop_event = {
 				species = this
 				add_trait = trait_slow_learners
 			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_very_strong }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_very_strong
-			}
-
 		}
 		if = {
 			limit = {
@@ -292,7 +842,45 @@ pop_event = {
 				species = this
 				add_trait = trait_strong
 			}
-
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_very_strong }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_very_strong
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_extremely_strong }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_extremely_strong
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_demigods }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_demigods
+			}
 		}
 		if = {
 			limit = {
@@ -306,456 +894,6 @@ pop_event = {
 				species = this
 				add_trait = trait_weak
 			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_nomadic }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_nomadic
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_sedentary }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_sedentary
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_communal }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_communal
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_solitary }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_solitary
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_charismatic }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_charismatic
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_repugnant }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_repugnant
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_uplifted }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_uplifted
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_conformists }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_conformists
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_venerable }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_venerable
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_enduring }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_enduring
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_decadent }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_decadent
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_resilient }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_resilient
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_presentient_starborn }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_presentient_starborn
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_presentient_earthbound }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_presentient_earthbound
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_presentient_natural_intellectuals }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_presentient_natural_intellectuals
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_presentient_proles }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_presentient_proles
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_presentient_conservative }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_presentient_conservative
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_presentient_irradiated }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_presentient_irradiated
-			}
-
-		}
-		#####Extended Traits Begins
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_incompetent_architects }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_incompetent_architects
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_natural_architects }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_natural_architects
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_politically_adept }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_politically_adept
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_virtualists }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_virtualists
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_deliberators }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_deliberators
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_conservationists }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_conservationists
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_urban }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_urban
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_indulgent }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_indulgent
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_content }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_content
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_dim }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_dim
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_inept }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_inept
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_incompetent_engineers }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_incompetent_engineers
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_incompetent_physicists }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_incompetent_physicists
-			}
-
-		}
-		if = {
-			limit = {
-				planet = {
-					exists = owner
-					owner = { is_ai = no }
-					owner = { has_trait = trait_incompetent_sociologists }
-				}
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_incompetent_sociologists
-			}
-
 		}
 		if = {
 			limit = {
@@ -769,93 +907,372 @@ pop_event = {
 				species = this
 				add_trait = trait_very_weak
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_valiant }
+					owner = { has_trait = trait_extremely_weak }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_valiant
+				add_trait = trait_extremely_weak
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_craven }
+					owner = { has_trait = trait_feeble }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_craven
+				add_trait = trait_feeble
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_individualistic }
+					owner = { has_trait = trait_nomadic }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_individualistic
+				add_trait = trait_nomadic
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_transient }
+					owner = { has_trait = trait_sedentary }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_transient
+				add_trait = trait_sedentary
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_resourceful }
+					owner = { has_trait = trait_communal }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_resourceful
+				add_trait = trait_communal
 			}
-
 		}
 		if = {
 			limit = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
-					owner = { has_trait = trait_delicate }
+					owner = { has_trait = trait_solitary }
 				}
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_delicate
+				add_trait = trait_solitary
 			}
-
 		}
-		#####Extended Traits Ends
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_charismatic }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_charismatic
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_repugnant }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_repugnant
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_uplifted }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_uplifted
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_conformists }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_conformists
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_deviants }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_deviants
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_enduring }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_enduring
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_venerable }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_venerable
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_prolific }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_prolific
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_immortal }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_immortal
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_fleeting }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_fleeting
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_decadent }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_decadent
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_resilient }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_resilient
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_mechanical }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_mechanical
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_robotic_1 }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_robotic_1
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_robotic_2 }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_robotic_2
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_robotic_3 }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_robotic_3
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_presentient_starborn }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_presentient_starborn
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_presentient_earthbound }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_presentient_earthbound
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_presentient_natural_intellectuals }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_presentient_natural_intellectuals
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_presentient_proles }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_presentient_proles
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_presentient_conservative }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_presentient_conservative
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
+					owner = { has_trait = trait_presentient_irradiated }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_presentient_irradiated
+			}
+		}
+		##### Preference traits
 		if = {
 			limit = {
 				planet = {
