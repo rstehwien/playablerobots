@@ -31,21 +31,15 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				every_tile  = {
-					limit = {
-						has_building = building_hydroponics_farm_1
-					}
-					remove_building = building_hydroponics_farm_1
-					set_building = building_power_plant_2
+				every_tile = {
+					limit = { has_resource = { type = food amount > 0 } }
+					clear_resources = yes
+					add_deposit = d_energy_deposit
 				}
-			}
-			capital_scope = {
-				every_tile  = {
-					limit = {
-						has_building = building_power_plant_1
-					}
-					remove_building = building_power_plant_1
-					set_building = building_power_plant_2
+				every_tile = {
+					limit = { has_building = "building_hydroponics_farm_1" }
+					remove_building = yes
+					set_building = "building_power_plant_1"
 				}
 			}
 			set_country_flag = ai_accord
