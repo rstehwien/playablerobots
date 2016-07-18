@@ -1,6 +1,6 @@
 # playablerobots
 ## Credit
-*Delincious* - Original mod (http://steamcommunity.com/sharedfiles/filedetails/?id=681553348&searchtext=playable)
+*Delincious* - Original mod (http://steamcommunity.com/sharedfiles/filedetails/?id=681553348)
 
 ## Installing
 1. "Download as zip"
