@@ -1,6 +1,6 @@
 namespace = playablerobots
 
-### Hidden Game Start Event
+# Copy traits to raw robots (just built, no preferences)
 pop_event = {
 	id = playablerobots.1
 	title = playablerobots.2.title
@@ -10,32 +10,21 @@ pop_event = {
 	#is_triggered_only = yes
 
 	trigger = {
-		#is_ai = no
-		#planet = {
-		#	any_pop = {
-		#		AND = {
-					has_trait = trait_android
-					is_same_species = owner
-					AND = {
-						NOT = {has_trait = trait_pc_desert_preference}
-						NOT = {has_trait = trait_pc_tropical_preference}
-						NOT = {has_trait = trait_pc_continental_preference}
-						NOT = {has_trait = trait_pc_ocean_preference}
-						NOT = {has_trait = trait_pc_arctic_preference}
-						NOT = {has_trait = trait_pc_tundra_preference}
-						NOT = {has_trait = trait_pc_arid_preference}
-						NOT = {has_trait = trait_pc_ai_preference}
-						NOT = {has_trait = trait_pc_nuked_preference}
-						NOT = {has_trait = trait_pc_gaia_preference}
-						NOT = {has_trait = trait_pc_ring_preference}
-					}
-					#any_country = {
-					#	is_ai = no
-						#has_trait = trait_pc_desert_preference
-					#}
-		#		}
-		#	}
-		#}
+		has_trait = trait_android
+		is_same_species = owner
+		AND = {
+			NOT = {has_trait = trait_pc_desert_preference}
+			NOT = {has_trait = trait_pc_tropical_preference}
+			NOT = {has_trait = trait_pc_continental_preference}
+			NOT = {has_trait = trait_pc_ocean_preference}
+			NOT = {has_trait = trait_pc_arctic_preference}
+			NOT = {has_trait = trait_pc_tundra_preference}
+			NOT = {has_trait = trait_pc_arid_preference}
+			NOT = {has_trait = trait_pc_ai_preference}
+			NOT = {has_trait = trait_pc_nuked_preference}
+			NOT = {has_trait = trait_pc_gaia_preference}
+			NOT = {has_trait = trait_pc_ring_preference}
+		}
 	}
 
 	mean_time_to_happen = { days = 1 }
@@ -1704,6 +1693,7 @@ pop_event = {
 	}
 }
 
+# Add level1 trait if "robotic workers" tech researched
 pop_event = {
 	id = playablerobots.3
 	title = playablerobots.2.title
@@ -1713,31 +1703,19 @@ pop_event = {
 	#is_triggered_only = yes
 
 	trigger = {
-		#is_ai = no
-		#planet = {
-		#	any_pop = {
-		#		AND = {
-					has_trait = trait_android
-					is_same_species = owner
-					AND = {
-						NOT = {has_trait = trait_android_level1}
-						NOT = {has_trait = trait_android_level2}
-						NOT = {has_trait = trait_android_level3}
-					}
-					planet = {
-						exists = owner
-						owner = { is_ai = no }
-						owner = { has_technology  = tech_robotic_workers }
-						owner = { NOT = { has_technology  = tech_droid_workers } }
-					}
-					#any_country = {
-					#	is_ai = no
-					#	has_technology  = tech_robotic_workers
-					#	NOT = { has_technology  = tech_droid_workers }
-					#}
-		#		}
-		#	}
-		#}
+		has_trait = trait_android
+		is_same_species = owner
+		AND = {
+			NOT = {has_trait = trait_android_level1}
+			NOT = {has_trait = trait_android_level2}
+			NOT = {has_trait = trait_android_level3}
+		}
+		planet = {
+			exists = owner
+			owner = { is_ai = no }
+			owner = { has_technology  = tech_robotic_workers }
+			owner = { NOT = { has_technology  = tech_droid_workers } }
+		}
 	}
 
 	mean_time_to_happen = { days = 1 }
@@ -1754,6 +1732,7 @@ pop_event = {
 	}
 }
 
+# Add level2 trait if "droid workers" tech researched
 pop_event = {
 	id = playablerobots.4
 	title = playablerobots.2.title
@@ -1804,6 +1783,7 @@ pop_event = {
 	}
 }
 
+# Add level3 trait if "synthetic workers" tech researched
 pop_event = {
 	id = playablerobots.5
 	title = playablerobots.2.title
@@ -1852,6 +1832,7 @@ pop_event = {
 	}
 }
 
+# All grown android pops should be its owners main species
 country_event = {
 	id = playablerobots.6
 	title = playablerobots.2.title
@@ -1878,12 +1859,12 @@ country_event = {
 		name = OK
 		every_owned_planet = {
 			every_owned_pop = {
-			limit = {
-					has_trait = trait_android
-					NOT = {is_growing = yes}
-					NOT = {is_exact_same_species = owner}
-			}
-				change_pop_species = ROOT
+				limit = {
+						has_trait = trait_android
+						NOT = {is_growing = yes}
+						NOT = {is_exact_same_species = owner}
+				}
+				change_pop_species = owner
 			}
 		}
 	}
