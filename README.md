@@ -1,6 +1,7 @@
 # playablerobots
 ## Credit
-*Delincious* - Original mod (http://steamcommunity.com/sharedfiles/filedetails/?id=681553348)
+* *Delincious* - [Original mod](http://steamcommunity.com/sharedfiles/filedetails/?id=681553348)
+* *Cookiemonster364* - Fix for [trait copying issue](http://steamcommunity.com/workshop/filedetails/discussion/681553348/351660338704537339/)
 
 ## Installing
 1. "Download as zip"
@@ -8,7 +9,7 @@
 3. Copy `playablerobots.mod` to the `mod` parent folder
 
 ## Fixes
-* *Cookiemonster364's* fix for trait copying (http://steamcommunity.com/workshop/filedetails/discussion/681553348/351660338704537339/)
+* *Cookiemonster364's* fix for trait copying
 * Fix habitibility bonus progression (was 10% -> 5% -> 7.5% -> 10%) to (10% -> 50% -> 75% -> 100%)
 * Fix initial pops not being the same race and new pops (fix for xenophobic ethic and repugnant trait)
 * Add support for [Awakening](http://steamcommunity.com/sharedfiles/filedetails/?id=719876273) traits
