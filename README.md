@@ -5,10 +5,10 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=728268465
 * *Delincious* - [Original mod](http://steamcommunity.com/sharedfiles/filedetails/?id=681553348)
 * *Cookiemonster364* - Fix for [trait copying issue](http://steamcommunity.com/workshop/filedetails/discussion/681553348/351660338704537339/)
 
-## Installing
+## Installing from source
 1. "Download as zip"
 2. Extract to a new folder called `playablerobots` your local mods directory (eg on Windows `%USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod\playablerobots`)
-3. Copy `playablerobots.mod` to the `mod` parent folder
+3. Copy `descriptor.mod` to the `mod` parent folder and rename to `playablerobots.mod`
 
 ## Fixes
 * *Cookiemonster364's* fix for trait copying
