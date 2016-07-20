@@ -1,5 +1,5 @@
-name="Playable Robots"
-archive="playablerobots.zip"
+name="Playable Robots (fixed)"
+path="mod/playablerobots"
 tags={
 	"Gameplay"
 	"Leaders"
@@ -8,6 +8,5 @@ tags={
 	"Utilities"
 	"Fixes"
 }
-picture="PLR.PNG"
-remote_file_id="681553348"
+picture="playablerobots_thumbnail.jpg"
 supported_version="1.2.*"
