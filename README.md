@@ -1,4 +1,6 @@
 # playablerobots
+http://steamcommunity.com/sharedfiles/filedetails/?id=728268465
+
 ## Credit
 * *Delincious* - [Original mod](http://steamcommunity.com/sharedfiles/filedetails/?id=681553348)
 * *Cookiemonster364* - Fix for [trait copying issue](http://steamcommunity.com/workshop/filedetails/discussion/681553348/351660338704537339/)
