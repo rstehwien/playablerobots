@@ -26,7 +26,7 @@ technocratic_confederacy = {
 	}
 	
 	uses_mandates = yes
-	election_term_years = 5
+	election_term_years = 10
 	re_election_allowed = yes
 	election_type = democratic
 	
@@ -54,7 +54,7 @@ technocratic_hegemony = {
 	}
 	
 	uses_mandates = yes
-	election_term_years = 5
+	election_term_years = 10
 	re_election_allowed = yes
 	election_type = democratic
 	
