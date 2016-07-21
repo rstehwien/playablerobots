@@ -8,9 +8,9 @@ https://github.com/gtosh4/playablerobots
 * *Cookiemonster364* - Fix for [trait copying issue](http://steamcommunity.com/workshop/filedetails/discussion/681553348/351660338704537339/)
 
 ## Notifications
-*Do not run this AND the original mod. They have the same stuff except this one has a few fixes.*
+<b>Do not run this AND the original mod. They have the same stuff except this one has a few fixes.</b>
 
-*To enable synthetic playstyle, selecting the trait in species creation instead of as a window on game start (as in the original)*
+<b>To enable synthetic playstyle, selecting the trait in species creation instead of as a window on game start (as in the original)</b>
 
 ## Installing from source
 1. "Download as zip"
