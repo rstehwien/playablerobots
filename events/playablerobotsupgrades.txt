@@ -13974,20 +13974,102 @@ country_event = {
 						species = ROOT
 						add_trait = trait_agrarian
 					}
-
 				}
 				if = {
 					limit = {
 						capital_scope = {
 									any_pop = {
-										pop_has_trait = trait_thrifty }
+										pop_has_trait = trait_wealthy }
 						}
 					}
 					modify_species = {
 						species = ROOT
-						add_trait = trait_thrifty
+						add_trait = trait_wealthy
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_wealthy }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_wealthy
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_wealthy }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_wealthy
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_money_masters }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_money_masters
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_poor }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_poor
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_poor }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_poor
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_poor }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_poor
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_debtors }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_debtors
+					}
 				}
 				if = {
 					limit = {
@@ -14000,7 +14082,90 @@ country_event = {
 						species = ROOT
 						add_trait = trait_industrious
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_industrious }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_industrious
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_industrious }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_industrious
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_gods_of_the_machine }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_gods_of_the_machine
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_inefficient_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_inefficient_industrialists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_inefficient_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_inefficient_industrialists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_inefficient_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_inefficient_industrialists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_industrialists
+					}
 				}
 				if = {
 					limit = {
@@ -14013,7 +14178,90 @@ country_event = {
 						species = ROOT
 						add_trait = trait_intelligent
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_intelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_intelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_intelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_intelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_geniuses }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_geniuses
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_unintelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_unintelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_unintelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_unintelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_unintelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_unintelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_stupid }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_stupid
+					}
 				}
 				if = {
 					limit = {
@@ -14026,7 +14274,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_engineers
 					}
-
 				}
 				if = {
 					limit = {
@@ -14039,7 +14286,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_physicists
 					}
-
 				}
 				if = {
 					limit = {
@@ -14052,20 +14298,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_sociologists
 					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_extremely_adaptive }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_extremely_adaptive
-					}
-
 				}
 				if = {
 					limit = {
@@ -14078,7 +14310,42 @@ country_event = {
 						species = ROOT
 						add_trait = trait_adaptive
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_adaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_adaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_adaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_adaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_environmental_tailors }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_environmental_tailors
+					}
 				}
 				if = {
 					limit = {
@@ -14091,7 +14358,270 @@ country_event = {
 						species = ROOT
 						add_trait = trait_nonadaptive
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_nonadaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_nonadaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_nonadaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_nonadaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_homeworld_bound }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_homeworld_bound
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_crazed_brilliance }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_crazed_brilliance
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_cruel }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_cruel
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_fast_metabolisms }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_fast_metabolisms
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_spartan_attitudes }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_spartan_attitudes
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_unemotional }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_unemotional
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_lazy }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_lazy
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_emotionally_unstable }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_emotionally_unstable
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_loyal }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_loyal
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_shamelessly_lustful }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_shamelessly_lustful
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_impressionable_fools }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_impressionable_fools
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_economic_experts }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_economic_experts
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_mining_experts }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_mining_experts
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_prolific_speakers }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_prolific_speakers
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_natural_diplomats }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_natural_diplomats
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_logistics_experts }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_logistics_experts
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_warrior_culture }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_warrior_culture
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_green_thumbs }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_green_thumbs
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_brown_thumbs }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_brown_thumbs
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_cyborgs }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_cyborgs
+					}
 				}
 				if = {
 					limit = {
@@ -14104,7 +14634,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_rapid_breeders
 					}
-
 				}
 				if = {
 					limit = {
@@ -14117,7 +14646,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_slow_breeders
 					}
-
 				}
 				if = {
 					limit = {
@@ -14130,7 +14658,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_talented
 					}
-
 				}
 				if = {
 					limit = {
@@ -14143,7 +14670,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_quick_learners
 					}
-
 				}
 				if = {
 					limit = {
@@ -14156,20 +14682,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_slow_learners
 					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_very_strong }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_very_strong
-					}
-
 				}
 				if = {
 					limit = {
@@ -14182,7 +14694,42 @@ country_event = {
 						species = ROOT
 						add_trait = trait_strong
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_strong }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_strong
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_strong }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_strong
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_demigods }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_demigods
+					}
 				}
 				if = {
 					limit = {
@@ -14195,424 +14742,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_weak
 					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_nomadic }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_nomadic
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_sedentary }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_sedentary
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_communal }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_communal
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_solitary }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_solitary
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_charismatic }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_charismatic
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_repugnant }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_repugnant
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_uplifted }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_uplifted
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_conformists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_conformists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_venerable }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_venerable
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_enduring }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_enduring
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_decadent }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_decadent
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_resilient }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_resilient
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_starborn }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_starborn
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_earthbound }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_earthbound
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_natural_intellectuals }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_natural_intellectuals
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_proles }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_proles
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_conservative }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_conservative
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_irradiated }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_irradiated
-					}
-
-				}
-				#####Extended Traits Begins
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_architects }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_architects
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_natural_architects }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_natural_architects
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_politically_adept }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_politically_adept
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_virtualists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_virtualists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_deliberators }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_deliberators
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_conservationists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_conservationists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_urban }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_urban
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_indulgent }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_indulgent
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_content }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_content
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_dim }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_dim
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_inept }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_inept
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_engineers }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_engineers
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_physicists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_physicists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_sociologists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_sociologists
-					}
-
 				}
 				if = {
 					limit = {
@@ -14625,7 +14754,523 @@ country_event = {
 						species = ROOT
 						add_trait = trait_very_weak
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_weak }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_weak
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_feeble }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_feeble
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_nomadic }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_nomadic
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_sedentary }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_sedentary
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_communal }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_communal
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_solitary }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_solitary
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_charismatic }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_charismatic
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_repugnant }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_repugnant
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_uplifted }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_uplifted
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_conformists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_conformists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_deviants }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_deviants
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_enduring }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_enduring
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_venerable }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_venerable
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_prolific }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_prolific
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_immortal }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_immortal
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_fleeting }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_fleeting
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_decadent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_decadent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_resilient }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_resilient
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_mechanical }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_mechanical
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_robotic_1 }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_robotic_1
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_robotic_2 }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_robotic_2
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_robotic_3 }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_robotic_3
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_starborn }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_starborn
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_earthbound }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_earthbound
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_natural_intellectuals }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_natural_intellectuals
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_proles }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_proles
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_conservative }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_conservative
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_irradiated }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_irradiated
+					}
+				}
+				##### Extended traits
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_architects }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_architects
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_natural_architects }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_natural_architects
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_politically_adept }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_politically_adept
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_virtualists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_virtualists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_deliberators }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_deliberators
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_conservationists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_conservationists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_urban }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_urban
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_indulgent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_indulgent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_content }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_content
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_dim }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_dim
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_inept }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_inept
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_engineers }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_engineers
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_physicists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_physicists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_sociologists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_sociologists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_weak }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_weak
+					}
 				}
 				if = {
 					limit = {
@@ -14638,7 +15283,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_valiant
 					}
-
 				}
 				if = {
 					limit = {
@@ -14651,7 +15295,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_craven
 					}
-
 				}
 				if = {
 					limit = {
@@ -14664,7 +15307,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_individualistic
 					}
-
 				}
 				if = {
 					limit = {
@@ -14677,7 +15319,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_transient
 					}
-
 				}
 				if = {
 					limit = {
@@ -14690,7 +15331,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_resourceful
 					}
-
 				}
 				if = {
 					limit = {
@@ -14703,9 +15343,8 @@ country_event = {
 						species = ROOT
 						add_trait = trait_delicate
 					}
-
 				}
-				#####Extended Traits Ends
+				##### Preference traits
 				if = {
 					limit = {
 						capital_scope = {
@@ -21086,20 +21725,102 @@ country_event = {
 						species = ROOT
 						add_trait = trait_agrarian
 					}
-
 				}
 				if = {
 					limit = {
 						capital_scope = {
 									any_pop = {
-										pop_has_trait = trait_thrifty }
+										pop_has_trait = trait_wealthy }
 						}
 					}
 					modify_species = {
 						species = ROOT
-						add_trait = trait_thrifty
+						add_trait = trait_wealthy
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_wealthy }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_wealthy
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_wealthy }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_wealthy
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_money_masters }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_money_masters
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_poor }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_poor
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_poor }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_poor
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_poor }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_poor
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_debtors }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_debtors
+					}
 				}
 				if = {
 					limit = {
@@ -21112,7 +21833,90 @@ country_event = {
 						species = ROOT
 						add_trait = trait_industrious
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_industrious }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_industrious
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_industrious }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_industrious
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_gods_of_the_machine }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_gods_of_the_machine
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_inefficient_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_inefficient_industrialists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_inefficient_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_inefficient_industrialists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_inefficient_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_inefficient_industrialists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_industrialists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_industrialists
+					}
 				}
 				if = {
 					limit = {
@@ -21125,7 +21929,90 @@ country_event = {
 						species = ROOT
 						add_trait = trait_intelligent
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_intelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_intelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_intelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_intelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_geniuses }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_geniuses
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_unintelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_unintelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_unintelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_unintelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_unintelligent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_unintelligent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_stupid }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_stupid
+					}
 				}
 				if = {
 					limit = {
@@ -21138,7 +22025,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_engineers
 					}
-
 				}
 				if = {
 					limit = {
@@ -21151,7 +22037,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_physicists
 					}
-
 				}
 				if = {
 					limit = {
@@ -21164,20 +22049,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_natural_sociologists
 					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_extremely_adaptive }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_extremely_adaptive
-					}
-
 				}
 				if = {
 					limit = {
@@ -21190,7 +22061,42 @@ country_event = {
 						species = ROOT
 						add_trait = trait_adaptive
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_adaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_adaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_adaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_adaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_environmental_tailors }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_environmental_tailors
+					}
 				}
 				if = {
 					limit = {
@@ -21203,7 +22109,270 @@ country_event = {
 						species = ROOT
 						add_trait = trait_nonadaptive
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_nonadaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_nonadaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_nonadaptive }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_nonadaptive
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_homeworld_bound }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_homeworld_bound
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_crazed_brilliance }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_crazed_brilliance
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_cruel }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_cruel
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_fast_metabolisms }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_fast_metabolisms
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_spartan_attitudes }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_spartan_attitudes
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_unemotional }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_unemotional
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_lazy }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_lazy
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_emotionally_unstable }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_emotionally_unstable
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_loyal }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_loyal
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_shamelessly_lustful }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_shamelessly_lustful
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_impressionable_fools }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_impressionable_fools
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_economic_experts }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_economic_experts
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_mining_experts }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_mining_experts
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_prolific_speakers }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_prolific_speakers
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_natural_diplomats }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_natural_diplomats
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_logistics_experts }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_logistics_experts
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_warrior_culture }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_warrior_culture
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_green_thumbs }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_green_thumbs
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_brown_thumbs }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_brown_thumbs
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_cyborgs }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_cyborgs
+					}
 				}
 				if = {
 					limit = {
@@ -21216,7 +22385,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_rapid_breeders
 					}
-
 				}
 				if = {
 					limit = {
@@ -21229,7 +22397,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_slow_breeders
 					}
-
 				}
 				if = {
 					limit = {
@@ -21242,7 +22409,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_talented
 					}
-
 				}
 				if = {
 					limit = {
@@ -21255,7 +22421,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_quick_learners
 					}
-
 				}
 				if = {
 					limit = {
@@ -21268,20 +22433,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_slow_learners
 					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_very_strong }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_very_strong
-					}
-
 				}
 				if = {
 					limit = {
@@ -21294,7 +22445,42 @@ country_event = {
 						species = ROOT
 						add_trait = trait_strong
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_strong }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_strong
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_strong }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_strong
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_demigods }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_demigods
+					}
 				}
 				if = {
 					limit = {
@@ -21307,424 +22493,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_weak
 					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_nomadic }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_nomadic
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_sedentary }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_sedentary
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_communal }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_communal
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_solitary }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_solitary
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_charismatic }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_charismatic
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_repugnant }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_repugnant
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_uplifted }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_uplifted
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_conformists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_conformists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_venerable }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_venerable
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_enduring }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_enduring
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_decadent }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_decadent
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_resilient }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_resilient
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_starborn }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_starborn
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_earthbound }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_earthbound
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_natural_intellectuals }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_natural_intellectuals
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_proles }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_proles
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_conservative }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_conservative
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_presentient_irradiated }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_presentient_irradiated
-					}
-
-				}
-				#####Extended Traits Begins
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_architects }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_architects
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_natural_architects }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_natural_architects
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_politically_adept }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_politically_adept
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_virtualists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_virtualists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_deliberators }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_deliberators
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_conservationists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_conservationists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_urban }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_urban
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_indulgent }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_indulgent
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_content }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_content
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_dim }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_dim
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_inept }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_inept
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_engineers }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_engineers
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_physicists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_physicists
-					}
-
-				}
-				if = {
-					limit = {
-						capital_scope = {
-									any_pop = {
-										pop_has_trait = trait_incompetent_sociologists }
-						}
-					}
-					modify_species = {
-						species = ROOT
-						add_trait = trait_incompetent_sociologists
-					}
-
 				}
 				if = {
 					limit = {
@@ -21737,7 +22505,523 @@ country_event = {
 						species = ROOT
 						add_trait = trait_very_weak
 					}
-
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_extremely_weak }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_extremely_weak
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_feeble }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_feeble
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_nomadic }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_nomadic
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_sedentary }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_sedentary
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_communal }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_communal
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_solitary }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_solitary
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_charismatic }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_charismatic
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_repugnant }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_repugnant
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_uplifted }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_uplifted
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_conformists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_conformists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_deviants }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_deviants
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_enduring }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_enduring
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_venerable }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_venerable
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_prolific }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_prolific
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_immortal }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_immortal
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_fleeting }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_fleeting
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_decadent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_decadent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_resilient }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_resilient
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_mechanical }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_mechanical
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_robotic_1 }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_robotic_1
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_robotic_2 }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_robotic_2
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_robotic_3 }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_robotic_3
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_starborn }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_starborn
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_earthbound }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_earthbound
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_natural_intellectuals }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_natural_intellectuals
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_proles }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_proles
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_conservative }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_conservative
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_presentient_irradiated }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_presentient_irradiated
+					}
+				}
+				##### Extended traits
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_architects }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_architects
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_natural_architects }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_natural_architects
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_politically_adept }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_politically_adept
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_virtualists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_virtualists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_deliberators }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_deliberators
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_conservationists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_conservationists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_urban }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_urban
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_indulgent }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_indulgent
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_content }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_content
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_dim }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_dim
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_inept }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_inept
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_engineers }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_engineers
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_physicists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_physicists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_incompetent_sociologists }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_incompetent_sociologists
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_very_weak }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_very_weak
+					}
 				}
 				if = {
 					limit = {
@@ -21750,7 +23034,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_valiant
 					}
-
 				}
 				if = {
 					limit = {
@@ -21763,7 +23046,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_craven
 					}
-
 				}
 				if = {
 					limit = {
@@ -21776,7 +23058,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_individualistic
 					}
-
 				}
 				if = {
 					limit = {
@@ -21789,7 +23070,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_transient
 					}
-
 				}
 				if = {
 					limit = {
@@ -21802,7 +23082,6 @@ country_event = {
 						species = ROOT
 						add_trait = trait_resourceful
 					}
-
 				}
 				if = {
 					limit = {
@@ -21815,9 +23094,8 @@ country_event = {
 						species = ROOT
 						add_trait = trait_delicate
 					}
-
 				}
-				#####Extended Traits Ends
+				##### Preference traits
 				if = {
 					limit = {
 						capital_scope = {
