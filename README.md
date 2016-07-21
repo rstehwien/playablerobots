@@ -10,7 +10,7 @@ https://github.com/gtosh4/playablerobots
 ## Notifications
 <b>Do not run this AND the original mod. They have the same stuff except this one has a few fixes.</b>
 
-<b>To enable synthetic playstyle, selecting the trait in species creation instead of as a window on game start (as in the original)</b>
+<b>To enable synthetic playstyle, select the trait in species creation instead of as a window on game start (as in the original)</b>
 
 ## Installing from source
 1. "Download as zip"
