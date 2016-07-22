@@ -25,3 +25,4 @@ https://github.com/gtosh4/playablerobots
 * Improve the game start tile modification a bit. Was: replace farms and power plant lvl 1 with power plant lvl 2. Now: replace farms with power plant lvl 1 & replace base tile food with energy.
 * Select synthetic playstyle by selecting the trait in species creation instead of as a window on game start.
 * Update election_term_years from 5 to 10 to match changes made to other elected govenments in 1.2.1
+* Require android trait for the new government types.
