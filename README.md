@@ -12,6 +12,8 @@ https://github.com/gtosh4/playablerobots
 
 <b>To enable synthetic playstyle, select the trait in species creation instead of as a window on game start (as in the original)</b>
 
+<i>Should</i> be save-game compatible with the original - my current game was started on the original mod. Make sure you back up your save before just in case though.
+
 ## Installing from source
 1. "Download as zip"
 2. Extract to a new folder called `playablerobots` your local mods directory (eg on Windows `%USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod\playablerobots`)
