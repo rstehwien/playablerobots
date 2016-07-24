@@ -28,3 +28,18 @@ https://github.com/gtosh4/playablerobots
 * Select synthetic playstyle by selecting the trait in species creation instead of as a window on game start.
 * Update election_term_years from 5 to 10 to match changes made to other elected governments in 1.2.1
 * Require android trait for the new government types.
+
+## FAQ
+### My pop's happiness is capped, help!
+The synthetics get a slight boost to habitability (increases with tech) but are otherwise still subject to habitability happiness caps.
+
+### I just started and can't build any pops!
+Make sure you selected the `Synthetic` trait when creating your species.
+
+### Some of my traits aren't copying!
+Due to limitations on the mod API, the trait support has to be hand-managed so only a few are supported.
+
+The following traits are currently supported:
+* Vanilla traits
+* [Extended traits](https://steamcommunity.com/sharedfiles/filedetails/?id=681816257)
+* [Awakening](http://steamcommunity.com/sharedfiles/filedetails/?id=719876273)
