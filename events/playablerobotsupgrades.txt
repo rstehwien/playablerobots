@@ -6228,6 +6228,18 @@ country_event = {
 					limit = {
 						capital_scope = {
 									any_pop = {
+										pop_has_trait = trait_thrifty }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_thrifty
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
 										pop_has_trait = trait_wealthy }
 						}
 					}
@@ -13979,6 +13991,18 @@ country_event = {
 					limit = {
 						capital_scope = {
 									any_pop = {
+										pop_has_trait = trait_thrifty }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_thrifty
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
 										pop_has_trait = trait_wealthy }
 						}
 					}
@@ -21724,6 +21748,18 @@ country_event = {
 					modify_species = {
 						species = ROOT
 						add_trait = trait_agrarian
+					}
+				}
+				if = {
+					limit = {
+						capital_scope = {
+									any_pop = {
+										pop_has_trait = trait_thrifty }
+						}
+					}
+					modify_species = {
+						species = ROOT
+						add_trait = trait_thrifty
 					}
 				}
 				if = {

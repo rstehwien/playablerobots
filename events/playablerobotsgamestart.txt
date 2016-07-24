@@ -6040,6 +6040,17 @@ country_event = {
 			if = {
 				limit = {
 					capital_scope = {
+						any_pop = { pop_has_trait = trait_thrifty }
+					}
+				}
+				modify_species = {
+					species = ROOT
+					add_trait = trait_thrifty
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
 						any_pop = { pop_has_trait = trait_wealthy }
 					}
 				}

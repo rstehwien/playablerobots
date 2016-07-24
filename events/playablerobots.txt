@@ -57,6 +57,19 @@ pop_event = {
 				planet = {
 					exists = owner
 					owner = { is_ai = no }
+					owner = { has_trait = trait_thrifty }
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_thrifty
+			}
+		}
+		if = {
+			limit = {
+				planet = {
+					exists = owner
+					owner = { is_ai = no }
 					owner = { has_trait = trait_wealthy }
 				}
 			}
