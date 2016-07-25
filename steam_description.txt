@@ -62,6 +62,81 @@ The following traits are currently supported:
 [*] Awakening
 [/list]
 
+Additionally, the copying occurs after pops finish building. While they're in progress, they won't have the traits but don't worry they will.
+
+[h1]Debugging & Bug Reporting[/h1]
+[olist]
+[*] Turn on "debugtoolip" from console
+[*] Get the Index of your empire's dominant species
+[img]http://images.akamai.steamusercontent.com/ugc/266094712078983870/9B87007857921E4AB9CC901406131BE902843BB5/[/img]
+[*] Get the Index of your problem pop
+[img]http://images.akamai.steamusercontent.com/ugc/266094712078983397/39FA92D35B618FF1D86A4DDE255CC8A81D2924F7/[/img]
+[/olist][h1]playablerobots[/h1]
+http://steamcommunity.com/sharedfiles/filedetails/?id=728268465
+
+https://github.com/gtosh4/playablerobots
+
+[h1]Credit[/h1]
+* [i]Delincious[/i] - [url=http://steamcommunity.com/sharedfiles/filedetails/?id=681553348]Original mod[/url]
+* [i]Cookiemonster364[/i] - Fix for [url=http://steamcommunity.com/workshop/filedetails/discussion/681553348/351660338704537339/]trait copying issue[/url]
+
+[h1]Notifications[/h1]
+[b]Do not run this AND the original mod. They have the same stuff except this one has a few fixes.[/b]
+
+[b]To enable synthetic playstyle, select the trait in species creation instead of as a window on game start (as in the original)[/b]
+
+[i]Should[/i] be save-game compatible with the original - my current game was started on the original mod. Make sure you back up your save before just in case though.
+
+[b]Likely INCOMPATIBLE with any other robot-modifying mod (such as [url=http://steamcommunity.com/sharedfiles/filedetails/?id=717991043]Build Robots Quicker[/url]).[/b]
+
+[h1]Installing from source[/h1]
+[olist]
+[*] "Download as zip" from Github
+[*] Extract to a new folder called "playablerobots" your local mods directory (eg on Windows "%USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod\playablerobots")
+[*] Copy "descriptor.mod" to the "mod" parent folder and rename to "playablerobots.mod"
+[/olist]
+
+[h1]Fixes[/h1]
+[list]
+[*] [i]Cookiemonster364's[/i] fix for trait copying
+[*] Fix habitibility bonus progression (was 10% -> 5% -> 7.5% -> 10%) to (10% -> 50% -> 75% -> 100%)
+[*] Fix initial pops not being the same race as new pops (fix for xenophobic ethic and repugnant trait)
+[*] Add support for [url=http://steamcommunity.com/sharedfiles/filedetails/?id=719876273]Awakening[/url] traits
+[*] Improve the game start tile modification a bit. Was: replace farms and power plant lvl 1 with power plant lvl 2. Now: replace farms with power plant lvl 1 & replace base tile food with energy.
+[*] Select synthetic playstyle by selecting the trait in species creation instead of as a window on game start.
+[*] Update election_term_years from 5 to 10 to match changes made to other elected governments in 1.2.1
+[*] Require android trait for the new government types.
+[/list]
+
+[h1]FAQ[/h1]
+
+[b]My pop's happiness is capped, help![/b]
+
+The synthetics get a slight boost to habitability (increases with tech) but are otherwise still subject to habitability happiness caps.
+
+Make sure when you build colony ships you don't use non-fully grown pops (indicated by the lack of traits) and use your dominant species instead (indicated by a green/blue border).
+[img]http://images.akamai.steamusercontent.com/ugc/266094712078984937/C385E9AD793E7B29A1EBFA1F178896926B0417C6/[/img]
+
+[b]I just started and can't build any pops![/b]
+
+Make sure you selected the Synthetic trait when creating your species.
+[img]http://images.akamai.steamusercontent.com/ugc/266094712078947226/A73E42568ABB8E53749A7459D084ECF2CE21D992/[/img]
+
+Also, make sure you don't have any other robot-modifying mod (such as [url=http://steamcommunity.com/sharedfiles/filedetails/?id=717991043]Build Robots Quicker[/url]).
+
+[b]Some of my traits aren't copying![/b]
+
+Due to limitations on the mod API, the trait support has to be hand-managed so only a few are supported.
+
+The following traits are currently supported:
+[list]
+[*] Vanilla traits
+[*] Extended traits
+[*] Awakening
+[/list]
+
+Additionally, the copying occurs after pops finish building. While they're in progress, they won't have the traits but don't worry they will.
+
 [h1]Debugging & Bug Reporting[/h1]
 [olist]
 [*] Turn on "debugtoolip" from console
