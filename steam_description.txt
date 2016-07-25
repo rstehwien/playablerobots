@@ -35,35 +35,6 @@ https://github.com/gtosh4/playablerobots
 [*] Require android trait for the new government types.
 [/list]
 
-[h1]FAQ[/h1]
-
-[b]My pop's happiness is capped, help![/b]
-
-The synthetics get a slight boost to habitability (increases with tech) but are otherwise still subject to habitability happiness caps.
-
-Make sure when you build colony ships you don't use non-fully grown pops (indicated by the lack of traits) and use your dominant species instead (indicated by a green/blue border).
-[img]http://images.akamai.steamusercontent.com/ugc/266094712078984937/C385E9AD793E7B29A1EBFA1F178896926B0417C6/[/img]
-
-[b]I just started and can't build any pops![/b]
-
-Make sure you selected the Synthetic trait when creating your species.
-[img]http://images.akamai.steamusercontent.com/ugc/266094712078947226/A73E42568ABB8E53749A7459D084ECF2CE21D992/[/img]
-
-Also, make sure you don't have any other robot-modifying mod (such as [url=http://steamcommunity.com/sharedfiles/filedetails/?id=717991043]Build Robots Quicker[/url]).
-
-[b]Some of my traits aren't copying![/b]
-
-Due to limitations on the mod API, the trait support has to be hand-managed so only a few are supported.
-
-The following traits are currently supported:
-[list]
-[*] Vanilla traits
-[*] Extended traits
-[*] Awakening
-[/list]
-
-Additionally, the copying occurs after pops finish building. While they're in progress, they won't have the traits but don't worry they will.
-
 [h1]Debugging & Bug Reporting[/h1]
 [olist]
 [*] Turn on "debugtoolip" from console
