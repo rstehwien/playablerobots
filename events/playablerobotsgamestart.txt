@@ -1,5 +1,19 @@
 namespace = playablerobots
 
+event = {
+    id = playablerobots.0
+    is_triggered_only = yes
+    hide_window = yes
+    immediate = {
+        every_country = {
+            limit = {
+                is_ai = no
+                has_trait = trait_android
+            }
+            country_event = { id = playablerobots.2 }
+        }
+    }
+}
 
 country_event = {
     id = playablerobots.2
