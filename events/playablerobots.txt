@@ -1803,30 +1803,17 @@ pop_event = {
 	desc = tutorial.14.desc
 	picture = GFX_evt_playablerobots
 	hide_window = yes
-	#is_triggered_only = yes
 
 	trigger = {
-		#is_ai = no
-		#planet = {
-		#	any_pop = {
-		#		AND = {
-					has_trait = trait_android
-					#is_same_species = owner
-					AND = {
-						NOT = {has_trait = trait_android_level3}
-					}
-					planet = {
-						exists = owner
-						owner = { is_ai = no }
-						owner = { has_technology  = tech_synthetic_workers }
-					}
-					#any_country = {
-					#	is_ai = no
-					#	has_technology  = tech_synthetic_workers
-					#}
-		#		}
-		#	}
-		#}
+		has_trait = trait_android
+		AND = {
+			NOT = {has_trait = trait_android_level3}
+		}
+		planet = {
+			exists = owner
+			owner = { is_ai = no }
+			owner = { has_technology  = tech_synthetic_workers }
+		}
 	}
 
 	mean_time_to_happen = { days = 1 }
@@ -1841,6 +1828,11 @@ pop_event = {
 			add_trait = trait_android_level3
 			remove_trait = trait_android_level2
 			remove_trait = trait_android_level1
+			# Remove the adaptive traits at level 3 because it bestows 100% habitability bonus. This frees up trait points
+			remove_trait = trait_adaptive
+			remove_trait = trait_very_adaptive
+			remove_trait = trait_extremely_adaptive
+			remove_trait = trait_environmental_tailors
 		}
 	}
 }

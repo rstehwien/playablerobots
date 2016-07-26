@@ -22095,7 +22095,7 @@ country_event = {
 					}
 					modify_species = {
 						species = ROOT
-						add_trait = trait_adaptive
+						# add_trait = trait_adaptive # Don't copy adaptive and free up the trait points
 					}
 				}
 				if = {
@@ -22107,7 +22107,7 @@ country_event = {
 					}
 					modify_species = {
 						species = ROOT
-						add_trait = trait_very_adaptive
+						# add_trait = trait_very_adaptive # Don't copy adaptive and free up the trait points
 					}
 				}
 				if = {
@@ -22119,7 +22119,7 @@ country_event = {
 					}
 					modify_species = {
 						species = ROOT
-						add_trait = trait_extremely_adaptive
+						# add_trait = trait_extremely_adaptive # Don't copy adaptive and free up the trait points
 					}
 				}
 				if = {
@@ -22131,7 +22131,7 @@ country_event = {
 					}
 					modify_species = {
 						species = ROOT
-						add_trait = trait_environmental_tailors
+						# add_trait = trait_environmental_tailors # Don't copy adaptive and free up the trait points
 					}
 				}
 				if = {
