@@ -28,6 +28,8 @@ https://github.com/gtosh4/playablerobots
 * Select synthetic playstyle by selecting the trait in species creation instead of as a window on game start.
 * Update election_term_years from 5 to 10 to match changes made to other elected governments in 1.2.1
 * Require android trait for the new government types.
+* Add opposite traits for the Breeder traits and when you reach level 3 upgrade (100% habitability bonus) you are refunded you adaptive traits since you no longer need them.
+* Fixed bug where 'ai1' portrait couldn't build pops.
 
 ## FAQ
 ### My pop's happiness is capped, help!
