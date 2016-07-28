@@ -30,6 +30,7 @@ https://github.com/gtosh4/playablerobots
 * Require android trait for the new government types.
 * Add opposite traits for the Breeder traits and when you reach level 3 upgrade (100% habitability bonus) you are refunded you adaptive traits since you no longer need them.
 * Fixed bug where 'ai1' portrait couldn't build pops.
+* Add [Colonize Unlimited](http://steamcommunity.com/workshop/filedetails/?id=682582076) preference traits
 
 ## FAQ
 ### My pop's happiness is capped, help!
