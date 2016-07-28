@@ -46,3 +46,4 @@ The following traits are currently supported:
 * Vanilla traits
 * [Extended traits](https://steamcommunity.com/sharedfiles/filedetails/?id=681816257)
 * [Awakening](http://steamcommunity.com/sharedfiles/filedetails/?id=719876273)
+* [Colonize Unlimited](http://steamcommunity.com/workshop/filedetails/?id=682582076) preference traits
