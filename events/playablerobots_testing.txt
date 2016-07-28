@@ -1,0 +1,37 @@
+namespace = playrobotest
+
+country_event = {
+    id = playrobotest.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {}
+
+    immediate = {
+        give_technology = tech_robotic_workers
+    }
+}
+
+country_event = {
+    id = playrobotest.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {}
+
+    immediate = {
+        give_technology = tech_droid_workers
+    }
+}
+
+country_event = {
+    id = playrobotest.3
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {}
+
+    immediate = {
+        give_technology = tech_synthetic_workers
+    }
+}
