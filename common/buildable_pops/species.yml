@@ -1,0 +1,40 @@
+ROBOT_POP_ANDROID:
+  ai:
+    min: 1
+    max: 20
+  robot:
+    min: 1
+    max: 20
+ROBOT_POP_ART:
+  art:
+    min: 1
+    max: 20
+ROBOT_POP_AVI:
+  avi:
+    min: 1
+    max: 20
+ROBOT_POP_EXT:
+  exd:
+    min: 1
+    max: 20
+ROBOT_POP_FUN:
+  fun:
+    min: 1
+    max: 20
+ROBOT_POP_MAM:
+  mam:
+    min: 1
+    max: 20
+ROBOT_POP_MOL:
+  mol:
+    min: 1
+    max: 20
+ROBOT_POP_REP:
+  rep:
+    min: 1
+    max: 20
+ROBOT_POP_VOI:
+  swarm:
+    min: 3
+    max: 6
+    suffix: group

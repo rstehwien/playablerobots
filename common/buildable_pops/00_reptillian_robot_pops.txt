@@ -1,20 +1,201 @@
-buildable_robot_pop_rep2 = {
+buildable_robot_pop_rep1 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
+        species_portrait = "rep1"
+        has_trait = trait_android
+        NOT = { has_technology = tech_robotic_workers }
+    }
+    
+    species = {
+        name = "ROBOT_POP_REP"
+        class = "ROB"
+        portrait = rep1
+        traits = {
+            trait = "trait_android"
+        }
+        new_pop_resource_requirement = {
+            type = robot_food
+            value = 30.0
+        }
+        pops_auto_growth = 1.0
+        pops_auto_upgrade_to = buildable_robot_pop_rep1_1
+        
+        pops_can_be_colonizers = yes
+        pops_can_migrate = yes
+        pops_can_reproduce = no
+        pops_can_join_factions = yes
+        pop_maintenance = 1
+        can_generate_leaders = yes
+        pops_can_be_slaves = yes
+        can_be_modified = yes
+        pops_have_happiness = yes
+        pop_ethics = random
+    }
+}
+
+buildable_robot_pop_rep1_1 = {
+        
+    prerequisites = {
+        "tech_robotic_workers"
+    }
+    
+    cost = {
+        minerals = 40
+        energy = 125
+    }
+    
+    allow = {}
+    
+    potential = {
+        species_portrait = "rep1"
+        has_trait = trait_android
+        NOT = { has_technology = tech_droid_workers }
+    }
+    
+    species = {
+        name = "ROBOT_POP_REP"
+        class = "ROB"
+        portrait = "rep1"
+        traits = {
+            trait = "trait_android"
+            trait = "trait_android_level1"
+        }
+        
+        new_pop_resource_requirement = {
+            type = robot_food
+            value = 30.0
+        }
+        pops_auto_growth = 1.2
+        pops_auto_upgrade_to = buildable_robot_pop_rep1_2
+        
+        pops_can_be_colonizers = yes
+        pops_can_migrate = yes
+        pops_can_reproduce = no
+        pops_can_join_factions = yes
+        pop_maintenance = 0.9
+        can_generate_leaders = yes
+        pops_can_be_slaves = yes
+        can_be_modified = yes
+        pops_have_happiness = yes
+        pop_ethics = random
+    }
+}
+
+buildable_robot_pop_rep1_2 = {
+        
+    prerequisites = {
+        "tech_droid_workers"
+    }
+    
+    cost = {
+        minerals = 50
+        energy = 150
+    }
+    
+    allow = {}
+    
+    potential = {
+        species_portrait = "rep1"
+        has_trait = trait_android
+        NOT = { has_technology = tech_synthetic_workers }
+    }
+    
+    species = {
+        name = "ROBOT_POP_REP"
+        class = "ROB"
+        portrait = "rep1"
+        traits = {
+            trait = "trait_android"
+            trait = "trait_android_level2"
+        }
+        
+        new_pop_resource_requirement = {
+            type = robot_food
+            value = 30.0
+        }
+        pops_auto_growth = 1.4
+        pops_auto_upgrade_to = buildable_robot_pop_rep1_3
+        
+        pops_can_be_colonizers = yes
+        pops_can_migrate = yes
+        pops_can_reproduce = no
+        pops_can_join_factions = yes
+        pop_maintenance = 0.8
+        can_generate_leaders = yes
+        pops_can_be_slaves = yes
+        can_be_modified = yes
+        pops_have_happiness = yes
+        pop_ethics = random
+    }
+}
+
+buildable_robot_pop_rep1_3 = {
+        
+    prerequisites = {
+        "tech_synthetic_workers"
+    }
+    
+    cost = {
+        minerals = 60
+        energy = 175
+    }
+    
+    allow = {}
+    
+    potential = {
+        species_portrait = "rep1"
+        has_trait = trait_android
+    }
+    
+    species = {
+        name = "ROBOT_POP_REP"
+        class = "ROB"
+        portrait = "rep1"
+        traits = {
+            trait = "trait_android"
+            trait = "trait_android_level3"
+        }
+        
+        new_pop_resource_requirement = {
+            type = robot_food
+            value = 30.0
+        }
+        pops_auto_growth = 1.6
+        
+        pops_can_be_colonizers = yes
+        pops_can_migrate = yes
+        pops_can_reproduce = no
+        pops_can_join_factions = yes
+        pop_maintenance = 0.7
+        can_generate_leaders = yes
+        pops_can_be_slaves = yes
+        can_be_modified = yes
+        pops_have_happiness = yes
+        pop_ethics = random
+    }
+}
+
+buildable_robot_pop_rep2 = {
+        
+    prerequisites = {}
+    
+    cost = {
+        minerals = 30
+        energy = 100
+    }
+    
+    allow = {}
+    
+    potential = {
         species_portrait = "rep2"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -43,7 +224,7 @@ buildable_robot_pop_rep2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -52,18 +233,15 @@ buildable_robot_pop_rep2_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep2"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -94,7 +272,7 @@ buildable_robot_pop_rep2_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -103,18 +281,15 @@ buildable_robot_pop_rep2_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep2"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -145,7 +320,7 @@ buildable_robot_pop_rep2_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -154,18 +329,15 @@ buildable_robot_pop_rep2_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep2"
         has_trait = trait_android
     }
@@ -194,27 +366,22 @@ buildable_robot_pop_rep2_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep3 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep3"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -243,7 +410,7 @@ buildable_robot_pop_rep3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -252,18 +419,15 @@ buildable_robot_pop_rep3_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep3"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -294,7 +458,7 @@ buildable_robot_pop_rep3_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -303,18 +467,15 @@ buildable_robot_pop_rep3_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep3"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -345,7 +506,7 @@ buildable_robot_pop_rep3_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -354,18 +515,15 @@ buildable_robot_pop_rep3_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep3"
         has_trait = trait_android
     }
@@ -394,27 +552,22 @@ buildable_robot_pop_rep3_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep4 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep4"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -443,7 +596,7 @@ buildable_robot_pop_rep4 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -452,18 +605,15 @@ buildable_robot_pop_rep4_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep4"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -494,7 +644,7 @@ buildable_robot_pop_rep4_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -503,18 +653,15 @@ buildable_robot_pop_rep4_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep4"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -545,7 +692,7 @@ buildable_robot_pop_rep4_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -554,18 +701,15 @@ buildable_robot_pop_rep4_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep4"
         has_trait = trait_android
     }
@@ -594,27 +738,22 @@ buildable_robot_pop_rep4_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep5 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep5"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -643,7 +782,7 @@ buildable_robot_pop_rep5 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -652,18 +791,15 @@ buildable_robot_pop_rep5_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep5"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -694,7 +830,7 @@ buildable_robot_pop_rep5_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -703,18 +839,15 @@ buildable_robot_pop_rep5_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep5"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -745,7 +878,7 @@ buildable_robot_pop_rep5_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -754,18 +887,15 @@ buildable_robot_pop_rep5_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep5"
         has_trait = trait_android
     }
@@ -794,27 +924,22 @@ buildable_robot_pop_rep5_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep6 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep6"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -843,7 +968,7 @@ buildable_robot_pop_rep6 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -852,18 +977,15 @@ buildable_robot_pop_rep6_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep6"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -894,7 +1016,7 @@ buildable_robot_pop_rep6_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -903,18 +1025,15 @@ buildable_robot_pop_rep6_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep6"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -945,7 +1064,7 @@ buildable_robot_pop_rep6_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -954,18 +1073,15 @@ buildable_robot_pop_rep6_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep6"
         has_trait = trait_android
     }
@@ -994,27 +1110,22 @@ buildable_robot_pop_rep6_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep7 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep7"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -1043,7 +1154,7 @@ buildable_robot_pop_rep7 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1052,18 +1163,15 @@ buildable_robot_pop_rep7_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep7"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -1094,7 +1202,7 @@ buildable_robot_pop_rep7_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1103,18 +1211,15 @@ buildable_robot_pop_rep7_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep7"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -1145,7 +1250,7 @@ buildable_robot_pop_rep7_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1154,18 +1259,15 @@ buildable_robot_pop_rep7_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep7"
         has_trait = trait_android
     }
@@ -1194,27 +1296,22 @@ buildable_robot_pop_rep7_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep8 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep8"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -1243,7 +1340,7 @@ buildable_robot_pop_rep8 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1252,18 +1349,15 @@ buildable_robot_pop_rep8_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep8"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -1294,7 +1388,7 @@ buildable_robot_pop_rep8_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1303,18 +1397,15 @@ buildable_robot_pop_rep8_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep8"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -1345,7 +1436,7 @@ buildable_robot_pop_rep8_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1354,18 +1445,15 @@ buildable_robot_pop_rep8_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep8"
         has_trait = trait_android
     }
@@ -1394,27 +1482,22 @@ buildable_robot_pop_rep8_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep9 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep9"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -1443,7 +1526,7 @@ buildable_robot_pop_rep9 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1452,18 +1535,15 @@ buildable_robot_pop_rep9_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep9"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -1494,7 +1574,7 @@ buildable_robot_pop_rep9_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1503,18 +1583,15 @@ buildable_robot_pop_rep9_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep9"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -1545,7 +1622,7 @@ buildable_robot_pop_rep9_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1554,18 +1631,15 @@ buildable_robot_pop_rep9_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep9"
         has_trait = trait_android
     }
@@ -1594,27 +1668,22 @@ buildable_robot_pop_rep9_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep10 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep10"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -1643,7 +1712,7 @@ buildable_robot_pop_rep10 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1652,18 +1721,15 @@ buildable_robot_pop_rep10_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep10"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -1694,7 +1760,7 @@ buildable_robot_pop_rep10_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1703,18 +1769,15 @@ buildable_robot_pop_rep10_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep10"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -1745,7 +1808,7 @@ buildable_robot_pop_rep10_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1754,18 +1817,15 @@ buildable_robot_pop_rep10_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep10"
         has_trait = trait_android
     }
@@ -1794,27 +1854,22 @@ buildable_robot_pop_rep10_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep11 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep11"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -1843,7 +1898,7 @@ buildable_robot_pop_rep11 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1852,18 +1907,15 @@ buildable_robot_pop_rep11_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep11"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -1894,7 +1946,7 @@ buildable_robot_pop_rep11_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1903,18 +1955,15 @@ buildable_robot_pop_rep11_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep11"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -1945,7 +1994,7 @@ buildable_robot_pop_rep11_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -1954,18 +2003,15 @@ buildable_robot_pop_rep11_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep11"
         has_trait = trait_android
     }
@@ -1994,27 +2040,22 @@ buildable_robot_pop_rep11_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep12 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep12"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -2043,7 +2084,7 @@ buildable_robot_pop_rep12 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2052,18 +2093,15 @@ buildable_robot_pop_rep12_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep12"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -2094,7 +2132,7 @@ buildable_robot_pop_rep12_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2103,18 +2141,15 @@ buildable_robot_pop_rep12_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep12"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -2145,7 +2180,7 @@ buildable_robot_pop_rep12_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2154,18 +2189,15 @@ buildable_robot_pop_rep12_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep12"
         has_trait = trait_android
     }
@@ -2194,27 +2226,22 @@ buildable_robot_pop_rep12_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep13 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep13"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -2243,7 +2270,7 @@ buildable_robot_pop_rep13 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2252,18 +2279,15 @@ buildable_robot_pop_rep13_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep13"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -2294,7 +2318,7 @@ buildable_robot_pop_rep13_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2303,18 +2327,15 @@ buildable_robot_pop_rep13_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep13"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -2345,7 +2366,7 @@ buildable_robot_pop_rep13_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2354,18 +2375,15 @@ buildable_robot_pop_rep13_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep13"
         has_trait = trait_android
     }
@@ -2394,27 +2412,22 @@ buildable_robot_pop_rep13_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep14 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep14"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -2443,7 +2456,7 @@ buildable_robot_pop_rep14 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2452,18 +2465,15 @@ buildable_robot_pop_rep14_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep14"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -2494,7 +2504,7 @@ buildable_robot_pop_rep14_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2503,18 +2513,15 @@ buildable_robot_pop_rep14_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep14"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -2545,7 +2552,7 @@ buildable_robot_pop_rep14_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2554,18 +2561,15 @@ buildable_robot_pop_rep14_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep14"
         has_trait = trait_android
     }
@@ -2594,27 +2598,22 @@ buildable_robot_pop_rep14_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep15 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep15"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -2643,7 +2642,7 @@ buildable_robot_pop_rep15 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2652,18 +2651,15 @@ buildable_robot_pop_rep15_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep15"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -2694,7 +2690,7 @@ buildable_robot_pop_rep15_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2703,18 +2699,15 @@ buildable_robot_pop_rep15_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep15"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -2745,7 +2738,7 @@ buildable_robot_pop_rep15_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2754,18 +2747,15 @@ buildable_robot_pop_rep15_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep15"
         has_trait = trait_android
     }
@@ -2794,27 +2784,22 @@ buildable_robot_pop_rep15_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep16 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep16"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -2843,7 +2828,7 @@ buildable_robot_pop_rep16 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2852,18 +2837,15 @@ buildable_robot_pop_rep16_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep16"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -2894,7 +2876,7 @@ buildable_robot_pop_rep16_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2903,18 +2885,15 @@ buildable_robot_pop_rep16_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep16"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -2945,7 +2924,7 @@ buildable_robot_pop_rep16_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -2954,18 +2933,15 @@ buildable_robot_pop_rep16_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep16"
         has_trait = trait_android
     }
@@ -2994,27 +2970,22 @@ buildable_robot_pop_rep16_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep17 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep17"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -3043,7 +3014,7 @@ buildable_robot_pop_rep17 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3052,18 +3023,15 @@ buildable_robot_pop_rep17_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep17"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -3094,7 +3062,7 @@ buildable_robot_pop_rep17_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3103,18 +3071,15 @@ buildable_robot_pop_rep17_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep17"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -3145,7 +3110,7 @@ buildable_robot_pop_rep17_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3154,18 +3119,15 @@ buildable_robot_pop_rep17_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep17"
         has_trait = trait_android
     }
@@ -3194,27 +3156,22 @@ buildable_robot_pop_rep17_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep18 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep18"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -3243,7 +3200,7 @@ buildable_robot_pop_rep18 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3252,18 +3209,15 @@ buildable_robot_pop_rep18_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep18"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -3294,7 +3248,7 @@ buildable_robot_pop_rep18_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3303,18 +3257,15 @@ buildable_robot_pop_rep18_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep18"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -3345,7 +3296,7 @@ buildable_robot_pop_rep18_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3354,18 +3305,15 @@ buildable_robot_pop_rep18_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep18"
         has_trait = trait_android
     }
@@ -3394,27 +3342,22 @@ buildable_robot_pop_rep18_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep19 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep19"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -3443,7 +3386,7 @@ buildable_robot_pop_rep19 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3452,18 +3395,15 @@ buildable_robot_pop_rep19_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep19"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -3494,7 +3434,7 @@ buildable_robot_pop_rep19_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3503,18 +3443,15 @@ buildable_robot_pop_rep19_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep19"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -3545,7 +3482,7 @@ buildable_robot_pop_rep19_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3554,18 +3491,15 @@ buildable_robot_pop_rep19_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep19"
         has_trait = trait_android
     }
@@ -3594,27 +3528,22 @@ buildable_robot_pop_rep19_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
 buildable_robot_pop_rep20 = {
         
-    prerequisites = {
-        ##"tech_synthetic_workers"
-    }
+    prerequisites = {}
+    
     cost = {
         minerals = 30
         energy = 100
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep20"
         has_trait = trait_android
         NOT = { has_technology = tech_robotic_workers }
@@ -3643,7 +3572,7 @@ buildable_robot_pop_rep20 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3652,18 +3581,15 @@ buildable_robot_pop_rep20_1 = {
     prerequisites = {
         "tech_robotic_workers"
     }
+    
     cost = {
         minerals = 40
         energy = 125
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep20"
         has_trait = trait_android
         NOT = { has_technology = tech_droid_workers }
@@ -3694,7 +3620,7 @@ buildable_robot_pop_rep20_1 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3703,18 +3629,15 @@ buildable_robot_pop_rep20_2 = {
     prerequisites = {
         "tech_droid_workers"
     }
+    
     cost = {
         minerals = 50
         energy = 150
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep20"
         has_trait = trait_android
         NOT = { has_technology = tech_synthetic_workers }
@@ -3745,7 +3668,7 @@ buildable_robot_pop_rep20_2 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
@@ -3754,18 +3677,15 @@ buildable_robot_pop_rep20_3 = {
     prerequisites = {
         "tech_synthetic_workers"
     }
+    
     cost = {
         minerals = 60
         energy = 175
     }
     
-    allow = {
-        ##is_species_class = "ROB"
-    }
+    allow = {}
     
     potential = {
-        #always = yes
-        #is_species_class = "ROB"
         species_portrait = "rep20"
         has_trait = trait_android
     }
@@ -3794,7 +3714,7 @@ buildable_robot_pop_rep20_3 = {
         pops_can_be_slaves = yes
         can_be_modified = yes
         pops_have_happiness = yes
-        pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+        pop_ethics = random
     }
 }
 
