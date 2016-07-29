@@ -1,0 +1,150 @@
+namespace = playablerobots
+
+# Add level1 trait if "robotic workers" tech researched
+country_event = {
+    id = playablerobots.3
+    hide_window = yes
+
+    trigger = {
+        has_trait = trait_android
+        NOT = {has_trait = trait_android_level1}
+
+        has_technology = tech_robotic_workers
+        NOT = { has_technology = tech_droid_workers }
+        NOT = { has_technology = tech_synthetic_workers }
+    }
+
+    immediate = {
+        random_owned_pop = {
+            limit = {
+                pop_has_trait = trait_android
+            }
+            create_species = {
+                name = this
+                plural = this
+                class = this
+                portrait = this
+                traits = this
+
+                new_pop_resource_requirement = {
+                    type = robot_food
+                    value = 30.0
+                }
+                pops_auto_growth = 1.2
+                pops_can_be_colonizers = yes
+                pops_can_migrate = yes
+                pops_can_reproduce = no
+                pops_can_join_factions = yes
+                pop_maintenance = 0.9
+                can_generate_leaders = yes
+                pops_can_be_slaves = yes
+                can_be_modified = yes
+                pops_have_happiness = yes
+            }
+        }
+        change_dominant_species = last_created_species
+        modify_species = {
+            species = ROOT
+            add_trait = trait_android_level1
+        }
+    }
+}
+
+# Add level2 trait if "droids" tech researched
+country_event = {
+    id = playablerobots.4
+    hide_window = yes
+
+    trigger = {
+        has_trait = trait_android
+        NOT = {has_trait = trait_android_level2}
+
+        has_technology = tech_droid_workers
+        NOT = { has_technology = tech_synthetic_workers }
+    }
+
+    immediate = {
+        random_owned_pop = {
+            limit = {
+                pop_has_trait = trait_android
+            }
+            create_species = {
+                name = this
+                plural = this
+                class = this
+                portrait = this
+                traits = this
+
+                new_pop_resource_requirement = {
+                    type = robot_food
+                    value = 30.0
+                }
+                pops_auto_growth = 1.4
+                pops_can_be_colonizers = yes
+                pops_can_migrate = yes
+                pops_can_reproduce = no
+                pops_can_join_factions = yes
+                pop_maintenance = 0.8
+                can_generate_leaders = yes
+                pops_can_be_slaves = yes
+                can_be_modified = yes
+                pops_have_happiness = yes
+            }
+        }
+        change_dominant_species = last_created_species
+        modify_species = {
+            species = ROOT
+            remove_trait = trait_android_level1
+            add_trait = trait_android_level2
+        }
+    }
+}
+
+# Add level3 trait if "synthetics" tech researched
+country_event = {
+    id = playablerobots.5
+    hide_window = yes
+
+    trigger = {
+        has_trait = trait_android
+        NOT = {has_trait = trait_android_level3}
+
+        has_technology = tech_synthetic_workers
+    }
+
+    immediate = {
+        random_owned_pop = {
+            limit = {
+                pop_has_trait = trait_android
+            }
+            create_species = {
+                name = this
+                plural = this
+                class = this
+                portrait = this
+                traits = this
+
+                new_pop_resource_requirement = {
+                    type = robot_food
+                    value = 30.0
+                }
+                pops_auto_growth = 1.6
+                pops_can_be_colonizers = yes
+                pops_can_migrate = yes
+                pops_can_reproduce = no
+                pops_can_join_factions = yes
+                pop_maintenance = 0.7
+                can_generate_leaders = yes
+                pops_can_be_slaves = yes
+                can_be_modified = yes
+                pops_have_happiness = yes
+            }
+        }
+        change_dominant_species = last_created_species
+        modify_species = {
+            species = ROOT
+            remove_trait = trait_android_level2
+            add_trait = trait_android_level3
+        }
+    }
+}
