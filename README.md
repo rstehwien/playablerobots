@@ -31,6 +31,7 @@ https://github.com/gtosh4/playablerobots
 * Add opposite traits for the Breeder traits and when you reach level 3 upgrade (100% habitability bonus) you are refunded you adaptive traits since you no longer need them.
 * Fixed bug where 'ai1' portrait couldn't build pops.
 * Add [Colonize Unlimited](http://steamcommunity.com/workshop/filedetails/?id=682582076) preference traits
+* Support **all traits and portraits** (not reflected in the "build" menu)
 
 ## FAQ
 ### My pop's happiness is capped, help!
@@ -40,10 +41,4 @@ The synthetics get a slight boost to habitability (increases with tech) but are 
 Make sure you selected the `Synthetic` trait when creating your species.
 
 ### Some of my traits aren't copying!
-Due to limitations on the mod API, the trait support has to be hand-managed so only a few are supported.
-
-The following traits are currently supported:
-* Vanilla traits
-* [Extended traits](https://steamcommunity.com/sharedfiles/filedetails/?id=681816257)
-* [Awakening](http://steamcommunity.com/sharedfiles/filedetails/?id=719876273)
-* [Colonize Unlimited](http://steamcommunity.com/workshop/filedetails/?id=682582076) preference traits
+This should now be fixed for all traits - make sure you have the latest version.
