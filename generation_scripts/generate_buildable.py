@@ -4,12 +4,13 @@ import sys
 import yaml
 
 print sys.argv
-if len(sys.argv) != 3:
-    print "Expected 2 argument, got: " + str(len(sys.argv)-1)
+if len(sys.argv) != 4:
+    print "Expected 3 argument, got: " + str(len(sys.argv)-1)
     raise Exception()
 
 cfg_path = sys.argv[1]
 template_path = sys.argv[2]
+output_path = sys.argv[3]
 
 species_spec = {}
 with open(cfg_path, 'r') as stream:
@@ -24,7 +25,7 @@ with open(template_path, 'r') as stream:
 
 for species, portraits in species_spec.iteritems():
     print species, portraits
-    with open(species + "_robot_pops.txt", 'w') as out:
+    with open(output_path + "/" + species + "_robot_pops.txt", 'w') as out:
         species_template = template.replace('$name', species)
         for portrait_name, portrait_spec in portraits.iteritems():
             suffix = portrait_spec.get('suffix', '')
