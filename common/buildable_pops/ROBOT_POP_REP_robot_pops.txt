@@ -26,7 +26,7 @@ buildable_robot_pop_rep1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep1_1
         
         pops_can_be_colonizers = yes
@@ -74,7 +74,7 @@ buildable_robot_pop_rep1_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep1_2
         
         pops_can_be_colonizers = yes
@@ -122,7 +122,7 @@ buildable_robot_pop_rep1_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep1_3
         
         pops_can_be_colonizers = yes
@@ -169,7 +169,7 @@ buildable_robot_pop_rep1_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -212,7 +212,7 @@ buildable_robot_pop_rep2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep2_1
         
         pops_can_be_colonizers = yes
@@ -260,7 +260,7 @@ buildable_robot_pop_rep2_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep2_2
         
         pops_can_be_colonizers = yes
@@ -308,7 +308,7 @@ buildable_robot_pop_rep2_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep2_3
         
         pops_can_be_colonizers = yes
@@ -355,7 +355,7 @@ buildable_robot_pop_rep2_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -398,7 +398,7 @@ buildable_robot_pop_rep3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep3_1
         
         pops_can_be_colonizers = yes
@@ -446,7 +446,7 @@ buildable_robot_pop_rep3_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep3_2
         
         pops_can_be_colonizers = yes
@@ -494,7 +494,7 @@ buildable_robot_pop_rep3_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep3_3
         
         pops_can_be_colonizers = yes
@@ -541,7 +541,7 @@ buildable_robot_pop_rep3_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -584,7 +584,7 @@ buildable_robot_pop_rep4 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep4_1
         
         pops_can_be_colonizers = yes
@@ -632,7 +632,7 @@ buildable_robot_pop_rep4_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep4_2
         
         pops_can_be_colonizers = yes
@@ -680,7 +680,7 @@ buildable_robot_pop_rep4_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep4_3
         
         pops_can_be_colonizers = yes
@@ -727,7 +727,7 @@ buildable_robot_pop_rep4_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -770,7 +770,7 @@ buildable_robot_pop_rep5 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep5_1
         
         pops_can_be_colonizers = yes
@@ -818,7 +818,7 @@ buildable_robot_pop_rep5_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep5_2
         
         pops_can_be_colonizers = yes
@@ -866,7 +866,7 @@ buildable_robot_pop_rep5_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep5_3
         
         pops_can_be_colonizers = yes
@@ -913,7 +913,7 @@ buildable_robot_pop_rep5_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -956,7 +956,7 @@ buildable_robot_pop_rep6 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep6_1
         
         pops_can_be_colonizers = yes
@@ -1004,7 +1004,7 @@ buildable_robot_pop_rep6_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep6_2
         
         pops_can_be_colonizers = yes
@@ -1052,7 +1052,7 @@ buildable_robot_pop_rep6_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep6_3
         
         pops_can_be_colonizers = yes
@@ -1099,7 +1099,7 @@ buildable_robot_pop_rep6_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -1142,7 +1142,7 @@ buildable_robot_pop_rep7 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep7_1
         
         pops_can_be_colonizers = yes
@@ -1190,7 +1190,7 @@ buildable_robot_pop_rep7_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep7_2
         
         pops_can_be_colonizers = yes
@@ -1238,7 +1238,7 @@ buildable_robot_pop_rep7_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep7_3
         
         pops_can_be_colonizers = yes
@@ -1285,7 +1285,7 @@ buildable_robot_pop_rep7_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -1328,7 +1328,7 @@ buildable_robot_pop_rep8 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep8_1
         
         pops_can_be_colonizers = yes
@@ -1376,7 +1376,7 @@ buildable_robot_pop_rep8_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep8_2
         
         pops_can_be_colonizers = yes
@@ -1424,7 +1424,7 @@ buildable_robot_pop_rep8_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep8_3
         
         pops_can_be_colonizers = yes
@@ -1471,7 +1471,7 @@ buildable_robot_pop_rep8_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -1514,7 +1514,7 @@ buildable_robot_pop_rep9 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep9_1
         
         pops_can_be_colonizers = yes
@@ -1562,7 +1562,7 @@ buildable_robot_pop_rep9_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep9_2
         
         pops_can_be_colonizers = yes
@@ -1610,7 +1610,7 @@ buildable_robot_pop_rep9_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep9_3
         
         pops_can_be_colonizers = yes
@@ -1657,7 +1657,7 @@ buildable_robot_pop_rep9_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -1700,7 +1700,7 @@ buildable_robot_pop_rep10 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep10_1
         
         pops_can_be_colonizers = yes
@@ -1748,7 +1748,7 @@ buildable_robot_pop_rep10_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep10_2
         
         pops_can_be_colonizers = yes
@@ -1796,7 +1796,7 @@ buildable_robot_pop_rep10_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep10_3
         
         pops_can_be_colonizers = yes
@@ -1843,7 +1843,7 @@ buildable_robot_pop_rep10_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -1886,7 +1886,7 @@ buildable_robot_pop_rep11 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep11_1
         
         pops_can_be_colonizers = yes
@@ -1934,7 +1934,7 @@ buildable_robot_pop_rep11_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep11_2
         
         pops_can_be_colonizers = yes
@@ -1982,7 +1982,7 @@ buildable_robot_pop_rep11_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep11_3
         
         pops_can_be_colonizers = yes
@@ -2029,7 +2029,7 @@ buildable_robot_pop_rep11_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -2072,7 +2072,7 @@ buildable_robot_pop_rep12 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep12_1
         
         pops_can_be_colonizers = yes
@@ -2120,7 +2120,7 @@ buildable_robot_pop_rep12_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep12_2
         
         pops_can_be_colonizers = yes
@@ -2168,7 +2168,7 @@ buildable_robot_pop_rep12_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep12_3
         
         pops_can_be_colonizers = yes
@@ -2215,7 +2215,7 @@ buildable_robot_pop_rep12_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -2258,7 +2258,7 @@ buildable_robot_pop_rep13 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep13_1
         
         pops_can_be_colonizers = yes
@@ -2306,7 +2306,7 @@ buildable_robot_pop_rep13_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep13_2
         
         pops_can_be_colonizers = yes
@@ -2354,7 +2354,7 @@ buildable_robot_pop_rep13_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep13_3
         
         pops_can_be_colonizers = yes
@@ -2401,7 +2401,7 @@ buildable_robot_pop_rep13_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -2444,7 +2444,7 @@ buildable_robot_pop_rep14 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep14_1
         
         pops_can_be_colonizers = yes
@@ -2492,7 +2492,7 @@ buildable_robot_pop_rep14_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep14_2
         
         pops_can_be_colonizers = yes
@@ -2540,7 +2540,7 @@ buildable_robot_pop_rep14_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep14_3
         
         pops_can_be_colonizers = yes
@@ -2587,7 +2587,7 @@ buildable_robot_pop_rep14_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -2630,7 +2630,7 @@ buildable_robot_pop_rep15 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep15_1
         
         pops_can_be_colonizers = yes
@@ -2678,7 +2678,7 @@ buildable_robot_pop_rep15_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep15_2
         
         pops_can_be_colonizers = yes
@@ -2726,7 +2726,7 @@ buildable_robot_pop_rep15_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep15_3
         
         pops_can_be_colonizers = yes
@@ -2773,7 +2773,7 @@ buildable_robot_pop_rep15_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -2816,7 +2816,7 @@ buildable_robot_pop_rep16 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep16_1
         
         pops_can_be_colonizers = yes
@@ -2864,7 +2864,7 @@ buildable_robot_pop_rep16_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep16_2
         
         pops_can_be_colonizers = yes
@@ -2912,7 +2912,7 @@ buildable_robot_pop_rep16_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep16_3
         
         pops_can_be_colonizers = yes
@@ -2959,7 +2959,7 @@ buildable_robot_pop_rep16_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -3002,7 +3002,7 @@ buildable_robot_pop_rep17 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep17_1
         
         pops_can_be_colonizers = yes
@@ -3050,7 +3050,7 @@ buildable_robot_pop_rep17_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep17_2
         
         pops_can_be_colonizers = yes
@@ -3098,7 +3098,7 @@ buildable_robot_pop_rep17_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep17_3
         
         pops_can_be_colonizers = yes
@@ -3145,7 +3145,7 @@ buildable_robot_pop_rep17_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -3188,7 +3188,7 @@ buildable_robot_pop_rep18 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep18_1
         
         pops_can_be_colonizers = yes
@@ -3236,7 +3236,7 @@ buildable_robot_pop_rep18_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep18_2
         
         pops_can_be_colonizers = yes
@@ -3284,7 +3284,7 @@ buildable_robot_pop_rep18_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep18_3
         
         pops_can_be_colonizers = yes
@@ -3331,7 +3331,7 @@ buildable_robot_pop_rep18_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -3374,7 +3374,7 @@ buildable_robot_pop_rep19 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep19_1
         
         pops_can_be_colonizers = yes
@@ -3422,7 +3422,7 @@ buildable_robot_pop_rep19_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep19_2
         
         pops_can_be_colonizers = yes
@@ -3470,7 +3470,7 @@ buildable_robot_pop_rep19_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep19_3
         
         pops_can_be_colonizers = yes
@@ -3517,7 +3517,7 @@ buildable_robot_pop_rep19_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes
@@ -3560,7 +3560,7 @@ buildable_robot_pop_rep20 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.0
+        pops_auto_growth = 2.0
         pops_auto_upgrade_to = buildable_robot_pop_rep20_1
         
         pops_can_be_colonizers = yes
@@ -3608,7 +3608,7 @@ buildable_robot_pop_rep20_1 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.2
+        pops_auto_growth = 2.2
         pops_auto_upgrade_to = buildable_robot_pop_rep20_2
         
         pops_can_be_colonizers = yes
@@ -3656,7 +3656,7 @@ buildable_robot_pop_rep20_2 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.4
+        pops_auto_growth = 2.4
         pops_auto_upgrade_to = buildable_robot_pop_rep20_3
         
         pops_can_be_colonizers = yes
@@ -3703,7 +3703,7 @@ buildable_robot_pop_rep20_3 = {
             type = robot_food
             value = 30.0
         }
-        pops_auto_growth = 1.6
+        pops_auto_growth = 2.6
         
         pops_can_be_colonizers = yes
         pops_can_migrate = yes

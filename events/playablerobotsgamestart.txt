@@ -54,7 +54,7 @@ country_event = {
                     type = robot_food
                     value = 30.0
                 }
-                pops_auto_growth = 1.0
+                pops_auto_growth = 2.0
                 pops_can_be_colonizers = yes
                 pops_can_migrate = yes
                 pops_can_reproduce = no
