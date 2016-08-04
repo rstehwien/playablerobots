@@ -25,6 +25,7 @@ country_event = {
                 class = this
                 portrait = this
                 traits = this
+				homeworld = ROOT.capital_scope
 
                 new_pop_resource_requirement = {
                     type = robot_food
@@ -74,6 +75,7 @@ country_event = {
                 class = this
                 portrait = this
                 traits = this
+				homeworld = ROOT.capital_scope
 
                 new_pop_resource_requirement = {
                     type = robot_food
@@ -123,6 +125,7 @@ country_event = {
                 class = this
                 portrait = this
                 traits = this
+				homeworld = ROOT.capital_scope
 
                 new_pop_resource_requirement = {
                     type = robot_food

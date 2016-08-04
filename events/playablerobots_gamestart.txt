@@ -1,0 +1,79 @@
+namespace = playablerobots
+
+event = {
+    id = playablerobots.0
+    is_triggered_only = yes
+    hide_window = yes
+    immediate = {
+        every_country = {
+            limit = {
+                is_ai = no
+                has_trait = trait_android
+            }
+            country_event = { id = playablerobots.2 }
+        }
+    }
+}
+
+country_event = {
+    id = playablerobots.2
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        is_ai = no
+        has_trait = trait_android
+    }
+
+    immediate = {
+        capital_scope = {
+            every_tile = {
+                limit = { has_resource = { type = food amount > 0 } }
+                clear_resources = yes
+				clear_deposits = yes
+                add_deposit = d_energy_deposit
+            }
+            every_tile = {
+                limit = { has_building = "building_hydroponics_farm_1" }
+                remove_building = yes
+                set_building = "building_power_plant_1"
+            }
+        }
+        set_country_flag = ai_accord
+        random_owned_pop = {
+            limit = {
+                pop_has_trait = trait_android
+            }
+            create_species = {
+                name = this
+                plural = this
+                class = this
+                portrait = this
+                traits = this
+				homeworld = ROOT.capital_scope
+
+                new_pop_resource_requirement = {
+                    type = robot_food
+                    value = 30.0
+                }
+                pops_auto_growth = 2.0
+                pops_can_be_colonizers = yes
+                pops_can_migrate = yes
+                pops_can_reproduce = no
+                pops_can_join_factions = yes
+                pop_maintenance = 1
+                can_generate_leaders = yes
+                pops_can_be_slaves = yes
+                can_be_modified = yes
+                pops_have_happiness = yes
+            }
+        }
+        change_dominant_species = last_created_species
+        every_owned_pop = {
+            limit = {
+                pop_has_trait = trait_android
+                NOT = { is_exact_same_species = ROOT }
+            }
+            change_pop_species = ROOT
+        }
+}
