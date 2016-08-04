@@ -1,37 +1,37 @@
 namespace = playrobotest
 
 country_event = {
-    id = playrobotest.1
-    hide_window = yes
-    is_triggered_only = yes
+	id = playrobotest.1
+	hide_window = yes
+	is_triggered_only = yes
 
-    trigger = {}
+	trigger = {}
 
-    immediate = {
-        give_technology = tech_robotic_workers
-    }
+	immediate = {
+		give_technology = tech_robotic_workers
+	}
 }
 
 country_event = {
-    id = playrobotest.2
-    hide_window = yes
-    is_triggered_only = yes
+	id = playrobotest.2
+	hide_window = yes
+	is_triggered_only = yes
 
-    trigger = {}
+	trigger = {}
 
-    immediate = {
-        give_technology = tech_droid_workers
-    }
+	immediate = {
+		give_technology = tech_droid_workers
+	}
 }
 
 country_event = {
-    id = playrobotest.3
-    hide_window = yes
-    is_triggered_only = yes
+	id = playrobotest.3
+	hide_window = yes
+	is_triggered_only = yes
 
-    trigger = {}
+	trigger = {}
 
-    immediate = {
-        give_technology = tech_synthetic_workers
-    }
+	immediate = {
+		give_technology = tech_synthetic_workers
+	}
 }

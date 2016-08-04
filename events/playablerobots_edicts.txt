@@ -1,157 +1,157 @@
 namespace = playablerobots
 
 country_event = {
-    id = playablerobots.7
-    title = playablerobots.2.title
-    desc = tutorial.14.desc
-    picture = GFX_evt_playablerobots
-    hide_window = yes
-    #is_triggered_only = yes
+	id = playablerobots.7
+	title = playablerobots.2.title
+	desc = tutorial.14.desc
+	picture = GFX_evt_playablerobots
+	hide_window = yes
+	#is_triggered_only = yes
 
-    trigger = {
-        sectors > 0
-        has_country_edict  = playablerobots_sector
-        is_ai = no
-        has_country_resource = {
-            type = minerals
-            amount > 100
-        }
-        has_country_resource = {
-            type = energy
-            amount > 250
-        }
-        any_owned_planet = {
-            #limit = {
-            #	NOT = { sector_controlled = no }
-            #}
-            any_tile = {
-                AND = {
-                        has_grown_pop = no
-                        has_growing_pop = no
-                        has_blocker = no
-                    }
-            }
-        }
-    }
+	trigger = {
+		sectors > 0
+		has_country_edict  = playablerobots_sector
+		is_ai = no
+		has_country_resource = {
+			type = minerals
+			amount > 100
+		}
+		has_country_resource = {
+			type = energy
+			amount > 250
+		}
+		any_owned_planet = {
+			#limit = {
+			#	NOT = { sector_controlled = no }
+			#}
+			any_tile = {
+				AND = {
+						has_grown_pop = no
+						has_growing_pop = no
+						has_blocker = no
+					}
+			}
+		}
+	}
 
-    mean_time_to_happen = { days = 350 }
+	mean_time_to_happen = { days = 350 }
 
-    #immediate = {
-    #}
+	#immediate = {
+	#}
 
-    option = {
-        name = OK
-        random_owned_planet = {
-            limit = {
-                    sector_controlled = yes
-            }
-            if = {
-                limit = {
-                    owner = {
-                        NOT = { has_technology  = tech_robotic_workers }
-                    }
-                }
-                owner = {
-                    add_minerals = -30
-                    add_energy = -100
-                }
-            }
-            if = {
-                limit = {
-                    owner = {
-                        has_technology  = tech_robotic_workers
-                        NOT = { has_technology  = tech_droid_workers }
-                    }
-                }
-                owner = {
-                    add_minerals = -40
-                    add_energy = -125
-                }
-            }
-            if = {
-                limit = {
-                    owner = {
-                        has_technology  = tech_droid_workers
-                        NOT = { has_technology  = tech_synthetic_workers }
-                    }
-                }
-                owner = {
-                    add_minerals = -50
-                    add_energy = -150
-                }
-            }
-            if = {
-                limit = {
-                    owner = {
-                        has_technology  = tech_synthetic_workers
-                    }
-                }
-                owner = {
-                    add_minerals = -60
-                    add_energy = -175
-                }
-            }
-            best_tile_for_pop = {
-                create_pop = {
-                    species = owner_main_species
-                    ethos = owner
-                }
-            }
-        }
-    }
+	option = {
+		name = OK
+		random_owned_planet = {
+			limit = {
+					sector_controlled = yes
+			}
+			if = {
+				limit = {
+					owner = {
+						NOT = { has_technology  = tech_robotic_workers }
+					}
+				}
+				owner = {
+					add_minerals = -30
+					add_energy = -100
+				}
+			}
+			if = {
+				limit = {
+					owner = {
+						has_technology  = tech_robotic_workers
+						NOT = { has_technology  = tech_droid_workers }
+					}
+				}
+				owner = {
+					add_minerals = -40
+					add_energy = -125
+				}
+			}
+			if = {
+				limit = {
+					owner = {
+						has_technology  = tech_droid_workers
+						NOT = { has_technology  = tech_synthetic_workers }
+					}
+				}
+				owner = {
+					add_minerals = -50
+					add_energy = -150
+				}
+			}
+			if = {
+				limit = {
+					owner = {
+						has_technology  = tech_synthetic_workers
+					}
+				}
+				owner = {
+					add_minerals = -60
+					add_energy = -175
+				}
+			}
+			best_tile_for_pop = {
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+		}
+	}
 }
 
 country_event = {
-    id = playablerobots.8
-    title = playablerobots.2.title
-    desc = tutorial.14.desc
-    picture = GFX_evt_playablerobots
-    hide_window = yes
-    #is_triggered_only = yes
+	id = playablerobots.8
+	title = playablerobots.2.title
+	desc = tutorial.14.desc
+	picture = GFX_evt_playablerobots
+	hide_window = yes
+	#is_triggered_only = yes
 
-    trigger = {
-        has_trait = trait_android
-        has_country_edict  = playablerobots_immortal
-        is_ai = no
-        NOT = { has_modifier = playablerobots_immortal_modifier }
-    }
+	trigger = {
+		has_trait = trait_android
+		has_country_edict  = playablerobots_immortal
+		is_ai = no
+		NOT = { has_modifier = playablerobots_immortal_modifier }
+	}
 
-    mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { days = 1 }
 
-    #immediate = {
-    #}
+	#immediate = {
+	#}
 
-    option = {
-        name = OK
-        add_modifier = {
-            modifier = "playablerobots_immortal_modifier"
-            days = -1
-        }
-    }
+	option = {
+		name = OK
+		add_modifier = {
+			modifier = "playablerobots_immortal_modifier"
+			days = -1
+		}
+	}
 }
 
 country_event = {
-    id = playablerobots.9
-    title = playablerobots.2.title
-    desc = tutorial.14.desc
-    picture = GFX_evt_playablerobots
-    hide_window = yes
-    #is_triggered_only = yes
+	id = playablerobots.9
+	title = playablerobots.2.title
+	desc = tutorial.14.desc
+	picture = GFX_evt_playablerobots
+	hide_window = yes
+	#is_triggered_only = yes
 
-    trigger = {
-        has_trait = trait_android
-        NOT = { has_country_edict  = playablerobots_immortal }
-        is_ai = no
-        has_modifier = playablerobots_immortal_modifier
-    }
+	trigger = {
+		has_trait = trait_android
+		NOT = { has_country_edict  = playablerobots_immortal }
+		is_ai = no
+		has_modifier = playablerobots_immortal_modifier
+	}
 
-    mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { days = 1 }
 
-    #immediate = {
-    #}
+	#immediate = {
+	#}
 
-    option = {
-        name = OK
-        remove_modifier = playablerobots_immortal_modifier
-    }
+	option = {
+		name = OK
+		remove_modifier = playablerobots_immortal_modifier
+	}
 }

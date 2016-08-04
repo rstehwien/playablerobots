@@ -1,15 +1,15 @@
 # Triggers when the game starts
 on_game_start = {
-    events = {
-        playablerobots.0
-    }
+	events = {
+		playablerobots.0
+	}
 }
 
 # Triggers when pressing begin in the intro window
 # This = country to press begin
 on_press_begin = {
-    events = {
+	events = {
 #		playablerobots.2
-    }
+	}
 }
 
