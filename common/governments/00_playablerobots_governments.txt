@@ -12,7 +12,10 @@
 # Generic Democracy
 technocratic_confederacy = {
 	potential = {
-		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+		hidden_trigger = {
+			NOT = { is_country_type = fallen_empire }
+			is_ai = no
+		}
 		has_trait = trait_android
 	}
 
@@ -41,7 +44,10 @@ technocratic_hegemony = {
 	prerequisites = { "tech_galactic_administration" }
 	
 	potential = {
-		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+		hidden_trigger = {
+			NOT = { is_country_type = fallen_empire }
+			is_ai = no
+		}
 		has_trait = trait_android
 	}
 
@@ -68,7 +74,10 @@ technocratic_hegemony = {
 # Generic Oligarchy
 neural_cooperative = {
 	potential = {
-		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+		hidden_trigger = {
+			NOT = { is_country_type = fallen_empire }
+			is_ai = no
+		}
 		has_trait = trait_android
 	}
 
@@ -119,7 +128,10 @@ neural_collective = {
 	prerequisites = { "tech_galactic_administration" }
 	
 	potential = {
-		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+		hidden_trigger = {
+			NOT = { is_country_type = fallen_empire }
+			is_ai = no
+		}
 		has_trait = trait_android
 	}
 
@@ -172,7 +184,10 @@ collective_consciousness = {
 	use_regnal_names = yes
 	
 	potential = {
-		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+		hidden_trigger = {
+			NOT = { is_country_type = fallen_empire }
+			is_ai = no
+		}
 		has_trait = trait_android
 	}
 
@@ -204,7 +219,10 @@ collective_intelligence = {
 	use_regnal_names = yes
 	
 	potential = {
-		hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+		hidden_trigger = {
+			NOT = { is_country_type = fallen_empire }
+			is_ai = no
+		}
 		has_trait = trait_android
 	}
 
