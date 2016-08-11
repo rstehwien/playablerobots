@@ -60,7 +60,6 @@ country_event = {
 			best_tile_for_pop  = {
 				create_pop = {
 					species = owner_main_species
-					is_growing = yes
 				}
 			}
 		}
