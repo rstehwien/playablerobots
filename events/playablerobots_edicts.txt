@@ -36,11 +36,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 350 }
 
-	#immediate = {
-	#}
-
-	option = {
-		name = OK
+	immediate = {
 		random_owned_planet = {
 			limit = {
 					sector_controlled = yes
@@ -118,11 +114,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 1 }
 
-	#immediate = {
-	#}
-
-	option = {
-		name = OK
+	immediate = {
 		add_modifier = {
 			modifier = "playablerobots_immortal_modifier"
 			days = -1
@@ -147,10 +139,7 @@ country_event = {
 
 	mean_time_to_happen = { days = 1 }
 
-	#immediate = {
-	#}
-
-	option = {
+	immediate = {
 		name = OK
 		remove_modifier = playablerobots_immortal_modifier
 	}
