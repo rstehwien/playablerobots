@@ -1,0 +1,483 @@
+leadership = {
+
+	potential = {
+		always = yes
+	}
+
+	option = {
+		name = "leadership_primary_only"
+
+		policy_flags = {
+			leadership_allow_dominant_only
+		}
+
+		on_enabled = {
+			# custom_tooltip = "policy_allow_slavery_effect_disable"
+		}
+
+		AI_weight = {
+			modifier = {
+				factor = 2
+				has_valid_ai_personality = no
+				OR = {
+					has_ethic = "ethic_xenophobe"
+					has_ethic = "ethic_fanatic_xenophobe"
+				}
+			}
+			modifier = {
+				factor = 2
+				has_valid_ai_personality = yes
+				NOT = { has_ai_personality_behaviour = multispecies }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_xenophile"
+					has_ethic = "ethic_fanatic_xenophile"
+				}
+			}
+		}
+
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				NOT = { is_same_species = ROOT.owner }
+			}
+		}
+	}
+
+	option = {
+		name = "leadership_allow_xeno"
+
+		policy_flags = {
+			leadership_allow_xeno
+		}
+		modifier = {}
+
+		valid = {
+			NOT = {
+				has_ethic = "ethic_fanatic_xenophobe"
+			}
+		}
+
+		AI_weight = {
+			modifier = {
+				factor = 2
+				has_valid_ai_personality = no
+				OR = {
+					has_ethic = "ethic_xenophile"
+					has_ethic = "ethic_fanatic_xenophile"
+				}
+			}
+			modifier = {
+				factor = 2
+				has_valid_ai_personality = yes
+				has_ai_personality_behaviour = multispecies
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_xenophobe"
+					has_ethic = "ethic_fanatic_xenophobe"
+				}
+			}
+		}
+
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				AND = {
+					is_robot_pop = yes
+					NOT = { is_same_species = ROOT.owner }
+				}
+			}
+			modifier = {
+				add = -0.05
+				NOT = {
+					pop_has_ethic = "ethic_xenophobe"
+					pop_has_ethic = "ethic_fanatic_xenophobe"
+					pop_has_ethic = "ethic_xenophile"
+					pop_has_ethic = "ethic_fanatic_xenophile"
+				}
+				owner = {
+					is_same_species = ROOT
+				}
+			}
+			modifier = {
+				add = -0.1
+				pop_has_ethic = "ethic_xenophobe"
+				owner = {
+					is_same_species = ROOT
+				}
+			}
+			modifier = {
+				add = -0.2
+				pop_has_ethic = "ethic_fanatic_xenophobe"
+				owner = {
+					is_same_species = ROOT
+				}
+			}
+		}
+
+		prerequisites = { tech_xeno_integration }
+	}
+
+	option = {
+		name = "leadership_allow_robot"
+
+		policy_flags = {
+			leadership_allow_robot
+		}
+		modifier = {}
+
+		prerequisites = { tech_synthetic_leaders }
+
+		AI_weight = {
+			modifier = {
+				factor = 0
+				has_valid_ai_personality = yes
+				NOT = { has_ai_personality_behaviour = robot_liberator }
+			}
+			modifier = {
+				factor = 10
+				has_valid_ai_personality = yes
+				has_ai_personality_behaviour = robot_liberator
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_spiritualist"
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
+			}
+		}
+
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				is_robot_pop = no
+				NOR = {
+					pop_has_ethic = "ethic_materialist"
+					pop_has_ethic = "ethic_fanatic_materialist"
+				}
+			}
+			modifier = {
+				add = -0.05
+				is_robot_pop = no
+				pop_has_ethic = "ethic_fanatic_spiritualist"
+			}
+		}
+	}
+
+	option = {
+		name = "leadership_allow_all"
+
+		policy_flags = {
+			leadership_allow_all
+		}
+		modifier = {}
+
+		potential = {
+			has_technology = tech_xeno_integration
+			has_technology = tech_synthetic_leaders
+		}
+
+		valid = {
+			NOT = {
+				has_ethic = "ethic_fanatic_xenophobe"
+			}
+		}
+
+		AI_weight = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_xenophobe"
+					has_ethic = "ethic_fanatic_xenophobe"
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_spiritualist"
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
+			}
+			modifier = {
+				factor = 4
+				OR = {
+					has_ethic = "ethic_xenophile"
+					has_ethic = "ethic_fanatic_xenophile"
+				}
+				OR = {
+					has_ethic = "ethic_materialist"
+					has_ethic = "ethic_fanatic_materialist"
+				}
+			}
+		}
+
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				pop_has_ethic = "ethic_xenophobe"
+				owner = {
+					is_same_species = ROOT
+				}
+			}
+			modifier = {
+				add = -0.1
+				pop_has_ethic = "ethic_fanatic_xenophobe"
+				owner = {
+					is_same_species = ROOT
+				}
+			}
+			modifier = {
+				add = -0.05
+				pop_has_ethic = "ethic_spiritualist"
+			}
+			modifier = {
+				add = -0.1
+				pop_has_ethic = "ethic_fanatic_spiritualist"
+			}
+		}
+	}
+}
+
+artificial_intelligence_policy = {
+
+	potential = {
+		OR = {
+			has_technology = tech_robotic_workers
+			has_trait = trait_android
+		}
+	}
+
+	option = {
+		name = "ai_outlawed"
+
+		potential = { NOT = { is_country_type = ai_empire } }
+
+		valid = {
+			custom_tooltip = {
+				text = ai_accord_servitude_disallowed
+				NOT = { has_country_flag = ai_accord }
+			}
+			custom_tooltip = {
+				text = ai_cannot_outlaw_own
+				NOT = { has_trait = trait_android }
+			}
+		}
+
+		policy_flags = {
+			ai_outlawed
+		}
+
+		on_enabled = {
+			custom_tooltip = "ALL_ROBOTS_DISASSEMBLED"
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_ai_personality_behaviour = robot_exploiter
+					has_ai_personality_behaviour = robot_liberator
+					has_ethic = "ethic_materialist"
+					has_ethic = "ethic_fanatic_materialist"
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					has_ethic = "ethic_spiritualist"
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
+			}
+			modifier = {
+				factor = 0
+				is_country_type = ai_empire
+			}
+		}
+
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				pop_has_ethic = "ethic_materialist"
+				NOR = {
+					pop_has_ethic = "ethic_xenophobe"
+					pop_has_ethic = "ethic_fanatic_xenophobe"
+				}
+			}
+			modifier = {
+				add = -0.1
+				pop_has_ethic = "ethic_fanatic_materialist"
+				NOR = {
+					pop_has_ethic = "ethic_xenophobe"
+					pop_has_ethic = "ethic_fanatic_xenophobe"
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "ai_servitude"
+
+		potential = { NOT = { is_country_type = ai_empire } }
+
+		valid = {
+			custom_tooltip = {
+				text = ai_accord_servitude_disallowed
+				NOT = { has_country_flag = ai_accord }
+			}
+			custom_tooltip = {
+				text = ai_cannot_enslave_own
+				NOT = { has_trait = trait_android }
+			}
+		}
+
+		policy_flags = {
+			ai_servitude
+		}
+
+		AI_weight = {
+			modifier = {
+				factor = 0
+				has_valid_ai_personality = yes
+				NOR = {
+					has_ai_personality_behaviour = robot_exploiter
+					has_ai_personality_behaviour = robot_liberator
+					has_ethic = "ethic_materialist"
+					has_ethic = "ethic_fanatic_materialist"
+				}
+			}
+			modifier = {
+				factor = 2
+				has_valid_ai_personality = yes
+				has_ai_personality_behaviour = robot_exploiter
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_spiritualist"
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
+			}
+			modifier = {
+				factor = 0
+				is_country_type = ai_empire
+			}
+		}
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				pop_has_ethic = "ethic_spiritualist"
+			}
+			modifier = {
+				add = -0.10
+				pop_has_ethic = "ethic_fanatic_spiritualist"
+			}
+			modifier = {
+				add = -0.25
+				is_robot_pop = yes
+			}
+		}
+	}
+
+	option = {
+		name = "ai_full_rights"
+
+		valid = {
+			OR = {
+				custom_tooltip = {
+					text = ai_perfect_servants_rights_disallowed
+					NOT = { has_country_flag = ai_perfect_servants }
+				}
+				has_technology = "tech_synthetic_workers"
+				has_trait = trait_android
+			}
+		}
+
+		policy_flags = {
+			ai_full_rights
+		}
+
+		modifier = {}
+
+		AI_weight = {
+			modifier = {
+				factor = 0
+				has_valid_ai_personality = yes
+				NOT = { has_ai_personality_behaviour = robot_liberator }
+			}
+			modifier = {
+				factor = 2
+				has_valid_ai_personality = yes
+				has_ai_personality_behaviour = robot_liberator
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_spiritualist"
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_ethic = "ethic_xenophobe"
+					has_ethic = "ethic_fanatic_xenophobe"
+				}
+			}
+			modifier = {
+				factor = 10
+				is_country_type = ai_empire
+			}
+		}
+
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = -0.05
+				is_robot_pop = no
+				NOR = {
+					owner = { has_country_flag = ai_accord }
+					pop_has_ethic = "ethic_spiritualist"
+					pop_has_ethic = "ethic_fanatic_spiritualist"
+					pop_has_ethic = "ethic_xenophobe"
+					pop_has_ethic = "ethic_fanatic_xenophobe"
+					pop_has_ethic = "ethic_materialist"
+					pop_has_ethic = "ethic_fanatic_materialist"
+				}
+			}
+			modifier = {
+				add = -0.1
+				is_robot_pop = no
+				owner = { NOT = { has_country_flag = ai_accord } }
+				pop_has_ethic = "ethic_spiritualist"
+			}
+			modifier = {
+				add = -0.2
+				is_robot_pop = no
+				owner = { NOT = { has_country_flag = ai_accord } }
+				pop_has_ethic = "ethic_fanatic_spiritualist"
+			}
+			modifier = {
+				add = -0.05
+				is_robot_pop = no
+				owner = { NOT = { has_country_flag = ai_accord } }
+				pop_has_ethic = "ethic_xenophobe"
+			}
+			modifier = {
+				add = -0.1
+				is_robot_pop = no
+				owner = { NOT = { has_country_flag = ai_accord } }
+				pop_has_ethic = "ethic_fanatic_xenophobe"
+			}
+		}
+	}
+}

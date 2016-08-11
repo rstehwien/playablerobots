@@ -5,7 +5,6 @@
 # can specify randomized=no to filter specified class from randomization.
 
 ROB = {
-	robotic = yes
 	randomized = no
 	
 	portraits = {
