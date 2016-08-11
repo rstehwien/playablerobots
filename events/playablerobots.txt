@@ -7,14 +7,68 @@ pop_event = {
 	trigger = {
 		has_trait = trait_android
 		exists = owner
-		NOT = { is_exact_same_species = owner }
+		NOT = { has_pop_flag = playablerobots_pop_built }
 	}
 
 	immediate = {
-		owner = {
-			root = {
-				change_pop_species = PREV
+		planet = {
+			random_owned_pop = {
+				limit = {
+					has_trait = trait_android
+					has_pop_flag = playablerobots_pop_built
+				}
+				if = { limit = { exists = this }
+					root = {
+						change_pop_species = PREV
+					}
+					else = {
+						change_pop_species = owner_species
+					}
+				}
 			}
+		}
+		set_pop_flag = playablerobots_pop_built
+	}
+}
+
+
+## Remove android from AI countries
+country_event = {
+	id = playablerobots.10
+	hide_window = yes
+	
+	trigger = {
+		has_trait = trait_android
+		is_ai = yes
+	}
+	
+	immediate = {
+		modify_species = {
+			species = ROOT
+			remove_trait = trait_android
+		}
+	}
+}
+
+## Remove android from non-player pops
+pop_event = {
+	id = playablerobots.11
+	hide_window = yes
+	
+	trigger = {
+		has_trait = trait_android
+		OR = {
+			NOT = { exists = owner }
+			owner = {
+				is_ai = yes
+			}
+		}
+	}
+	
+	immediate = {
+		modify_species = {
+			species = ROOT
+			remove_trait = trait_android
 		}
 	}
 }

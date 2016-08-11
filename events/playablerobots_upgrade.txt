@@ -15,9 +15,39 @@ country_event = {
 	}
 
 	immediate = {
-		random_owned_pop = {
+		create_species = {
+			name = this
+			plural = this
+			class = this
+			portrait = this
+			traits = this
+			homeworld = ROOT.capital_scope
+
+			new_pop_resource_requirement = {
+				type = robot_food
+				value = 30.0
+			}
+			pops_auto_growth = 2.2
+			pops_can_be_colonizers = yes
+			pops_can_migrate = yes
+			pops_can_reproduce = no
+			pops_can_join_factions = yes
+			pop_maintenance = 0.9
+			can_generate_leaders = yes
+			pops_can_be_slaves = yes
+			can_be_modified = yes
+			pops_have_happiness = yes
+		}
+		change_dominant_species = last_created_species
+		modify_species = {
+			species = ROOT
+			add_trait = trait_android_level1
+		}
+		every_owned_pop = {
 			limit = {
-				pop_has_trait = trait_android
+				has_trait = trait_android
+				has_pop_flag = playablerobots_pop_built
+				NOT = { has_trait = trait_android_level1 }
 			}
 			create_species = {
 				name = this
@@ -42,11 +72,11 @@ country_event = {
 				can_be_modified = yes
 				pops_have_happiness = yes
 			}
-		}
-		change_dominant_species = last_created_species
-		modify_species = {
-			species = ROOT
-			add_trait = trait_android_level1
+			change_pop_species = last_created
+			modify_species = {
+				species = this
+				add_trait = trait_android_level1
+			}
 		}
 	}
 }
@@ -65,9 +95,40 @@ country_event = {
 	}
 
 	immediate = {
-		random_owned_pop = {
+		create_species = {
+			name = this
+			plural = this
+			class = this
+			portrait = this
+			traits = this
+			homeworld = ROOT.capital_scope
+
+			new_pop_resource_requirement = {
+				type = robot_food
+				value = 30.0
+			}
+			pops_auto_growth = 2.4
+			pops_can_be_colonizers = yes
+			pops_can_migrate = yes
+			pops_can_reproduce = no
+			pops_can_join_factions = yes
+			pop_maintenance = 0.8
+			can_generate_leaders = yes
+			pops_can_be_slaves = yes
+			can_be_modified = yes
+			pops_have_happiness = yes
+		}
+		change_dominant_species = last_created_species
+		modify_species = {
+			species = ROOT
+			remove_trait = trait_android_level1
+			add_trait = trait_android_level2
+		}
+		every_owned_pop = {
 			limit = {
-				pop_has_trait = trait_android
+				has_trait = trait_android
+				has_pop_flag = playablerobots_pop_built
+				NOT = { has_trait = trait_android_level2 }
 			}
 			create_species = {
 				name = this
@@ -92,12 +153,12 @@ country_event = {
 				can_be_modified = yes
 				pops_have_happiness = yes
 			}
-		}
-		change_dominant_species = last_created_species
-		modify_species = {
-			species = ROOT
-			remove_trait = trait_android_level1
-			add_trait = trait_android_level2
+			change_pop_species = last_created
+			modify_species = {
+				species = this
+				remove_trait = trait_android_level1
+				add_trait = trait_android_level2
+			}
 		}
 	}
 }
@@ -115,9 +176,40 @@ country_event = {
 	}
 
 	immediate = {
-		random_owned_pop = {
+		create_species = {
+			name = this
+			plural = this
+			class = this
+			portrait = this
+			traits = this
+			homeworld = ROOT.capital_scope
+
+			new_pop_resource_requirement = {
+				type = robot_food
+				value = 30.0
+			}
+			pops_auto_growth = 2.6
+			pops_can_be_colonizers = yes
+			pops_can_migrate = yes
+			pops_can_reproduce = no
+			pops_can_join_factions = yes
+			pop_maintenance = 0.7
+			can_generate_leaders = yes
+			pops_can_be_slaves = yes
+			can_be_modified = yes
+			pops_have_happiness = yes
+		}
+		change_dominant_species = last_created_species
+		modify_species = {
+			species = ROOT
+			remove_trait = trait_android_level2
+			add_trait = trait_android_level3
+		}
+		every_owned_pop = {
 			limit = {
-				pop_has_trait = trait_android
+				has_trait = trait_android
+				has_pop_flag = playablerobots_pop_built
+				NOT = { has_trait = trait_android_level3 }
 			}
 			create_species = {
 				name = this
@@ -142,12 +234,12 @@ country_event = {
 				can_be_modified = yes
 				pops_have_happiness = yes
 			}
-		}
-		change_dominant_species = last_created_species
-		modify_species = {
-			species = ROOT
-			remove_trait = trait_android_level2
-			add_trait = trait_android_level3
+			change_pop_species = last_created
+			modify_species = {
+				species = this
+				remove_trait = trait_android_level2
+				add_trait = trait_android_level3
+			}
 		}
 	}
 }

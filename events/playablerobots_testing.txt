@@ -35,3 +35,33 @@ country_event = {
 		give_technology = tech_synthetic_workers
 	}
 }
+
+country_event = {
+	id = playrobotest.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {}
+
+	immediate = {
+		give_technology = tech_gene_tailoring
+	}
+}
+
+country_event = {
+	id = playrobotest.5
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {}
+	
+	immediate = {
+		capital_scope = {
+			best_tile_for_pop  = {
+				create_pop = {
+					species = owner_main_species
+				}
+			}
+		}
+	}
+}
