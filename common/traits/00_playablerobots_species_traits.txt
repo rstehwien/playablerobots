@@ -5,6 +5,8 @@
 trait_android = {
 	cost = 0
 	modification = no
+	affected_by_radiation = no
+	
 	opposites = {
 		"trait_rapid_breeders" "trait_slow_breeders"
 	}
