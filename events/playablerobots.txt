@@ -32,7 +32,7 @@ pop_event = {
 }
 
 
-## Remove android from AI countries
+## Remove android from non-player countries
 country_event = {
 	id = playablerobots.10
 	hide_window = yes
@@ -46,6 +46,19 @@ country_event = {
 		modify_species = {
 			species = ROOT
 			remove_trait = trait_android
+		}
+		while = {
+			limit = {
+				OR = {
+					has_government = technocratic_confederacy
+					has_government = technocratic_hegemony
+					has_government = neural_cooperative
+					has_government = neural_collective
+					has_government = collective_consciousness
+					has_government = collective_intelligence
+				}
+			}
+			change_government = random
 		}
 	}
 }

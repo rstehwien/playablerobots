@@ -14,7 +14,6 @@ technocratic_confederacy = {
 	potential = {
 		hidden_trigger = {
 			NOT = { is_country_type = fallen_empire }
-			is_ai = no
 		}
 		has_trait = trait_android
 	}
@@ -46,7 +45,6 @@ technocratic_hegemony = {
 	potential = {
 		hidden_trigger = {
 			NOT = { is_country_type = fallen_empire }
-			is_ai = no
 		}
 		has_trait = trait_android
 	}
@@ -76,7 +74,6 @@ neural_cooperative = {
 	potential = {
 		hidden_trigger = {
 			NOT = { is_country_type = fallen_empire }
-			is_ai = no
 		}
 		has_trait = trait_android
 	}
@@ -130,7 +127,6 @@ neural_collective = {
 	potential = {
 		hidden_trigger = {
 			NOT = { is_country_type = fallen_empire }
-			is_ai = no
 		}
 		has_trait = trait_android
 	}
@@ -186,7 +182,6 @@ collective_consciousness = {
 	potential = {
 		hidden_trigger = {
 			NOT = { is_country_type = fallen_empire }
-			is_ai = no
 		}
 		has_trait = trait_android
 	}
@@ -221,7 +216,6 @@ collective_intelligence = {
 	potential = {
 		hidden_trigger = {
 			NOT = { is_country_type = fallen_empire }
-			is_ai = no
 		}
 		has_trait = trait_android
 	}
