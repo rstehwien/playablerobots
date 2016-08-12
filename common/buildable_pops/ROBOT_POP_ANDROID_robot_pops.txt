@@ -1,7 +1,7 @@
 buildable_robot_pop_ai1 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -17,7 +17,7 @@ buildable_robot_pop_ai1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai1
 		traits = {
 			trait = "trait_android"
@@ -47,7 +47,7 @@ buildable_robot_pop_ai1_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -63,7 +63,7 @@ buildable_robot_pop_ai1_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai1"
 		traits = {
 			trait = "trait_android"
@@ -95,7 +95,7 @@ buildable_robot_pop_ai1_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -111,7 +111,7 @@ buildable_robot_pop_ai1_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai1"
 		traits = {
 			trait = "trait_android"
@@ -143,7 +143,7 @@ buildable_robot_pop_ai1_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -158,7 +158,7 @@ buildable_robot_pop_ai1_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai1"
 		traits = {
 			trait = "trait_android"
@@ -187,7 +187,7 @@ buildable_robot_pop_ai1_3 = {
 buildable_robot_pop_ai2 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -203,7 +203,7 @@ buildable_robot_pop_ai2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai2
 		traits = {
 			trait = "trait_android"
@@ -233,7 +233,7 @@ buildable_robot_pop_ai2_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -249,7 +249,7 @@ buildable_robot_pop_ai2_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai2"
 		traits = {
 			trait = "trait_android"
@@ -281,7 +281,7 @@ buildable_robot_pop_ai2_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -297,7 +297,7 @@ buildable_robot_pop_ai2_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai2"
 		traits = {
 			trait = "trait_android"
@@ -329,7 +329,7 @@ buildable_robot_pop_ai2_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -344,7 +344,7 @@ buildable_robot_pop_ai2_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai2"
 		traits = {
 			trait = "trait_android"
@@ -373,7 +373,7 @@ buildable_robot_pop_ai2_3 = {
 buildable_robot_pop_ai3 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -389,7 +389,7 @@ buildable_robot_pop_ai3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai3
 		traits = {
 			trait = "trait_android"
@@ -419,7 +419,7 @@ buildable_robot_pop_ai3_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -435,7 +435,7 @@ buildable_robot_pop_ai3_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai3"
 		traits = {
 			trait = "trait_android"
@@ -467,7 +467,7 @@ buildable_robot_pop_ai3_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -483,7 +483,7 @@ buildable_robot_pop_ai3_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai3"
 		traits = {
 			trait = "trait_android"
@@ -515,7 +515,7 @@ buildable_robot_pop_ai3_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -530,7 +530,7 @@ buildable_robot_pop_ai3_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai3"
 		traits = {
 			trait = "trait_android"
@@ -559,7 +559,7 @@ buildable_robot_pop_ai3_3 = {
 buildable_robot_pop_ai4 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -575,7 +575,7 @@ buildable_robot_pop_ai4 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai4
 		traits = {
 			trait = "trait_android"
@@ -605,7 +605,7 @@ buildable_robot_pop_ai4_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -621,7 +621,7 @@ buildable_robot_pop_ai4_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai4"
 		traits = {
 			trait = "trait_android"
@@ -653,7 +653,7 @@ buildable_robot_pop_ai4_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -669,7 +669,7 @@ buildable_robot_pop_ai4_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai4"
 		traits = {
 			trait = "trait_android"
@@ -701,7 +701,7 @@ buildable_robot_pop_ai4_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -716,7 +716,7 @@ buildable_robot_pop_ai4_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai4"
 		traits = {
 			trait = "trait_android"
@@ -745,7 +745,7 @@ buildable_robot_pop_ai4_3 = {
 buildable_robot_pop_ai5 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -761,7 +761,7 @@ buildable_robot_pop_ai5 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai5
 		traits = {
 			trait = "trait_android"
@@ -791,7 +791,7 @@ buildable_robot_pop_ai5_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -807,7 +807,7 @@ buildable_robot_pop_ai5_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai5"
 		traits = {
 			trait = "trait_android"
@@ -839,7 +839,7 @@ buildable_robot_pop_ai5_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -855,7 +855,7 @@ buildable_robot_pop_ai5_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai5"
 		traits = {
 			trait = "trait_android"
@@ -887,7 +887,7 @@ buildable_robot_pop_ai5_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -902,7 +902,7 @@ buildable_robot_pop_ai5_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai5"
 		traits = {
 			trait = "trait_android"
@@ -931,7 +931,7 @@ buildable_robot_pop_ai5_3 = {
 buildable_robot_pop_ai6 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -947,7 +947,7 @@ buildable_robot_pop_ai6 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai6
 		traits = {
 			trait = "trait_android"
@@ -977,7 +977,7 @@ buildable_robot_pop_ai6_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -993,7 +993,7 @@ buildable_robot_pop_ai6_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai6"
 		traits = {
 			trait = "trait_android"
@@ -1025,7 +1025,7 @@ buildable_robot_pop_ai6_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -1041,7 +1041,7 @@ buildable_robot_pop_ai6_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai6"
 		traits = {
 			trait = "trait_android"
@@ -1073,7 +1073,7 @@ buildable_robot_pop_ai6_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -1088,7 +1088,7 @@ buildable_robot_pop_ai6_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai6"
 		traits = {
 			trait = "trait_android"
@@ -1117,7 +1117,7 @@ buildable_robot_pop_ai6_3 = {
 buildable_robot_pop_ai7 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -1133,7 +1133,7 @@ buildable_robot_pop_ai7 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai7
 		traits = {
 			trait = "trait_android"
@@ -1163,7 +1163,7 @@ buildable_robot_pop_ai7_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -1179,7 +1179,7 @@ buildable_robot_pop_ai7_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai7"
 		traits = {
 			trait = "trait_android"
@@ -1211,7 +1211,7 @@ buildable_robot_pop_ai7_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -1227,7 +1227,7 @@ buildable_robot_pop_ai7_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai7"
 		traits = {
 			trait = "trait_android"
@@ -1259,7 +1259,7 @@ buildable_robot_pop_ai7_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -1274,7 +1274,7 @@ buildable_robot_pop_ai7_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai7"
 		traits = {
 			trait = "trait_android"
@@ -1303,7 +1303,7 @@ buildable_robot_pop_ai7_3 = {
 buildable_robot_pop_ai8 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -1319,7 +1319,7 @@ buildable_robot_pop_ai8 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai8
 		traits = {
 			trait = "trait_android"
@@ -1349,7 +1349,7 @@ buildable_robot_pop_ai8_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -1365,7 +1365,7 @@ buildable_robot_pop_ai8_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai8"
 		traits = {
 			trait = "trait_android"
@@ -1397,7 +1397,7 @@ buildable_robot_pop_ai8_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -1413,7 +1413,7 @@ buildable_robot_pop_ai8_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai8"
 		traits = {
 			trait = "trait_android"
@@ -1445,7 +1445,7 @@ buildable_robot_pop_ai8_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -1460,7 +1460,7 @@ buildable_robot_pop_ai8_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai8"
 		traits = {
 			trait = "trait_android"
@@ -1489,7 +1489,7 @@ buildable_robot_pop_ai8_3 = {
 buildable_robot_pop_ai9 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -1505,7 +1505,7 @@ buildable_robot_pop_ai9 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai9
 		traits = {
 			trait = "trait_android"
@@ -1535,7 +1535,7 @@ buildable_robot_pop_ai9_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -1551,7 +1551,7 @@ buildable_robot_pop_ai9_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai9"
 		traits = {
 			trait = "trait_android"
@@ -1583,7 +1583,7 @@ buildable_robot_pop_ai9_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -1599,7 +1599,7 @@ buildable_robot_pop_ai9_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai9"
 		traits = {
 			trait = "trait_android"
@@ -1631,7 +1631,7 @@ buildable_robot_pop_ai9_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -1646,7 +1646,7 @@ buildable_robot_pop_ai9_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai9"
 		traits = {
 			trait = "trait_android"
@@ -1675,7 +1675,7 @@ buildable_robot_pop_ai9_3 = {
 buildable_robot_pop_ai10 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -1691,7 +1691,7 @@ buildable_robot_pop_ai10 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai10
 		traits = {
 			trait = "trait_android"
@@ -1721,7 +1721,7 @@ buildable_robot_pop_ai10_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -1737,7 +1737,7 @@ buildable_robot_pop_ai10_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai10"
 		traits = {
 			trait = "trait_android"
@@ -1769,7 +1769,7 @@ buildable_robot_pop_ai10_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -1785,7 +1785,7 @@ buildable_robot_pop_ai10_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai10"
 		traits = {
 			trait = "trait_android"
@@ -1817,7 +1817,7 @@ buildable_robot_pop_ai10_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -1832,7 +1832,7 @@ buildable_robot_pop_ai10_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai10"
 		traits = {
 			trait = "trait_android"
@@ -1861,7 +1861,7 @@ buildable_robot_pop_ai10_3 = {
 buildable_robot_pop_ai11 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -1877,7 +1877,7 @@ buildable_robot_pop_ai11 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai11
 		traits = {
 			trait = "trait_android"
@@ -1907,7 +1907,7 @@ buildable_robot_pop_ai11_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -1923,7 +1923,7 @@ buildable_robot_pop_ai11_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai11"
 		traits = {
 			trait = "trait_android"
@@ -1955,7 +1955,7 @@ buildable_robot_pop_ai11_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -1971,7 +1971,7 @@ buildable_robot_pop_ai11_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai11"
 		traits = {
 			trait = "trait_android"
@@ -2003,7 +2003,7 @@ buildable_robot_pop_ai11_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -2018,7 +2018,7 @@ buildable_robot_pop_ai11_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai11"
 		traits = {
 			trait = "trait_android"
@@ -2047,7 +2047,7 @@ buildable_robot_pop_ai11_3 = {
 buildable_robot_pop_ai12 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -2063,7 +2063,7 @@ buildable_robot_pop_ai12 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai12
 		traits = {
 			trait = "trait_android"
@@ -2093,7 +2093,7 @@ buildable_robot_pop_ai12_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -2109,7 +2109,7 @@ buildable_robot_pop_ai12_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai12"
 		traits = {
 			trait = "trait_android"
@@ -2141,7 +2141,7 @@ buildable_robot_pop_ai12_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -2157,7 +2157,7 @@ buildable_robot_pop_ai12_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai12"
 		traits = {
 			trait = "trait_android"
@@ -2189,7 +2189,7 @@ buildable_robot_pop_ai12_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -2204,7 +2204,7 @@ buildable_robot_pop_ai12_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai12"
 		traits = {
 			trait = "trait_android"
@@ -2233,7 +2233,7 @@ buildable_robot_pop_ai12_3 = {
 buildable_robot_pop_ai13 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -2249,7 +2249,7 @@ buildable_robot_pop_ai13 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai13
 		traits = {
 			trait = "trait_android"
@@ -2279,7 +2279,7 @@ buildable_robot_pop_ai13_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -2295,7 +2295,7 @@ buildable_robot_pop_ai13_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai13"
 		traits = {
 			trait = "trait_android"
@@ -2327,7 +2327,7 @@ buildable_robot_pop_ai13_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -2343,7 +2343,7 @@ buildable_robot_pop_ai13_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai13"
 		traits = {
 			trait = "trait_android"
@@ -2375,7 +2375,7 @@ buildable_robot_pop_ai13_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -2390,7 +2390,7 @@ buildable_robot_pop_ai13_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai13"
 		traits = {
 			trait = "trait_android"
@@ -2419,7 +2419,7 @@ buildable_robot_pop_ai13_3 = {
 buildable_robot_pop_ai14 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -2435,7 +2435,7 @@ buildable_robot_pop_ai14 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai14
 		traits = {
 			trait = "trait_android"
@@ -2465,7 +2465,7 @@ buildable_robot_pop_ai14_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -2481,7 +2481,7 @@ buildable_robot_pop_ai14_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai14"
 		traits = {
 			trait = "trait_android"
@@ -2513,7 +2513,7 @@ buildable_robot_pop_ai14_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -2529,7 +2529,7 @@ buildable_robot_pop_ai14_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai14"
 		traits = {
 			trait = "trait_android"
@@ -2561,7 +2561,7 @@ buildable_robot_pop_ai14_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -2576,7 +2576,7 @@ buildable_robot_pop_ai14_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai14"
 		traits = {
 			trait = "trait_android"
@@ -2605,7 +2605,7 @@ buildable_robot_pop_ai14_3 = {
 buildable_robot_pop_ai15 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -2621,7 +2621,7 @@ buildable_robot_pop_ai15 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai15
 		traits = {
 			trait = "trait_android"
@@ -2651,7 +2651,7 @@ buildable_robot_pop_ai15_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -2667,7 +2667,7 @@ buildable_robot_pop_ai15_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai15"
 		traits = {
 			trait = "trait_android"
@@ -2699,7 +2699,7 @@ buildable_robot_pop_ai15_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -2715,7 +2715,7 @@ buildable_robot_pop_ai15_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai15"
 		traits = {
 			trait = "trait_android"
@@ -2747,7 +2747,7 @@ buildable_robot_pop_ai15_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -2762,7 +2762,7 @@ buildable_robot_pop_ai15_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai15"
 		traits = {
 			trait = "trait_android"
@@ -2791,7 +2791,7 @@ buildable_robot_pop_ai15_3 = {
 buildable_robot_pop_ai16 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -2807,7 +2807,7 @@ buildable_robot_pop_ai16 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai16
 		traits = {
 			trait = "trait_android"
@@ -2837,7 +2837,7 @@ buildable_robot_pop_ai16_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -2853,7 +2853,7 @@ buildable_robot_pop_ai16_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai16"
 		traits = {
 			trait = "trait_android"
@@ -2885,7 +2885,7 @@ buildable_robot_pop_ai16_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -2901,7 +2901,7 @@ buildable_robot_pop_ai16_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai16"
 		traits = {
 			trait = "trait_android"
@@ -2933,7 +2933,7 @@ buildable_robot_pop_ai16_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -2948,7 +2948,7 @@ buildable_robot_pop_ai16_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai16"
 		traits = {
 			trait = "trait_android"
@@ -2977,7 +2977,7 @@ buildable_robot_pop_ai16_3 = {
 buildable_robot_pop_ai17 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -2993,7 +2993,7 @@ buildable_robot_pop_ai17 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai17
 		traits = {
 			trait = "trait_android"
@@ -3023,7 +3023,7 @@ buildable_robot_pop_ai17_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -3039,7 +3039,7 @@ buildable_robot_pop_ai17_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai17"
 		traits = {
 			trait = "trait_android"
@@ -3071,7 +3071,7 @@ buildable_robot_pop_ai17_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -3087,7 +3087,7 @@ buildable_robot_pop_ai17_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai17"
 		traits = {
 			trait = "trait_android"
@@ -3119,7 +3119,7 @@ buildable_robot_pop_ai17_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -3134,7 +3134,7 @@ buildable_robot_pop_ai17_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai17"
 		traits = {
 			trait = "trait_android"
@@ -3163,7 +3163,7 @@ buildable_robot_pop_ai17_3 = {
 buildable_robot_pop_ai18 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -3179,7 +3179,7 @@ buildable_robot_pop_ai18 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai18
 		traits = {
 			trait = "trait_android"
@@ -3209,7 +3209,7 @@ buildable_robot_pop_ai18_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -3225,7 +3225,7 @@ buildable_robot_pop_ai18_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai18"
 		traits = {
 			trait = "trait_android"
@@ -3257,7 +3257,7 @@ buildable_robot_pop_ai18_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -3273,7 +3273,7 @@ buildable_robot_pop_ai18_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai18"
 		traits = {
 			trait = "trait_android"
@@ -3305,7 +3305,7 @@ buildable_robot_pop_ai18_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -3320,7 +3320,7 @@ buildable_robot_pop_ai18_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai18"
 		traits = {
 			trait = "trait_android"
@@ -3349,7 +3349,7 @@ buildable_robot_pop_ai18_3 = {
 buildable_robot_pop_ai19 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -3365,7 +3365,7 @@ buildable_robot_pop_ai19 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai19
 		traits = {
 			trait = "trait_android"
@@ -3395,7 +3395,7 @@ buildable_robot_pop_ai19_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -3411,7 +3411,7 @@ buildable_robot_pop_ai19_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai19"
 		traits = {
 			trait = "trait_android"
@@ -3443,7 +3443,7 @@ buildable_robot_pop_ai19_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -3459,7 +3459,7 @@ buildable_robot_pop_ai19_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai19"
 		traits = {
 			trait = "trait_android"
@@ -3491,7 +3491,7 @@ buildable_robot_pop_ai19_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -3506,7 +3506,7 @@ buildable_robot_pop_ai19_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai19"
 		traits = {
 			trait = "trait_android"
@@ -3535,7 +3535,7 @@ buildable_robot_pop_ai19_3 = {
 buildable_robot_pop_ai20 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -3551,7 +3551,7 @@ buildable_robot_pop_ai20 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = ai20
 		traits = {
 			trait = "trait_android"
@@ -3581,7 +3581,7 @@ buildable_robot_pop_ai20_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -3597,7 +3597,7 @@ buildable_robot_pop_ai20_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai20"
 		traits = {
 			trait = "trait_android"
@@ -3629,7 +3629,7 @@ buildable_robot_pop_ai20_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -3645,7 +3645,7 @@ buildable_robot_pop_ai20_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai20"
 		traits = {
 			trait = "trait_android"
@@ -3677,7 +3677,7 @@ buildable_robot_pop_ai20_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -3692,7 +3692,7 @@ buildable_robot_pop_ai20_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "ai20"
 		traits = {
 			trait = "trait_android"
@@ -3721,7 +3721,7 @@ buildable_robot_pop_ai20_3 = {
 buildable_robot_pop_robot1 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -3737,7 +3737,7 @@ buildable_robot_pop_robot1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot1
 		traits = {
 			trait = "trait_android"
@@ -3767,7 +3767,7 @@ buildable_robot_pop_robot1_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -3783,7 +3783,7 @@ buildable_robot_pop_robot1_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot1"
 		traits = {
 			trait = "trait_android"
@@ -3815,7 +3815,7 @@ buildable_robot_pop_robot1_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -3831,7 +3831,7 @@ buildable_robot_pop_robot1_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot1"
 		traits = {
 			trait = "trait_android"
@@ -3863,7 +3863,7 @@ buildable_robot_pop_robot1_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -3878,7 +3878,7 @@ buildable_robot_pop_robot1_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot1"
 		traits = {
 			trait = "trait_android"
@@ -3907,7 +3907,7 @@ buildable_robot_pop_robot1_3 = {
 buildable_robot_pop_robot2 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -3923,7 +3923,7 @@ buildable_robot_pop_robot2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot2
 		traits = {
 			trait = "trait_android"
@@ -3953,7 +3953,7 @@ buildable_robot_pop_robot2_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -3969,7 +3969,7 @@ buildable_robot_pop_robot2_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot2"
 		traits = {
 			trait = "trait_android"
@@ -4001,7 +4001,7 @@ buildable_robot_pop_robot2_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -4017,7 +4017,7 @@ buildable_robot_pop_robot2_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot2"
 		traits = {
 			trait = "trait_android"
@@ -4049,7 +4049,7 @@ buildable_robot_pop_robot2_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -4064,7 +4064,7 @@ buildable_robot_pop_robot2_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot2"
 		traits = {
 			trait = "trait_android"
@@ -4093,7 +4093,7 @@ buildable_robot_pop_robot2_3 = {
 buildable_robot_pop_robot3 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -4109,7 +4109,7 @@ buildable_robot_pop_robot3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot3
 		traits = {
 			trait = "trait_android"
@@ -4139,7 +4139,7 @@ buildable_robot_pop_robot3_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -4155,7 +4155,7 @@ buildable_robot_pop_robot3_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot3"
 		traits = {
 			trait = "trait_android"
@@ -4187,7 +4187,7 @@ buildable_robot_pop_robot3_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -4203,7 +4203,7 @@ buildable_robot_pop_robot3_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot3"
 		traits = {
 			trait = "trait_android"
@@ -4235,7 +4235,7 @@ buildable_robot_pop_robot3_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -4250,7 +4250,7 @@ buildable_robot_pop_robot3_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot3"
 		traits = {
 			trait = "trait_android"
@@ -4279,7 +4279,7 @@ buildable_robot_pop_robot3_3 = {
 buildable_robot_pop_robot4 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -4295,7 +4295,7 @@ buildable_robot_pop_robot4 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot4
 		traits = {
 			trait = "trait_android"
@@ -4325,7 +4325,7 @@ buildable_robot_pop_robot4_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -4341,7 +4341,7 @@ buildable_robot_pop_robot4_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot4"
 		traits = {
 			trait = "trait_android"
@@ -4373,7 +4373,7 @@ buildable_robot_pop_robot4_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -4389,7 +4389,7 @@ buildable_robot_pop_robot4_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot4"
 		traits = {
 			trait = "trait_android"
@@ -4421,7 +4421,7 @@ buildable_robot_pop_robot4_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -4436,7 +4436,7 @@ buildable_robot_pop_robot4_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot4"
 		traits = {
 			trait = "trait_android"
@@ -4465,7 +4465,7 @@ buildable_robot_pop_robot4_3 = {
 buildable_robot_pop_robot5 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -4481,7 +4481,7 @@ buildable_robot_pop_robot5 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot5
 		traits = {
 			trait = "trait_android"
@@ -4511,7 +4511,7 @@ buildable_robot_pop_robot5_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -4527,7 +4527,7 @@ buildable_robot_pop_robot5_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot5"
 		traits = {
 			trait = "trait_android"
@@ -4559,7 +4559,7 @@ buildable_robot_pop_robot5_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -4575,7 +4575,7 @@ buildable_robot_pop_robot5_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot5"
 		traits = {
 			trait = "trait_android"
@@ -4607,7 +4607,7 @@ buildable_robot_pop_robot5_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -4622,7 +4622,7 @@ buildable_robot_pop_robot5_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot5"
 		traits = {
 			trait = "trait_android"
@@ -4651,7 +4651,7 @@ buildable_robot_pop_robot5_3 = {
 buildable_robot_pop_robot6 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -4667,7 +4667,7 @@ buildable_robot_pop_robot6 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot6
 		traits = {
 			trait = "trait_android"
@@ -4697,7 +4697,7 @@ buildable_robot_pop_robot6_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -4713,7 +4713,7 @@ buildable_robot_pop_robot6_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot6"
 		traits = {
 			trait = "trait_android"
@@ -4745,7 +4745,7 @@ buildable_robot_pop_robot6_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -4761,7 +4761,7 @@ buildable_robot_pop_robot6_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot6"
 		traits = {
 			trait = "trait_android"
@@ -4793,7 +4793,7 @@ buildable_robot_pop_robot6_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -4808,7 +4808,7 @@ buildable_robot_pop_robot6_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot6"
 		traits = {
 			trait = "trait_android"
@@ -4837,7 +4837,7 @@ buildable_robot_pop_robot6_3 = {
 buildable_robot_pop_robot7 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -4853,7 +4853,7 @@ buildable_robot_pop_robot7 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot7
 		traits = {
 			trait = "trait_android"
@@ -4883,7 +4883,7 @@ buildable_robot_pop_robot7_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -4899,7 +4899,7 @@ buildable_robot_pop_robot7_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot7"
 		traits = {
 			trait = "trait_android"
@@ -4931,7 +4931,7 @@ buildable_robot_pop_robot7_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -4947,7 +4947,7 @@ buildable_robot_pop_robot7_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot7"
 		traits = {
 			trait = "trait_android"
@@ -4979,7 +4979,7 @@ buildable_robot_pop_robot7_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -4994,7 +4994,7 @@ buildable_robot_pop_robot7_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot7"
 		traits = {
 			trait = "trait_android"
@@ -5023,7 +5023,7 @@ buildable_robot_pop_robot7_3 = {
 buildable_robot_pop_robot8 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -5039,7 +5039,7 @@ buildable_robot_pop_robot8 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot8
 		traits = {
 			trait = "trait_android"
@@ -5069,7 +5069,7 @@ buildable_robot_pop_robot8_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -5085,7 +5085,7 @@ buildable_robot_pop_robot8_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot8"
 		traits = {
 			trait = "trait_android"
@@ -5117,7 +5117,7 @@ buildable_robot_pop_robot8_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -5133,7 +5133,7 @@ buildable_robot_pop_robot8_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot8"
 		traits = {
 			trait = "trait_android"
@@ -5165,7 +5165,7 @@ buildable_robot_pop_robot8_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -5180,7 +5180,7 @@ buildable_robot_pop_robot8_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot8"
 		traits = {
 			trait = "trait_android"
@@ -5209,7 +5209,7 @@ buildable_robot_pop_robot8_3 = {
 buildable_robot_pop_robot9 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -5225,7 +5225,7 @@ buildable_robot_pop_robot9 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot9
 		traits = {
 			trait = "trait_android"
@@ -5255,7 +5255,7 @@ buildable_robot_pop_robot9_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -5271,7 +5271,7 @@ buildable_robot_pop_robot9_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot9"
 		traits = {
 			trait = "trait_android"
@@ -5303,7 +5303,7 @@ buildable_robot_pop_robot9_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -5319,7 +5319,7 @@ buildable_robot_pop_robot9_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot9"
 		traits = {
 			trait = "trait_android"
@@ -5351,7 +5351,7 @@ buildable_robot_pop_robot9_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -5366,7 +5366,7 @@ buildable_robot_pop_robot9_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot9"
 		traits = {
 			trait = "trait_android"
@@ -5395,7 +5395,7 @@ buildable_robot_pop_robot9_3 = {
 buildable_robot_pop_robot10 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -5411,7 +5411,7 @@ buildable_robot_pop_robot10 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot10
 		traits = {
 			trait = "trait_android"
@@ -5441,7 +5441,7 @@ buildable_robot_pop_robot10_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -5457,7 +5457,7 @@ buildable_robot_pop_robot10_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot10"
 		traits = {
 			trait = "trait_android"
@@ -5489,7 +5489,7 @@ buildable_robot_pop_robot10_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -5505,7 +5505,7 @@ buildable_robot_pop_robot10_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot10"
 		traits = {
 			trait = "trait_android"
@@ -5537,7 +5537,7 @@ buildable_robot_pop_robot10_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -5552,7 +5552,7 @@ buildable_robot_pop_robot10_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot10"
 		traits = {
 			trait = "trait_android"
@@ -5581,7 +5581,7 @@ buildable_robot_pop_robot10_3 = {
 buildable_robot_pop_robot11 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -5597,7 +5597,7 @@ buildable_robot_pop_robot11 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot11
 		traits = {
 			trait = "trait_android"
@@ -5627,7 +5627,7 @@ buildable_robot_pop_robot11_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -5643,7 +5643,7 @@ buildable_robot_pop_robot11_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot11"
 		traits = {
 			trait = "trait_android"
@@ -5675,7 +5675,7 @@ buildable_robot_pop_robot11_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -5691,7 +5691,7 @@ buildable_robot_pop_robot11_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot11"
 		traits = {
 			trait = "trait_android"
@@ -5723,7 +5723,7 @@ buildable_robot_pop_robot11_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -5738,7 +5738,7 @@ buildable_robot_pop_robot11_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot11"
 		traits = {
 			trait = "trait_android"
@@ -5767,7 +5767,7 @@ buildable_robot_pop_robot11_3 = {
 buildable_robot_pop_robot12 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -5783,7 +5783,7 @@ buildable_robot_pop_robot12 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot12
 		traits = {
 			trait = "trait_android"
@@ -5813,7 +5813,7 @@ buildable_robot_pop_robot12_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -5829,7 +5829,7 @@ buildable_robot_pop_robot12_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot12"
 		traits = {
 			trait = "trait_android"
@@ -5861,7 +5861,7 @@ buildable_robot_pop_robot12_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -5877,7 +5877,7 @@ buildable_robot_pop_robot12_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot12"
 		traits = {
 			trait = "trait_android"
@@ -5909,7 +5909,7 @@ buildable_robot_pop_robot12_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -5924,7 +5924,7 @@ buildable_robot_pop_robot12_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot12"
 		traits = {
 			trait = "trait_android"
@@ -5953,7 +5953,7 @@ buildable_robot_pop_robot12_3 = {
 buildable_robot_pop_robot13 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -5969,7 +5969,7 @@ buildable_robot_pop_robot13 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot13
 		traits = {
 			trait = "trait_android"
@@ -5999,7 +5999,7 @@ buildable_robot_pop_robot13_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -6015,7 +6015,7 @@ buildable_robot_pop_robot13_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot13"
 		traits = {
 			trait = "trait_android"
@@ -6047,7 +6047,7 @@ buildable_robot_pop_robot13_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -6063,7 +6063,7 @@ buildable_robot_pop_robot13_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot13"
 		traits = {
 			trait = "trait_android"
@@ -6095,7 +6095,7 @@ buildable_robot_pop_robot13_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -6110,7 +6110,7 @@ buildable_robot_pop_robot13_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot13"
 		traits = {
 			trait = "trait_android"
@@ -6139,7 +6139,7 @@ buildable_robot_pop_robot13_3 = {
 buildable_robot_pop_robot14 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -6155,7 +6155,7 @@ buildable_robot_pop_robot14 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot14
 		traits = {
 			trait = "trait_android"
@@ -6185,7 +6185,7 @@ buildable_robot_pop_robot14_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -6201,7 +6201,7 @@ buildable_robot_pop_robot14_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot14"
 		traits = {
 			trait = "trait_android"
@@ -6233,7 +6233,7 @@ buildable_robot_pop_robot14_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -6249,7 +6249,7 @@ buildable_robot_pop_robot14_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot14"
 		traits = {
 			trait = "trait_android"
@@ -6281,7 +6281,7 @@ buildable_robot_pop_robot14_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -6296,7 +6296,7 @@ buildable_robot_pop_robot14_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot14"
 		traits = {
 			trait = "trait_android"
@@ -6325,7 +6325,7 @@ buildable_robot_pop_robot14_3 = {
 buildable_robot_pop_robot15 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -6341,7 +6341,7 @@ buildable_robot_pop_robot15 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot15
 		traits = {
 			trait = "trait_android"
@@ -6371,7 +6371,7 @@ buildable_robot_pop_robot15_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -6387,7 +6387,7 @@ buildable_robot_pop_robot15_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot15"
 		traits = {
 			trait = "trait_android"
@@ -6419,7 +6419,7 @@ buildable_robot_pop_robot15_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -6435,7 +6435,7 @@ buildable_robot_pop_robot15_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot15"
 		traits = {
 			trait = "trait_android"
@@ -6467,7 +6467,7 @@ buildable_robot_pop_robot15_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -6482,7 +6482,7 @@ buildable_robot_pop_robot15_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot15"
 		traits = {
 			trait = "trait_android"
@@ -6511,7 +6511,7 @@ buildable_robot_pop_robot15_3 = {
 buildable_robot_pop_robot16 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -6527,7 +6527,7 @@ buildable_robot_pop_robot16 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot16
 		traits = {
 			trait = "trait_android"
@@ -6557,7 +6557,7 @@ buildable_robot_pop_robot16_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -6573,7 +6573,7 @@ buildable_robot_pop_robot16_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot16"
 		traits = {
 			trait = "trait_android"
@@ -6605,7 +6605,7 @@ buildable_robot_pop_robot16_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -6621,7 +6621,7 @@ buildable_robot_pop_robot16_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot16"
 		traits = {
 			trait = "trait_android"
@@ -6653,7 +6653,7 @@ buildable_robot_pop_robot16_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -6668,7 +6668,7 @@ buildable_robot_pop_robot16_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot16"
 		traits = {
 			trait = "trait_android"
@@ -6697,7 +6697,7 @@ buildable_robot_pop_robot16_3 = {
 buildable_robot_pop_robot17 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -6713,7 +6713,7 @@ buildable_robot_pop_robot17 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot17
 		traits = {
 			trait = "trait_android"
@@ -6743,7 +6743,7 @@ buildable_robot_pop_robot17_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -6759,7 +6759,7 @@ buildable_robot_pop_robot17_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot17"
 		traits = {
 			trait = "trait_android"
@@ -6791,7 +6791,7 @@ buildable_robot_pop_robot17_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -6807,7 +6807,7 @@ buildable_robot_pop_robot17_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot17"
 		traits = {
 			trait = "trait_android"
@@ -6839,7 +6839,7 @@ buildable_robot_pop_robot17_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -6854,7 +6854,7 @@ buildable_robot_pop_robot17_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot17"
 		traits = {
 			trait = "trait_android"
@@ -6883,7 +6883,7 @@ buildable_robot_pop_robot17_3 = {
 buildable_robot_pop_robot18 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -6899,7 +6899,7 @@ buildable_robot_pop_robot18 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot18
 		traits = {
 			trait = "trait_android"
@@ -6929,7 +6929,7 @@ buildable_robot_pop_robot18_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -6945,7 +6945,7 @@ buildable_robot_pop_robot18_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot18"
 		traits = {
 			trait = "trait_android"
@@ -6977,7 +6977,7 @@ buildable_robot_pop_robot18_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -6993,7 +6993,7 @@ buildable_robot_pop_robot18_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot18"
 		traits = {
 			trait = "trait_android"
@@ -7025,7 +7025,7 @@ buildable_robot_pop_robot18_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -7040,7 +7040,7 @@ buildable_robot_pop_robot18_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot18"
 		traits = {
 			trait = "trait_android"
@@ -7069,7 +7069,7 @@ buildable_robot_pop_robot18_3 = {
 buildable_robot_pop_robot19 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -7085,7 +7085,7 @@ buildable_robot_pop_robot19 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot19
 		traits = {
 			trait = "trait_android"
@@ -7115,7 +7115,7 @@ buildable_robot_pop_robot19_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -7131,7 +7131,7 @@ buildable_robot_pop_robot19_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot19"
 		traits = {
 			trait = "trait_android"
@@ -7163,7 +7163,7 @@ buildable_robot_pop_robot19_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -7179,7 +7179,7 @@ buildable_robot_pop_robot19_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot19"
 		traits = {
 			trait = "trait_android"
@@ -7211,7 +7211,7 @@ buildable_robot_pop_robot19_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -7226,7 +7226,7 @@ buildable_robot_pop_robot19_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot19"
 		traits = {
 			trait = "trait_android"
@@ -7255,7 +7255,7 @@ buildable_robot_pop_robot19_3 = {
 buildable_robot_pop_robot20 = {
 		
 	prerequisites = {}
-	
+    
 	cost = {
 		minerals = 30
 		energy = 100
@@ -7271,7 +7271,7 @@ buildable_robot_pop_robot20 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = robot20
 		traits = {
 			trait = "trait_android"
@@ -7301,7 +7301,7 @@ buildable_robot_pop_robot20_1 = {
 	prerequisites = {
 		"tech_robotic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 40
 		energy = 125
@@ -7317,7 +7317,7 @@ buildable_robot_pop_robot20_1 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot20"
 		traits = {
 			trait = "trait_android"
@@ -7349,7 +7349,7 @@ buildable_robot_pop_robot20_2 = {
 	prerequisites = {
 		"tech_droid_workers"
 	}
-	
+    
 	cost = {
 		minerals = 50
 		energy = 150
@@ -7365,7 +7365,7 @@ buildable_robot_pop_robot20_2 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot20"
 		traits = {
 			trait = "trait_android"
@@ -7397,7 +7397,7 @@ buildable_robot_pop_robot20_3 = {
 	prerequisites = {
 		"tech_synthetic_workers"
 	}
-	
+    
 	cost = {
 		minerals = 60
 		energy = 175
@@ -7412,7 +7412,7 @@ buildable_robot_pop_robot20_3 = {
 	
 	species = {
 		name = "ROBOT_POP_ANDROID"
-		class = "ROB"
+		class = "ROBOT"
 		portrait = "robot20"
 		traits = {
 			trait = "trait_android"
