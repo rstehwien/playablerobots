@@ -1,3 +1,17 @@
+## Note that this file needs to be loaded before "00_static_modifiers" to set up energy_deficit
+
 playablerobots_immortal_modifier = {
 	leader_age = 10000
+}
+
+energy_deficit = {
+	tile_resource_minerals_mult = -0.5
+	all_technology_research_speed = -0.5
+	spaceport_ship_build_speed_mult = -0.5
+	planet_army_build_speed_mult = -0.5
+	ship_shield_hp_mult = -0.5
+	ship_weapon_damage = -0.5
+	
+	# Remove this so 1) robots aren't double penalized for mineral output and 2) so that robot countries can actually get itself out of energy deficits (which was hard previously due to -50% energy output)
+	# pop_robot_production_output = -0.5
 }
