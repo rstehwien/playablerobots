@@ -12,22 +12,34 @@ pop_event = {
 
 	immediate = {
 		planet = {
-			random_owned_pop = {
+			if = {
 				limit = {
-					has_trait = trait_android
-					has_pop_flag = playablerobots_pop_built
-				}
-				if = { limit = { exists = this }
-					root = {
-						change_pop_species = PREV
+					count_owned_pops = {
+						limit = {
+							pop_has_trait = trait_android
+							has_pop_flag = playablerobots_pop_built
+						}
+						count > 0
 					}
-					else = {
-						change_pop_species = owner_species
+				}
+				random_owned_pop = {
+					limit = {
+						has_trait = trait_android
+						has_pop_flag = playablerobots_pop_built
+					}
+					ROOT = {
+						change_pop_species = PREV
+						set_pop_flag = playablerobots_pop_built
+					}
+				}
+				else = {
+					ROOT = {
+						change_pop_species = ROOT.owner
+						set_pop_flag = playablerobots_pop_built
 					}
 				}
 			}
 		}
-		set_pop_flag = playablerobots_pop_built
 	}
 }
 
