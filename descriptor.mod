@@ -9,4 +9,4 @@ tags={
 	"Fixes"
 }
 picture="playablerobots_thumbnail.jpg"
-supported_version="1.2.*"
+supported_version="1.3.*"
